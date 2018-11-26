@@ -1,6 +1,10 @@
 <IfModule mod_rewrite.c>
   RewriteEngine On
 
+  # Sets the HTTP_AUTHORIZATION header removed by Apache
+  RewriteCond %{HTTP:Authorization} .
+  RewriteRule ^ - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+  
   # Some hosts may require you to use the `RewriteBase` directive.
   # Determine the RewriteBase automatically and set it as environment variable.
   # If you are using Apache aliases to do mass virtual hosting or installed the

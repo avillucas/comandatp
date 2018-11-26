@@ -110,7 +110,7 @@ $app->group('/', function () {
     ;
 
 })
-//->add(MWparaCORS::class .':HabilitarCORS8080')
+->add(MWparaCORS::class .':HabilitarCORSTodos')
 ;
 //TODO agregar middleware de Validacion de datos de cada peticion
 //TODO agregar middleware que revise permisos ( politicas ) del usuario actual sobre la entidad a tocar
