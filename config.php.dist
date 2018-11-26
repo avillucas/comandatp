@@ -1,13 +1,11 @@
 <?php
-define('DB_HOST','localhost');
-define('DB_NAME','id7086796_tpprog3');
-//define('DB_USERNAME','id7086796_tpprog3');
-//define('DB_PASSWORD','tplaboratorio3');
+define('DB_HOST','mysql.avillucas.com.ar');
+define('DB_NAME','prog3_comanda');
 
-define('DB_USERNAME','root');
-define('DB_PASSWORD','');
-define('SECRET','asdasd1234');
+define('DB_USERNAME','utnuser');
+define('DB_PASSWORD','90TGRE4TR46');
+define('SECRET','c0mand4pr3');
 define('API_NAME','Comanda tp');
 define('DEBUG', true );
 
-define('JWT_SECRET','asdasdasd');
+define('JWT_SECRET','c0mand4pr3');
