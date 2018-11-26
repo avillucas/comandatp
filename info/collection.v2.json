@@ -498,7 +498,7 @@
 							]
 						},
 						"url": {
-							"raw": "http://localhost:8080/mozo/3/",
+							"raw": "http://localhost:8080/mozo/",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -506,7 +506,6 @@
 							"port": "8080",
 							"path": [
 								"mozo",
-								"3",
 								""
 							]
 						}
@@ -576,6 +575,228 @@
 							"path": [
 								"mozo",
 								"5",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Encuesta",
+			"item": [
+				{
+					"name": "Borrar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNTE0OTgsImV4cCI6MTU0MzI1NTA5OCwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.TzQTzYhpDbonf2K7b_CQTvETA5ENOnB9SnsNf9DQzoA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "mozo3@tester.com.ar",
+									"type": "text"
+								},
+								{
+									"key": "clave",
+									"value": "mozo3",
+									"type": "text"
+								},
+								{
+									"key": "nombre",
+									"value": "mozo3",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "mozo2@tester.com.ar",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "password",
+									"value": "mozo2",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "nombre",
+									"value": "mozo2",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/encuestas/2/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"encuestas",
+								"2",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Crear",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDI4NDcsImV4cCI6MTU0MzI0NjQ0NywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.LcQ4zlepWf9K1u8G2p3M5kwhUjP4Pqr7paQsT6sCi_g",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "comanda_codigo",
+									"value": "5r0te",
+									"type": "text"
+								},
+								{
+									"key": "puntuacion_restaurante",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "puntuacion_mozo",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "puntuacion_preparador",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "puntuacion_mesa",
+									"value": "4",
+									"type": "text"
+								},
+								{
+									"key": "comentario",
+									"value": "asdasdasd",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/encuestas/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"encuestas",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TraerTodos",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNTE0OTgsImV4cCI6MTU0MzI1NTA5OCwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.TzQTzYhpDbonf2K7b_CQTvETA5ENOnB9SnsNf9DQzoA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8080/encuestas/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"encuestas",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TraerUno",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNTE0OTgsImV4cCI6MTU0MzI1NTA5OCwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.TzQTzYhpDbonf2K7b_CQTvETA5ENOnB9SnsNf9DQzoA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8080/encuestas/2/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"encuestas",
+								"2",
 								""
 							]
 						}
@@ -2221,6 +2442,49 @@
 								"pedidos",
 								"7",
 								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Reporte",
+			"item": [
+				{
+					"name": "Empleados Acceso",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8080/reportes/empleados/acceso/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"reportes",
+								"empleados",
+								"acceso",
+								""
+							],
+							"query": [
+								{
+									"key": "desde",
+									"value": "10-11-2018",
+									"disabled": true
+								},
+								{
+									"key": "hasta",
+									"value": "26-11-2018",
+									"disabled": true
+								}
 							]
 						}
 					},

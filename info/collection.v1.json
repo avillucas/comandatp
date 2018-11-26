@@ -12,11 +12,13 @@
 		"f462ef0c-2a3d-4306-9cb6-d61a7b4346ba",
 		"ca925572-7f17-40fe-9d18-15bbefbbf31a",
 		"26f500af-b387-4e79-8f47-4548579ca693",
+		"15df3cc8-7fde-46a5-93ab-543a50237b9e",
 		"bd2c803e-de8c-4b98-9471-83ccc1b7bd0d",
 		"0985aa86-aa84-42e9-9f9e-3beae2b3b50d",
 		"eaf866fc-902f-4d26-8c1d-a9d5dba3f847",
 		"7924d520-c1ee-4123-adaf-57d55a7ac1e3",
-		"37ba7f69-266d-41c2-be39-3c8403ab6b42"
+		"37ba7f69-266d-41c2-be39-3c8403ab6b42",
+		"5c22f954-52ce-4fb5-ac5a-a543391a446d"
 	],
 	"folders": [
 		{
@@ -50,6 +52,22 @@
 				"6992b39a-3bce-4161-8323-bf616b998743",
 				"7e2962ec-10c0-4fb2-a7f2-b93a5579c9a3",
 				"458982ff-0b71-42eb-b592-9e972fb247ae"
+			],
+			"folders_order": []
+		},
+		{
+			"id": "15df3cc8-7fde-46a5-93ab-543a50237b9e",
+			"name": "Encuesta",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "9c9e9852-6bf3-4542-9e8c-2d430dc6c968",
+			"folder": null,
+			"order": [
+				"18d05d2f-a9a3-4cd3-a91f-b30365c509c2",
+				"4da14957-4752-4039-a111-5facfab77ee0",
+				"dbdf71bb-d68e-47d3-8b5e-1f03303d9452",
+				"44f8b830-69a0-4cab-a2a0-97b01d2ab7ad"
 			],
 			"folders_order": []
 		},
@@ -127,6 +145,19 @@
 			"folders_order": []
 		},
 		{
+			"id": "5c22f954-52ce-4fb5-ac5a-a543391a446d",
+			"name": "Reporte",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "9c9e9852-6bf3-4542-9e8c-2d430dc6c968",
+			"folder": null,
+			"order": [
+				"5f52f994-f92e-4ae4-8b81-dcaaa2b028e2"
+			],
+			"folders_order": []
+		},
+		{
 			"id": "f462ef0c-2a3d-4306-9cb6-d61a7b4346ba",
 			"name": "Socio",
 			"description": "",
@@ -161,7 +192,7 @@
 		{
 			"id": "01b7beeb-8371-4ce7-9e5e-657acc02ab16",
 			"name": "Crear",
-			"url": "http://localhost:8080/mozo/3/",
+			"url": "http://localhost:8080/mozo/",
 			"description": "",
 			"data": [
 				{
@@ -410,6 +441,82 @@
 			"auth": null,
 			"events": [],
 			"folder": "0985aa86-aa84-42e9-9f9e-3beae2b3b50d",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "18d05d2f-a9a3-4cd3-a91f-b30365c509c2",
+			"name": "Borrar",
+			"url": "http://localhost:8080/encuestas/2/",
+			"description": "",
+			"data": [
+				{
+					"key": "email",
+					"value": "mozo3@tester.com.ar",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "clave",
+					"value": "mozo3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "nombre",
+					"value": "mozo3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "mozo2@tester.com.ar",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "password",
+					"value": "mozo2",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "nombre",
+					"value": "mozo2",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "params",
+			"headerData": [
+				{
+					"description": "",
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"type": "text",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNTE0OTgsImV4cCI6MTU0MzI1NTA5OCwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.TzQTzYhpDbonf2K7b_CQTvETA5ENOnB9SnsNf9DQzoA"
+					}
+				]
+			},
+			"events": [],
+			"folder": "15df3cc8-7fde-46a5-93ab-543a50237b9e",
 			"headers": "Content-Type: application/x-www-form-urlencoded\n",
 			"pathVariables": {}
 		},
@@ -1003,6 +1110,31 @@
 			"pathVariables": {}
 		},
 		{
+			"id": "44f8b830-69a0-4cab-a2a0-97b01d2ab7ad",
+			"name": "TraerUno",
+			"url": "http://localhost:8080/encuestas/2/",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNTE0OTgsImV4cCI6MTU0MzI1NTA5OCwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.TzQTzYhpDbonf2K7b_CQTvETA5ENOnB9SnsNf9DQzoA"
+					}
+				]
+			},
+			"events": [],
+			"folder": "15df3cc8-7fde-46a5-93ab-543a50237b9e",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
 			"id": "458982ff-0b71-42eb-b592-9e972fb247ae",
 			"name": "TraerTodos",
 			"url": "http://localhost:8080/comandas/",
@@ -1184,6 +1316,82 @@
 			"pathVariables": {}
 		},
 		{
+			"id": "4da14957-4752-4039-a111-5facfab77ee0",
+			"name": "Crear",
+			"url": "http://localhost:8080/encuestas/",
+			"description": "",
+			"data": [
+				{
+					"key": "comanda_codigo",
+					"value": "5r0te",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "puntuacion_restaurante",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "puntuacion_mozo",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "puntuacion_preparador",
+					"value": "3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "puntuacion_mesa",
+					"value": "4",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "comentario",
+					"value": "asdasdasd",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDI4NDcsImV4cCI6MTU0MzI0NjQ0NywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.LcQ4zlepWf9K1u8G2p3M5kwhUjP4Pqr7paQsT6sCi_g"
+					}
+				]
+			},
+			"events": [],
+			"folder": "15df3cc8-7fde-46a5-93ab-543a50237b9e",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
 			"id": "51bef667-1a7e-4d9e-9cdc-af63cc6e7e8e",
 			"name": "Modificar",
 			"url": "http://localhost:8080/pedidos/7/",
@@ -1298,6 +1506,36 @@
 			"events": [],
 			"folder": "ca925572-7f17-40fe-9d18-15bbefbbf31a",
 			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "5f52f994-f92e-4ae4-8b81-dcaaa2b028e2",
+			"name": "Empleados Acceso",
+			"url": "http://localhost:8080/reportes/empleados/acceso/",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "desde",
+					"value": "10-11-2018",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "hasta",
+					"value": "26-11-2018",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"auth": null,
+			"events": [],
+			"folder": "5c22f954-52ce-4fb5-ac5a-a543391a446d",
+			"headers": "",
 			"pathVariables": {}
 		},
 		{
@@ -2021,6 +2259,31 @@
 			"events": [],
 			"folder": "eaf866fc-902f-4d26-8c1d-a9d5dba3f847",
 			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "dbdf71bb-d68e-47d3-8b5e-1f03303d9452",
+			"name": "TraerTodos",
+			"url": "http://localhost:8080/encuestas/",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNTE0OTgsImV4cCI6MTU0MzI1NTA5OCwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.TzQTzYhpDbonf2K7b_CQTvETA5ENOnB9SnsNf9DQzoA"
+					}
+				]
+			},
+			"events": [],
+			"folder": "15df3cc8-7fde-46a5-93ab-543a50237b9e",
+			"headers": "",
 			"pathVariables": {}
 		},
 		{
