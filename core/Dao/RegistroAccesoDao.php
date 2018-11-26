@@ -26,7 +26,7 @@ class RegistroAccesoDao extends RegistrosDao
 
     public static function reporteEmpleado(\DateTime $desde = null, \DateTime $hasta = null)
     {
-        $query = 'SELECT r.id , u.nombre 
+        $query = 'SELECT r.id , u.nombre , r.creado
         FROM registro_acceso AS r 
         JOIN usuarios AS u  ON u.id = r.usuario_id
         ';
