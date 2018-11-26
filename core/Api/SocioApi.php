@@ -9,6 +9,7 @@
 namespace Core\Api;
 
 
+use Core\Dao\SocioEntidadDao;
 use Core\Dao\UsuarioEntidadDao;
 use Slim\Http\Request;
 use Slim\Http\UploadedFile;
@@ -24,17 +25,21 @@ class SocioApi extends ApiUsable
 
     public function TraerUno($request, $response, $args)
     {
-        throw new SysNotImplementedException();// TraerUno() method.
+        $mesa = SocioEntidadDao::traerUno($args['id']);
+        return $response->withJson($mesa->__toArray(), 200);
     }
 
     public function TraerTodos($request, $response, $args)
     {
-        throw new SysNotImplementedException();// TraerTodos() method.
+        $todos = SocioEntidadDao::traerTodosConRelaciones();
+        return $response->withJson($todos, 200);
     }
 
     public function BorrarUno($request, $response, $args)
     {
-        throw new SysNotImplementedException();// BorrarUno() method.
+        $usuario = SocioEntidadDao::traerOFallar($args['id']);
+        UsuarioEntidadDao::eliminar($usuario);
+        return $response->withJson(ApiUsable::RESPUESTA_ELIMINADO,200);
     }
 
     public function ModificarUno($request, $response, $args)

@@ -12,6 +12,8 @@ abstract class ApiUsable
 {
 
     const RESPUESTA_CREADO = 'creado correctamente';
+    const RESPUESTA_ELIMINADO = 'eliminado correctamente';
+    const RESPUESTA_MODIFICADO = 'modificado correctamente';
 
     public function getParams(Request $request)
     {
@@ -26,6 +28,7 @@ abstract class ApiUsable
         }
         return $body[$param];
     }
+
 
     protected function getPayloadActual(Request $request)
     {

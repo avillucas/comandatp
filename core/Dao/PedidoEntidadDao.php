@@ -158,7 +158,14 @@ class PedidoEntidadDao extends EntidadDao
 
     public static function eliminar(Entidad $entidad)
     {
-        throw new SysNotImplementedException();// eliminar() method.
+        /** @var Pedido $pedido */
+        $pedido = &$entidad;
+        $objetoAccesoDato = AccesoDatos::dameUnObjetoAcceso();
+        /** @var \PDOStatement $consulta */
+        $consulta = $objetoAccesoDato->RetornarConsulta("DELETE FROM pedidos WHERE id = :id");
+        $consulta->bindValue(':id', $pedido->getId(), \PDO::PARAM_INT);
+        $consulta->execute();
+        return $objetoAccesoDato->RetornarUltimoIdInsertado();
     }
 
     public static function  trearPorComanda($comandaId)

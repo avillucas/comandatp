@@ -2,7 +2,9 @@
 namespace Core\Api;
 
 
+use Core\Dao\PreparadorEntidadDao;
 use Core\Dao\UsuarioEntidadDao;
+use Core\Preparador;
 use Slim\Http\Request;
 use Slim\Http\UploadedFile;
 
@@ -17,22 +19,31 @@ class PreparadorApi extends ApiUsable
 
     public function TraerUno($request, $response, $args)
     {
-        throw new SysNotImplementedException();// TraerUno() method.
+        $mesa = PreparadorEntidadDao::traerUno($args['id']);
+        return $response->withJson($mesa->__toArray(), 200);
     }
 
     public function TraerTodos($request, $response, $args)
     {
-        throw new SysNotImplementedException();// TraerTodos() method.
+        $todos = PreparadorEntidadDao::traerTodosConRelaciones();
+        return $response->withJson($todos, 200);
     }
 
     public function BorrarUno($request, $response, $args)
     {
-        throw new SysNotImplementedException();// BorrarUno() method.
+        $preparador = PreparadorEntidadDao::traerOFallar($args['id']);
+        PreparadorEntidadDao::eliminar($preparador);
+        return $response->withJson(ApiUsable::RESPUESTA_ELIMINADO,200);
     }
 
     public function ModificarUno($request, $response, $args)
     {
-        throw new SysNotImplementedException();// ModificarUno() method.
+        /** @var Preparador $preparador */
+        $preparador = PreparadorEntidadDao::traerOFallar($args['id']);
+        $data = $this->getParams($request);
+        $preparador->setEmpleado($data['empledo_id']);
+        PreparadorEntidadDao::save($preparador);
+        return $response->withJson(ApiUsable::RESPUESTA_MODIFICADO,200);
     }
 
 

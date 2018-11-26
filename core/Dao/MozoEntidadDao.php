@@ -33,12 +33,31 @@ class MozoEntidadDao extends  EntidadDao
 
     public static function actualizar(Entidad $entidad)
     {
-        throw new SysNotImplementedException();// actualizar() method.
+        /** @var Mozo $mozo */
+        $mozo = &$entidad;
+        /** @var Usuario $entidad */
+        $objetoAccesoDato = AccesoDatos::dameUnObjetoAcceso();
+        /** @var \PDOStatement $consulta */
+        $consulta = $objetoAccesoDato->RetornarConsulta("
+            UPDATE mozos 
+            SET empleado_id = :empleado_id
+            WHERE id = :id
+        ");
+        $consulta->bindValue(':empleado_id', $mozo->getEmpleado()->getId(), \PDO::PARAM_INT);
+        $consulta->bindValue(':id', $mozo->getId(), \PDO::PARAM_INT);
+        $consulta->execute();
     }
 
     public static function eliminar(Entidad $entidad)
     {
-        throw new SysNotImplementedException();// eliminar() method.
+        /** @var Mozo $mozo */
+        $mozo = &$entidad;
+        /** @var Usuario $entidad */
+        $objetoAccesoDato = AccesoDatos::dameUnObjetoAcceso();
+        /** @var \PDOStatement $consulta */
+        $consulta = $objetoAccesoDato->RetornarConsulta("DELETE FROM mozos WHERE id = :id");
+        $consulta->bindValue(':id', $mozo->getId(), \PDO::PARAM_INT);
+        $consulta->execute();
     }
 
     static function traerTodos()
@@ -76,7 +95,7 @@ class MozoEntidadDao extends  EntidadDao
     static function traerTodosConRelaciones()
     {
         $query = '
-          SELECT SELECT m.id, m.empleado_id  
+          SELECT m.id, m.empleado_id  
           FROM  mozos AS m
         ';
         return parent::queyArray($query);

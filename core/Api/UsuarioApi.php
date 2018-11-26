@@ -1,6 +1,7 @@
 <?php
 namespace Core\Api;
 
+use Core\Dao\EmpleadoEntidadDao;
 use Core\Dao\UsuarioEntidadDao;
 use Core\Exceptions\SysNotImplementedException;
 use Core\Middleware\AutentificadorJWT;
@@ -8,10 +9,16 @@ use Core\Usuario;
 
 class UsuarioApi extends ApiUsable
 {
+    //cargar un socio
     public function cargarUno($request, $response, $args)
     {
         $data = $this->getParams($request);
-        Usuario::crear($data);
+        $empleado = null;
+        if(isset($data['empleado_id']))
+        {
+            $empleado = EmpleadoEntidadDao::traerOFallar($data['empleado_id']);
+        }
+        $usuario = UsuarioEntidadDao::crear($data['nombre'],$data['email'],$data['clave'],$empleado);
         return $response->withJson(ApiUsable::RESPUESTA_CREADO,200);
     }
 
@@ -28,18 +35,21 @@ class UsuarioApi extends ApiUsable
 
     public function TraerUno($request, $response, $args)
     {
-        throw new SysNotImplementedException();
+        $mesa = UsuarioEntidadDao::traerUno($args['id']);
+        return $response->withJson($mesa->__toArray(), 200);
     }
 
     public function TraerTodos($request, $response, $args)
     {
-        $usuarios= UsuarioEntidadDao::traerTodos();
-        return $response->withJson($usuarios, 200);
+        $todos = UsuarioEntidadDao::traerTodosConRelaciones();
+        return $response->withJson($todos, 200);
     }
 
     public function BorrarUno($request, $response, $args)
     {
-        throw new SysNotImplementedException();
+        $usuario = UsuarioEntidadDao::traerOFallar($args['id']);
+        UsuarioEntidadDao::eliminar($usuario);
+        return $response->withJson(ApiUsable::RESPUESTA_ELIMINADO,200);
     }
 
     public function ModificarUno($request, $response, $args)

@@ -4,6 +4,7 @@ namespace Core\Api;
 
 use Core\Dao\MozoEntidadDao;
 use Core\Dao\UsuarioEntidadDao;
+use Core\Mozo;
 
 class MozoApi extends ApiUsable
 {
@@ -30,12 +31,22 @@ class MozoApi extends ApiUsable
 
     public function BorrarUno($request, $response, $args)
     {
-        throw new SysNotImplementedException();// BorrarUno() method.
+       $mozo = MozoEntidadDao::traerOFallar($args['id']);
+       MozoEntidadDao::eliminar($mozo);
+        return $response->withJson(ApiUsable::RESPUESTA_ELIMINADO,200);
     }
 
     public function ModificarUno($request, $response, $args)
     {
-        throw new SysNotImplementedException();// ModificarUno() method.
+        /** @var Mozo $mozo */
+        $mozo = MozoEntidadDao::traerOFallar($args['id']);
+        $data = $this->getParams($request);
+        if(isset($data['empledo_id']))
+        {
+            $mozo->setEmpleado($data['empledo_id']);
+        }
+        MozoEntidadDao::save($mozo);
+        return $response->withJson(ApiUsable::RESPUESTA_MODIFICADO,200);
     }
 
 

@@ -15,7 +15,7 @@ class MesaApi extends ApiUsable
     public function CargarUno($request, $response, $args)
     {
         $data = $this->getParams($request);
-        $mesa = new Mesa($data['codigo'],null);
+        $mesa = new Mesa(null,$data['codigo'],null);
         MesaEntidadDao::save($mesa);
         return $response->withJson(ApiUsable::RESPUESTA_CREADO,200);
     }
@@ -34,12 +34,27 @@ class MesaApi extends ApiUsable
 
     public function BorrarUno($request, $response, $args)
     {
-        throw new SysNotImplementedException();// BorrarUno() method.
+        $mesa = MesaEntidadDao::traerOFallar($args['id']);
+        MesaEntidadDao::eliminar($mesa);
+        return $response->withJson(ApiUsable::RESPUESTA_ELIMINADO,200);
     }
 
     public function ModificarUno($request, $response, $args)
     {
-        throw new SysNotImplementedException();// ModificarUno() method.
+        /** @var Mesa $mesa */
+        $mesa = MesaEntidadDao::traerOFallar($args['id']);
+        $data = $this->getParams($request);
+        if(isset($data['estado_id']))
+        {
+            $estado = EstadoMesaEntidadDao::traerOFallar($data['estado_id']);
+            $mesa->setEstado($estado);
+        }
+        if(isset($data['codigo']))
+        {
+            $mesa->setCodigo($data['codigo']);
+        }
+        MesaEntidadDao::save($mesa);
+        return $response->withJson(ApiUsable::RESPUESTA_MODIFICADO,200);
     }
 
     public function MarcarClienteComiendo($request, $response, $args)
