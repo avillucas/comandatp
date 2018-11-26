@@ -988,7 +988,7 @@
 		{
 			"id": "40dc37bc-e694-4e8b-a74c-772224c68357",
 			"name": "Login",
-			"url": "http://localhost:8080/login/",
+			"url": "http://localhost:8080/ogin/",
 			"description": null,
 			"data": [
 				{
@@ -1150,7 +1150,7 @@
 				"bearer": [
 					{
 						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDc3ODYsImV4cCI6MTU0MzI1MTM4NiwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.JaJpv9YVlmZ54CJLTBPFhk6zhbh27MolNAaTHr57c20"
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNjM3NjMsImV4cCI6MTU0MzI2NzM2MywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoibW96bzFAdGVzdGVyLmNvbS5hciIsImNsYXZlIjoiZDExMTAzODdhMDIwOWE5YTI2NDgwYjZiNTc1YTU0NmYiLCJub21icmUiOiJtb3pvMSIsImVtcGxlZG9faWQiOjEsImlzU29jaW8iOmZhbHNlLCJpc01vem8iOnRydWUsImlzUHJlcGFyYWRvciI6ZmFsc2V9LCJhcHAiOiJDb21hbmRhIHRwIn0.Ty2906L30C2U2e9tqYT184sp-r9k_5lz-2TJFmioUX0"
 					}
 				]
 			},
@@ -2294,7 +2294,7 @@
 			"data": [
 				{
 					"key": "codigo_mesa",
-					"value": "12345",
+					"value": "12346",
 					"description": "",
 					"type": "text",
 					"enabled": true
@@ -2308,66 +2308,66 @@
 				},
 				{
 					"key": "foto",
-					"value": "",
 					"description": "",
-					"type": "text",
-					"enabled": false
+					"type": "file",
+					"enabled": true,
+					"value": ""
 				},
 				{
 					"key": "pedidos[0][alimento_id]",
 					"value": "1",
 					"description": "",
 					"type": "text",
-					"enabled": true
+					"enabled": false
 				},
 				{
 					"key": "pedidos[0][cantidad]",
 					"value": "3",
 					"description": "",
 					"type": "text",
-					"enabled": true
+					"enabled": false
 				},
 				{
 					"key": "pedidos[1][alimento_id]",
 					"value": "2",
 					"description": "",
 					"type": "text",
-					"enabled": true
+					"enabled": false
 				},
 				{
 					"key": "pedidos[1][cantidad]",
 					"value": "2",
 					"description": "",
 					"type": "text",
-					"enabled": true
+					"enabled": false
 				},
 				{
 					"key": "pedidos[2][alimento_id]",
 					"value": "2",
 					"description": "",
 					"type": "text",
-					"enabled": true
+					"enabled": false
 				},
 				{
 					"key": "pedidos[2][cantidad]",
 					"value": "9",
 					"description": "",
 					"type": "text",
-					"enabled": true
+					"enabled": false
 				},
 				{
 					"key": "pedidos[3][alimento_id]",
 					"value": "5",
 					"description": "",
 					"type": "text",
-					"enabled": true
+					"enabled": false
 				},
 				{
 					"key": "pedidos[3][cantidad]",
 					"value": "2",
 					"description": "",
 					"type": "text",
-					"enabled": true
+					"enabled": false
 				}
 			],
 			"dataMode": "params",
@@ -2388,7 +2388,7 @@
 				"bearer": [
 					{
 						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMxOTkyMjEsImV4cCI6MTU0MzIwMjgyMSwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoibW96bzFAdGVzdGVyLmNvbS5hciIsImVtcGxlZG9faWQiOjEsImNsYXZlIjoiZDExMTAzODdhMDIwOWE5YTI2NDgwYjZiNTc1YTU0NmYiLCJub21icmUiOiJtb3pvMSIsImlzU29jaW8iOmZhbHNlLCJpc01vem8iOnRydWUsImlzUHJlcGFyYWRvciI6ZmFsc2V9LCJhcHAiOiJDb21hbmRhIHRwIn0.wjKYvhFMCZTQNCOUbTt_CtOuzMnYSY1e83sT3BdlGt4"
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNjM3NjMsImV4cCI6MTU0MzI2NzM2MywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoibW96bzFAdGVzdGVyLmNvbS5hciIsImNsYXZlIjoiZDExMTAzODdhMDIwOWE5YTI2NDgwYjZiNTc1YTU0NmYiLCJub21icmUiOiJtb3pvMSIsImVtcGxlZG9faWQiOjEsImlzU29jaW8iOmZhbHNlLCJpc01vem8iOnRydWUsImlzUHJlcGFyYWRvciI6ZmFsc2V9LCJhcHAiOiJDb21hbmRhIHRwIn0.Ty2906L30C2U2e9tqYT184sp-r9k_5lz-2TJFmioUX0"
 					}
 				]
 			},
