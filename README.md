@@ -1,10 +1,15 @@
-#Proyecto 
-PROD URL : http://comanda.avillucas.com.ar/
-DEV URL : http://localhost:8080/
+#Comanda TP  
+* PROD URL : http://comanda.avillucas.com.ar/
+* DEV URL : http://localhost:8080/
 
-Colecciones de postman 1
-URL : http://comanda.avillucas.com.ar/info/collection.v1.json
-Colecciones de postman 
+Require de autenticacion con  Bearer Token 
+Ej: HEAD authorization Bearer [COMPLETA CON EL TOKEN ]
+
+* DB : ultimo numero de version en la carpeta info ,  db01.03.sql
+
+* Colecciones de postman 1 
+ http://comanda.avillucas.com.ar/info/collection.v1.json
++ Colecciones de postman 2 
 URL : http://comanda.avillucas.com.ar/info/collection.v2.json
 
 

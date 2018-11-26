@@ -1,2527 +1,2748 @@
 {
-	"id": "f5ba0257-3618-43e2-93fd-09d6554a45a4",
-	"name": "PROD COMANDA",
-	"description": "",
-	"auth": null,
-	"events": null,
-	"variables": [],
-	"order": [
-		"23216c2a-beb6-41be-98b3-f8954b61ef9c"
-	],
-	"folders_order": [
-		"fe8d5b3e-57db-4c74-bd22-e940ccfa1ece",
-		"b9ff6002-bc1b-408c-ad6d-d95dfca32888",
-		"0c88d602-69cb-4f86-b509-3f28f1010d72",
-		"5616a3f0-6c4a-4c2a-b75c-0a96b42a524a",
-		"61c7fd3a-f227-401e-9cee-ee7eb6a00ee7",
-		"3749340f-8ce6-4389-9aba-da26a3568527",
-		"9606b132-1a55-46e8-a5b7-4db8d6b4c452",
-		"8827d012-f3d7-4c53-98db-c5bdeed3b95c",
-		"5f9b4635-4c78-4ff7-b682-3eff94cdafdc",
-		"c4e5e024-e211-4891-8f6f-b6ae9787258e"
-	],
-	"folders": [
+	"info": {
+		"_postman_id": "f5ba0257-3618-43e2-93fd-09d6554a45a4",
+		"name": "PROD COMANDA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
 		{
-			"id": "9606b132-1a55-46e8-a5b7-4db8d6b4c452",
-			"name": "Alimento",
-			"description": "",
-			"auth": null,
-			"events": null,
-			"collection": "f5ba0257-3618-43e2-93fd-09d6554a45a4",
-			"folder": null,
-			"order": [
-				"f9f52528-452b-4c9d-9916-ecebc691f8ed",
-				"f99dab07-fce6-4bc3-928b-918076538d9e",
-				"b087a2e9-9322-4de6-a403-0e734b2b0d51",
-				"fc9e3204-a0da-4720-a42b-70a3d6be3201",
-				"9ff909a6-91f0-4011-bb11-0828e45cea74"
-			],
-			"folders_order": []
-		},
-		{
-			"id": "8827d012-f3d7-4c53-98db-c5bdeed3b95c",
-			"name": "Comanda",
-			"description": "",
-			"auth": null,
-			"events": null,
-			"collection": "f5ba0257-3618-43e2-93fd-09d6554a45a4",
-			"folder": null,
-			"order": [
-				"a439ec06-4da3-46a0-917a-fb436f5f8ae2",
-				"ee6857b6-ba1a-4c92-b46c-446e049e7eb1",
-				"afb5b403-b434-4752-b6c6-68f151b81eba",
-				"1d0baa28-0f78-44f4-9eef-a24b840c394f",
-				"38197806-b706-48e7-ae80-863f5ad01b19"
-			],
-			"folders_order": []
-		},
-		{
-			"id": "5616a3f0-6c4a-4c2a-b75c-0a96b42a524a",
-			"name": "Encuesta",
-			"description": "",
-			"auth": null,
-			"events": null,
-			"collection": "f5ba0257-3618-43e2-93fd-09d6554a45a4",
-			"folder": null,
-			"order": [
-				"5752e9d7-d74b-446b-a79f-7fd47f4055d8",
-				"045b640c-5a24-4777-8fe9-34391e593be8",
-				"abe35b37-a7eb-4e9c-aa77-be616f8b93c1",
-				"d55cc620-b547-4304-b0ec-9be51144387a"
-			],
-			"folders_order": []
-		},
-		{
-			"id": "3749340f-8ce6-4389-9aba-da26a3568527",
-			"name": "Mesa",
-			"description": "",
-			"auth": null,
-			"events": null,
-			"collection": "f5ba0257-3618-43e2-93fd-09d6554a45a4",
-			"folder": null,
-			"order": [
-				"38feb055-21c3-417d-b773-f5aa0016862f",
-				"cf1c4859-2565-40de-aefe-abef46f77535",
-				"92747f01-4ab9-4b0d-89ef-5982e2275609",
-				"32074646-1523-4116-9910-18be3dd31d12",
-				"392f2ac2-2100-44a3-bd30-c05515269e47",
-				"7eaa303c-b567-4d92-9da8-a459ed0d3943",
-				"c77d0781-c667-462c-b91c-f83820f71223",
-				"5f44a981-f9e5-4257-8d9d-27ac3df2b9c9"
-			],
-			"folders_order": []
-		},
-		{
-			"id": "0c88d602-69cb-4f86-b509-3f28f1010d72",
-			"name": "Mozo",
-			"description": "",
-			"auth": null,
-			"events": null,
-			"collection": "f5ba0257-3618-43e2-93fd-09d6554a45a4",
-			"folder": null,
-			"order": [
-				"f69c976f-3cba-41df-8054-f94af2bfcc8d",
-				"b765b0cf-e4dd-44d3-9fa9-a05632d630bd",
-				"1be7be37-da53-4c5d-a32d-adac64430da4",
-				"7cde4002-b24b-46a5-980d-d5d05a2b42d1"
-			],
-			"folders_order": []
-		},
-		{
-			"id": "5f9b4635-4c78-4ff7-b682-3eff94cdafdc",
-			"name": "Pedido",
-			"description": "",
-			"auth": null,
-			"events": null,
-			"collection": "f5ba0257-3618-43e2-93fd-09d6554a45a4",
-			"folder": null,
-			"order": [
-				"8fbef927-433b-4ac3-a0cc-e5ed7d322097",
-				"9ba43cd5-d480-409c-a403-c988d966ce45",
-				"cb3fb3ef-229b-4e72-87b0-fb3e0be84598",
-				"5e520e0a-09fe-45aa-8ea9-0fbb2e553ad9",
-				"82dfe388-6485-45c2-93d3-346575ba4975",
-				"e7d443ea-c5f3-4f9f-acd7-786347b9b73c",
-				"c628c942-e0f9-4544-9e38-2972011cbc10",
-				"31179e3e-710f-4504-9283-86ff49b77f66",
-				"f390a5ef-df93-4bcd-9ba6-979419558414"
-			],
-			"folders_order": []
-		},
-		{
-			"id": "61c7fd3a-f227-401e-9cee-ee7eb6a00ee7",
-			"name": "Preparador",
-			"description": "",
-			"auth": null,
-			"events": null,
-			"collection": "f5ba0257-3618-43e2-93fd-09d6554a45a4",
-			"folder": null,
-			"order": [
-				"5557b6a1-4248-4003-8bce-6288154dbad3",
-				"a078a5d6-4b17-445d-8c0d-305b93d66bde",
-				"1e90aa6d-6675-41ce-b1b0-0b84fa8de84e",
-				"75a8e359-eee5-47f5-b535-945b3d136116"
-			],
-			"folders_order": []
-		},
-		{
-			"id": "c4e5e024-e211-4891-8f6f-b6ae9787258e",
-			"name": "Reporte",
-			"description": "",
-			"auth": null,
-			"events": null,
-			"collection": "f5ba0257-3618-43e2-93fd-09d6554a45a4",
-			"folder": null,
-			"order": [
-				"51fd83b8-3ff5-4f5f-8fcc-529d6a5416fa"
-			],
-			"folders_order": []
-		},
-		{
-			"id": "fe8d5b3e-57db-4c74-bd22-e940ccfa1ece",
 			"name": "Socio",
-			"description": "",
-			"auth": null,
-			"events": null,
-			"collection": "f5ba0257-3618-43e2-93fd-09d6554a45a4",
-			"folder": null,
-			"order": [
-				"60e2e493-ab8a-4a78-a9b6-e1c4add800fe"
-			],
-			"folders_order": []
+			"item": [
+				{
+					"name": "Crear",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDI4NDcsImV4cCI6MTU0MzI0NjQ0NywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.LcQ4zlepWf9K1u8G2p3M5kwhUjP4Pqr7paQsT6sCi_g",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "socio3@tester.com.ar",
+									"type": "text"
+								},
+								{
+									"key": "clave",
+									"value": "socio3",
+									"type": "text"
+								},
+								{
+									"key": "nombre",
+									"value": "socio3",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "socio2@tester.com.ar",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "password",
+									"value": "socio2",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "nombre",
+									"value": "socio2",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/socio/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"socio",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
 		},
 		{
-			"id": "b9ff6002-bc1b-408c-ad6d-d95dfca32888",
 			"name": "Usuario",
-			"description": "",
-			"auth": null,
-			"events": null,
-			"collection": "f5ba0257-3618-43e2-93fd-09d6554a45a4",
-			"folder": null,
-			"order": [
-				"2684ef0f-2c13-4e98-8e5a-63793e6ec48d",
-				"ad6afd08-322f-4605-b553-6cc217cf359e",
-				"c8fbda2c-6b3d-46ab-ac0b-3828ce64f3cf",
-				"3ea4f182-d36d-4f4c-8541-b2431d6e1f2e",
-				"7d2e0c86-7dac-4253-b593-1fcdbfbe66e0"
-			],
-			"folders_order": []
-		}
-	],
-	"requests": [
-		{
-			"id": "045b640c-5a24-4777-8fe9-34391e593be8",
-			"name": "Crear",
-			"url": "http://comanda.avillucas.com.ar/encuestas/",
-			"description": "",
-			"data": [
+			"item": [
 				{
-					"key": "comanda_codigo",
-					"value": "5r0te",
-					"description": "",
-					"type": "text",
-					"enabled": true
+					"name": "Crear",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDI4NDcsImV4cCI6MTU0MzI0NjQ0NywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.LcQ4zlepWf9K1u8G2p3M5kwhUjP4Pqr7paQsT6sCi_g",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "empleado7@tester.com.ar",
+									"type": "text"
+								},
+								{
+									"key": "clave",
+									"value": "empleado7",
+									"type": "text"
+								},
+								{
+									"key": "nombre",
+									"value": "empleado7",
+									"type": "text"
+								},
+								{
+									"key": "empleado_id",
+									"value": "5",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/usuarios/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"usuarios",
+								""
+							]
+						}
+					},
+					"response": []
 				},
 				{
-					"key": "puntuacion_restaurante",
-					"value": "1",
-					"description": "",
-					"type": "text",
-					"enabled": true
+					"name": "Modificar",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							},
+							{
+								"key": "Autorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDE0NjU0NTcsImV4cCI6MTU0MTQ2OTA1NywiYXVkIjoiYmIxYzE5ZjNkMzJlYjMxMDIwNmNiZDk3NTYyNmY0MGViNDZlZGIyZCIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoiYXZpbGx1Y2FzQGRpdi1pdC5jb20uYXIiLCJwYXNzd29yZCI6IjJkYjMxM2ZhYmNhNTc1MDRkOWRjNzc2ZTQ2YjMwNGY2IiwicGVyZmlsIjoic29jaW8iLCJpc0FkbWluIjp0cnVlfSwiYXBwIjoiQ29tYW5kYSB0cCJ9.l3nRvy9GESOCDyUS4_NOMhHILbaFGR6eANPaquZsQK4",
+								"description": "TOKEN ADMIN ",
+								"type": "text"
+							},
+							{
+								"key": "Autorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDE0NjYxODAsImV4cCI6MTU0MTQ2OTc4MCwiYXVkIjoiYmIxYzE5ZjNkMzJlYjMxMDIwNmNiZDk3NTYyNmY0MGViNDZlZGIyZCIsImRhdGEiOnsiaWQiOjIsImVtYWlsIjoiYXZpbGx1Y2FzKzJAZGl2LWl0LmNvbS5hciIsInBhc3N3b3JkIjoiMmRiMzEzZmFiY2E1NzUwNGQ5ZGM3NzZlNDZiMzA0ZjYiLCJwZXJmaWwiOiJlbXBsZWFkbyIsImlzQWRtaW4iOmZhbHNlfSwiYXBwIjoiQ29tYW5kYSB0cCJ9.wnd9STf0WwH-tSBBBaGOeWrzeLz2gJmH_NlKV4HtWWk",
+								"description": "TOKEN EMPLEADO ",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "password",
+									"value": "tete",
+									"type": "text"
+								},
+								{
+									"key": "perfil",
+									"value": "E",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/usuarios/2/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"usuarios",
+								"2",
+								""
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
 				},
 				{
-					"key": "puntuacion_mozo",
-					"value": "2",
-					"description": "",
-					"type": "text",
-					"enabled": true
+					"name": "TraerUno",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDUzMzMsImV4cCI6MTU0MzI0ODkzMywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.YNKUjgdqdwIp9jPLex9Mf_BZ93Lu4uM0NwIYslZGLWs",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Autorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDE0NjU0NTcsImV4cCI6MTU0MTQ2OTA1NywiYXVkIjoiYmIxYzE5ZjNkMzJlYjMxMDIwNmNiZDk3NTYyNmY0MGViNDZlZGIyZCIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoiYXZpbGx1Y2FzQGRpdi1pdC5jb20uYXIiLCJwYXNzd29yZCI6IjJkYjMxM2ZhYmNhNTc1MDRkOWRjNzc2ZTQ2YjMwNGY2IiwicGVyZmlsIjoic29jaW8iLCJpc0FkbWluIjp0cnVlfSwiYXBwIjoiQ29tYW5kYSB0cCJ9.l3nRvy9GESOCDyUS4_NOMhHILbaFGR6eANPaquZsQK4",
+								"description": "TOKEN ADMIN ",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Autorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDE0NjYxODAsImV4cCI6MTU0MTQ2OTc4MCwiYXVkIjoiYmIxYzE5ZjNkMzJlYjMxMDIwNmNiZDk3NTYyNmY0MGViNDZlZGIyZCIsImRhdGEiOnsiaWQiOjIsImVtYWlsIjoiYXZpbGx1Y2FzKzJAZGl2LWl0LmNvbS5hciIsInBhc3N3b3JkIjoiMmRiMzEzZmFiY2E1NzUwNGQ5ZGM3NzZlNDZiMzA0ZjYiLCJwZXJmaWwiOiJlbXBsZWFkbyIsImlzQWRtaW4iOmZhbHNlfSwiYXBwIjoiQ29tYW5kYSB0cCJ9.wnd9STf0WwH-tSBBBaGOeWrzeLz2gJmH_NlKV4HtWWk",
+								"description": "TOKEN EMPLEADO",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/usuarios/4/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"usuarios",
+								"4",
+								""
+							]
+						}
+					},
+					"response": []
 				},
 				{
-					"key": "puntuacion_preparador",
-					"value": "3",
-					"description": "",
-					"type": "text",
-					"enabled": true
+					"name": "TraerTodos",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDUzMzMsImV4cCI6MTU0MzI0ODkzMywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.YNKUjgdqdwIp9jPLex9Mf_BZ93Lu4uM0NwIYslZGLWs",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"description": "ADMIN TOKEN",
+								"key": "Autorization",
+								"type": "text",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDE0NjU0NTcsImV4cCI6MTU0MTQ2OTA1NywiYXVkIjoiYmIxYzE5ZjNkMzJlYjMxMDIwNmNiZDk3NTYyNmY0MGViNDZlZGIyZCIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoiYXZpbGx1Y2FzQGRpdi1pdC5jb20uYXIiLCJwYXNzd29yZCI6IjJkYjMxM2ZhYmNhNTc1MDRkOWRjNzc2ZTQ2YjMwNGY2IiwicGVyZmlsIjoic29jaW8iLCJpc0FkbWluIjp0cnVlfSwiYXBwIjoiQ29tYW5kYSB0cCJ9.l3nRvy9GESOCDyUS4_NOMhHILbaFGR6eANPaquZsQK4",
+								"disabled": true
+							},
+							{
+								"key": "Autorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDE0NjYxODAsImV4cCI6MTU0MTQ2OTc4MCwiYXVkIjoiYmIxYzE5ZjNkMzJlYjMxMDIwNmNiZDk3NTYyNmY0MGViNDZlZGIyZCIsImRhdGEiOnsiaWQiOjIsImVtYWlsIjoiYXZpbGx1Y2FzKzJAZGl2LWl0LmNvbS5hciIsInBhc3N3b3JkIjoiMmRiMzEzZmFiY2E1NzUwNGQ5ZGM3NzZlNDZiMzA0ZjYiLCJwZXJmaWwiOiJlbXBsZWFkbyIsImlzQWRtaW4iOmZhbHNlfSwiYXBwIjoiQ29tYW5kYSB0cCJ9.wnd9STf0WwH-tSBBBaGOeWrzeLz2gJmH_NlKV4HtWWk",
+								"description": "EMPLEADO TOKEN",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/usuarios/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"usuarios",
+								""
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"description": "ADMIN TOKEN",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
 				},
 				{
-					"key": "puntuacion_mesa",
-					"value": "4",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "comentario",
-					"value": "asdasdasd",
-					"description": "",
-					"type": "text",
-					"enabled": true
+					"name": "Borrar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDI4NDcsImV4cCI6MTU0MzI0NjQ0NywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.LcQ4zlepWf9K1u8G2p3M5kwhUjP4Pqr7paQsT6sCi_g",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/usuarios/18/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"usuarios",
+								"18",
+								""
+							]
+						}
+					},
+					"response": []
 				}
-			],
-			"dataMode": "params",
-			"headerData": [
+			]
+		},
+		{
+			"name": "Mozo",
+			"item": [
 				{
-					"key": "Content-Type",
-					"name": "Content-Type",
-					"value": "application/x-www-form-urlencoded",
-					"description": "",
-					"type": "text"
+					"name": "Borrar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDI4NDcsImV4cCI6MTU0MzI0NjQ0NywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.LcQ4zlepWf9K1u8G2p3M5kwhUjP4Pqr7paQsT6sCi_g",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "mozo3@tester.com.ar",
+									"type": "text"
+								},
+								{
+									"key": "clave",
+									"value": "mozo3",
+									"type": "text"
+								},
+								{
+									"key": "nombre",
+									"value": "mozo3",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "mozo2@tester.com.ar",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "password",
+									"value": "mozo2",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "nombre",
+									"value": "mozo2",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/mozo/5/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"mozo",
+								"5",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Crear",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDI4NDcsImV4cCI6MTU0MzI0NjQ0NywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.LcQ4zlepWf9K1u8G2p3M5kwhUjP4Pqr7paQsT6sCi_g",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "mozo3@tester.com.ar",
+									"type": "text"
+								},
+								{
+									"key": "clave",
+									"value": "mozo3",
+									"type": "text"
+								},
+								{
+									"key": "nombre",
+									"value": "mozo3",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "mozo2@tester.com.ar",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "password",
+									"value": "mozo2",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "nombre",
+									"value": "mozo2",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/mozo/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"mozo",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TraerTodos",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDI4NDcsImV4cCI6MTU0MzI0NjQ0NywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.LcQ4zlepWf9K1u8G2p3M5kwhUjP4Pqr7paQsT6sCi_g",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/mozo/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"mozo",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TraerUno",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDI4NDcsImV4cCI6MTU0MzI0NjQ0NywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.LcQ4zlepWf9K1u8G2p3M5kwhUjP4Pqr7paQsT6sCi_g",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/mozo/5/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"mozo",
+								"5",
+								""
+							]
+						}
+					},
+					"response": []
 				}
-			],
-			"method": "POST",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": {
-				"type": "bearer",
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDI4NDcsImV4cCI6MTU0MzI0NjQ0NywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.LcQ4zlepWf9K1u8G2p3M5kwhUjP4Pqr7paQsT6sCi_g"
-					}
-				]
-			},
-			"events": [],
-			"folder": "5616a3f0-6c4a-4c2a-b75c-0a96b42a524a",
-			"headers": "Content-Type: application/x-www-form-urlencoded\n",
-			"pathVariables": {}
+			]
 		},
 		{
-			"id": "1be7be37-da53-4c5d-a32d-adac64430da4",
-			"name": "TraerTodos",
-			"url": "http://comanda.avillucas.com.ar/mozo/",
-			"description": "",
-			"data": null,
-			"dataMode": null,
-			"headerData": [],
-			"method": "GET",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": {
-				"type": "bearer",
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDI4NDcsImV4cCI6MTU0MzI0NjQ0NywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.LcQ4zlepWf9K1u8G2p3M5kwhUjP4Pqr7paQsT6sCi_g"
-					}
-				]
-			},
-			"events": [],
-			"folder": "0c88d602-69cb-4f86-b509-3f28f1010d72",
-			"headers": "",
-			"pathVariables": {}
+			"name": "Encuesta",
+			"item": [
+				{
+					"name": "Borrar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNTE0OTgsImV4cCI6MTU0MzI1NTA5OCwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.TzQTzYhpDbonf2K7b_CQTvETA5ENOnB9SnsNf9DQzoA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "mozo3@tester.com.ar",
+									"type": "text"
+								},
+								{
+									"key": "clave",
+									"value": "mozo3",
+									"type": "text"
+								},
+								{
+									"key": "nombre",
+									"value": "mozo3",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "mozo2@tester.com.ar",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "password",
+									"value": "mozo2",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "nombre",
+									"value": "mozo2",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/encuestas/2/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"encuestas",
+								"2",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Crear",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDI4NDcsImV4cCI6MTU0MzI0NjQ0NywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.LcQ4zlepWf9K1u8G2p3M5kwhUjP4Pqr7paQsT6sCi_g",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "comanda_codigo",
+									"value": "5r0te",
+									"type": "text"
+								},
+								{
+									"key": "puntuacion_restaurante",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "puntuacion_mozo",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "puntuacion_preparador",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "puntuacion_mesa",
+									"value": "4",
+									"type": "text"
+								},
+								{
+									"key": "comentario",
+									"value": "asdasdasd",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/encuestas/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"encuestas",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TraerTodos",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNTE0OTgsImV4cCI6MTU0MzI1NTA5OCwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.TzQTzYhpDbonf2K7b_CQTvETA5ENOnB9SnsNf9DQzoA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/encuestas/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"encuestas",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TraerUno",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNTE0OTgsImV4cCI6MTU0MzI1NTA5OCwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.TzQTzYhpDbonf2K7b_CQTvETA5ENOnB9SnsNf9DQzoA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/encuestas/2/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"encuestas",
+								"2",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
 		},
 		{
-			"id": "1d0baa28-0f78-44f4-9eef-a24b840c394f",
-			"name": "TraerUno",
-			"url": "http://comanda.avillucas.com.ar/comandas/1/",
-			"description": "",
-			"data": null,
-			"dataMode": null,
-			"headerData": [],
-			"method": "GET",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": {
-				"type": "bearer",
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDc3ODYsImV4cCI6MTU0MzI1MTM4NiwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.JaJpv9YVlmZ54CJLTBPFhk6zhbh27MolNAaTHr57c20"
-					}
-				]
-			},
-			"events": [],
-			"folder": "8827d012-f3d7-4c53-98db-c5bdeed3b95c",
-			"headers": "",
-			"pathVariables": {}
+			"name": "Preparador",
+			"item": [
+				{
+					"name": "Borrar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDI4NDcsImV4cCI6MTU0MzI0NjQ0NywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.LcQ4zlepWf9K1u8G2p3M5kwhUjP4Pqr7paQsT6sCi_g",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "mozo3@tester.com.ar",
+									"type": "text"
+								},
+								{
+									"key": "clave",
+									"value": "mozo3",
+									"type": "text"
+								},
+								{
+									"key": "nombre",
+									"value": "mozo3",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "mozo2@tester.com.ar",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "password",
+									"value": "mozo2",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "nombre",
+									"value": "mozo2",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/preparador/6/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"preparador",
+								"6",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Crear",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDI4NDcsImV4cCI6MTU0MzI0NjQ0NywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.LcQ4zlepWf9K1u8G2p3M5kwhUjP4Pqr7paQsT6sCi_g",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "cocinero3@tester.com.ar",
+									"type": "text"
+								},
+								{
+									"key": "clave",
+									"value": "cocinero3",
+									"type": "text"
+								},
+								{
+									"key": "nombre",
+									"value": "cocinero3",
+									"type": "text"
+								},
+								{
+									"key": "sector_id",
+									"value": "4",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "barman1@tester.com.ar",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "clave",
+									"value": "barman1",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "nombre",
+									"value": "barman1",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "sector_id",
+									"value": "2",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "email",
+									"value": "cervecero1@tester.com.ar",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "clave",
+									"value": "cervecero1",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "nombre",
+									"value": "cervecero1",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "sector_id",
+									"value": "3",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "email",
+									"value": "repostero1@tester.com.ar",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "clave",
+									"value": "repostero1",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "nombre",
+									"value": "repostero1",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "sector_id",
+									"value": "1",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/preparador/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"preparador",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TraerUno",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/preparador/{id}",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"preparador",
+								"{id}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TraerTodos",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDI4NDcsImV4cCI6MTU0MzI0NjQ0NywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.LcQ4zlepWf9K1u8G2p3M5kwhUjP4Pqr7paQsT6sCi_g",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/preparador/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"preparador",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
 		},
 		{
-			"id": "1e90aa6d-6675-41ce-b1b0-0b84fa8de84e",
-			"name": "TraerUno",
-			"url": "http://comanda.avillucas.com.ar/preparador/{id}",
-			"description": "",
-			"data": null,
-			"dataMode": null,
-			"headerData": [],
-			"method": "GET",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": null,
-			"events": [],
-			"folder": "61c7fd3a-f227-401e-9cee-ee7eb6a00ee7",
-			"headers": "",
-			"pathVariables": {}
+			"name": "Mesa",
+			"item": [
+				{
+					"name": "Crear",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDUzMzMsImV4cCI6MTU0MzI0ODkzMywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.YNKUjgdqdwIp9jPLex9Mf_BZ93Lu4uM0NwIYslZGLWs",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "codigo",
+									"value": "12348",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/mesas/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"mesas",
+								""
+							],
+							"query": [
+								{
+									"key": "codgio",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Modificar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNzIyMDYsImV4cCI6MTU0MzI3NTgwNiwiYXVkIjoiZWU3MjIzMjg0MWZiYmU0ODc5MzA1ODhlYTQ4MzdhMDY0MTU0NWY5MSIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.EUVPCRMOT6NQ38jR-8ozvmjwhc4J8uyg5PXGJFwGc2c",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "codigo",
+									"value": "12347",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "estado_id",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/mesas/3/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"mesas",
+								"3",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Marcar Comiendo",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyMDY5OTksImV4cCI6MTU0MzIxMDU5OSwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoibW96bzFAdGVzdGVyLmNvbS5hciIsImNsYXZlIjoiZDExMTAzODdhMDIwOWE5YTI2NDgwYjZiNTc1YTU0NmYiLCJub21icmUiOiJtb3pvMSIsImVtcGxlZG9faWQiOjEsImlzU29jaW8iOmZhbHNlLCJpc01vem8iOnRydWUsImlzUHJlcGFyYWRvciI6ZmFsc2V9LCJhcHAiOiJDb21hbmRhIHRwIn0.9_LyLZZUwXH9645o_DAtmPzxirdPeU5vzVtpBA6Oy1E",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "mesa_codigo",
+									"value": "12345",
+									"type": "text"
+								},
+								{
+									"key": "",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/mesas/comiendo/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"mesas",
+								"comiendo",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Marcar Pagando",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyMDY5OTksImV4cCI6MTU0MzIxMDU5OSwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoibW96bzFAdGVzdGVyLmNvbS5hciIsImNsYXZlIjoiZDExMTAzODdhMDIwOWE5YTI2NDgwYjZiNTc1YTU0NmYiLCJub21icmUiOiJtb3pvMSIsImVtcGxlZG9faWQiOjEsImlzU29jaW8iOmZhbHNlLCJpc01vem8iOnRydWUsImlzUHJlcGFyYWRvciI6ZmFsc2V9LCJhcHAiOiJDb21hbmRhIHRwIn0.9_LyLZZUwXH9645o_DAtmPzxirdPeU5vzVtpBA6Oy1E",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "mesa_codigo",
+									"value": "12345",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/mesas/pagando/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"mesas",
+								"pagando",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cerrar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyMDc0OTYsImV4cCI6MTU0MzIxMTA5NiwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.dimVJDcPmi8phjFq4MIdO-SuORBGGgktVgie2fRGVW4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "mesa_codigo",
+									"value": "12345",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/mesas/cerrar/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"mesas",
+								"cerrar",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TraerTodos",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNzIyMDYsImV4cCI6MTU0MzI3NTgwNiwiYXVkIjoiZWU3MjIzMjg0MWZiYmU0ODc5MzA1ODhlYTQ4MzdhMDY0MTU0NWY5MSIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.EUVPCRMOT6NQ38jR-8ozvmjwhc4J8uyg5PXGJFwGc2c",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"warning": "This is a duplicate header and will be overridden by the Authorization header generated by Postman.",
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNzIyMDYsImV4cCI6MTU0MzI3NTgwNiwiYXVkIjoiZWU3MjIzMjg0MWZiYmU0ODc5MzA1ODhlYTQ4MzdhMDY0MTU0NWY5MSIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.EUVPCRMOT6NQ38jR-8ozvmjwhc4J8uyg5PXGJFwGc2c",
+								"description": "SOCIO",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/mesas/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"mesas",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TraerUno",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDUzMzMsImV4cCI6MTU0MzI0ODkzMywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.YNKUjgdqdwIp9jPLex9Mf_BZ93Lu4uM0NwIYslZGLWs",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/mesas/1/?",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"mesas",
+								"1",
+								""
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Borrar",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/mesas/5/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"mesas",
+								"5",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
 		},
 		{
-			"id": "23216c2a-beb6-41be-98b3-f8954b61ef9c",
+			"name": "Alimento",
+			"item": [
+				{
+					"name": "Crear",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDUzMzMsImV4cCI6MTU0MzI0ODkzMywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.YNKUjgdqdwIp9jPLex9Mf_BZ93Lu4uM0NwIYslZGLWs",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nombre",
+									"value": "Pochocolo salado 200 grms",
+									"type": "text"
+								},
+								{
+									"key": "precio",
+									"value": "5,50",
+									"type": "text"
+								},
+								{
+									"key": "sector_id",
+									"value": "4",
+									"type": "text"
+								},
+								{
+									"key": "nombre",
+									"value": "Cabernet Sauvignon",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "precio",
+									"value": "20.00",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "sector_id",
+									"value": "2",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "nombre",
+									"value": "Pinta Cerveza Negra ",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "precio",
+									"value": "20,00",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "sector_id",
+									"value": "3",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "nombre",
+									"value": "Capcake zanahoria",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "precio",
+									"value": "10,00",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "sector_id",
+									"value": "1",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/alimentos/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"alimentos",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Modificar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDUzMzMsImV4cCI6MTU0MzI0ODkzMywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.YNKUjgdqdwIp9jPLex9Mf_BZ93Lu4uM0NwIYslZGLWs",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nombre",
+									"value": "Pochocolo salado 200 grms",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "precio",
+									"value": "4.90",
+									"type": "text"
+								},
+								{
+									"key": "sector_id",
+									"value": "4",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/alimentos/2/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"alimentos",
+								"2",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TraerTodos",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNzIyMDYsImV4cCI6MTU0MzI3NTgwNiwiYXVkIjoiZWU3MjIzMjg0MWZiYmU0ODc5MzA1ODhlYTQ4MzdhMDY0MTU0NWY5MSIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.EUVPCRMOT6NQ38jR-8ozvmjwhc4J8uyg5PXGJFwGc2c",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/alimentos/?",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"alimentos",
+								""
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TraerUno",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDUzMzMsImV4cCI6MTU0MzI0ODkzMywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.YNKUjgdqdwIp9jPLex9Mf_BZ93Lu4uM0NwIYslZGLWs",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/alimentos/2/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"alimentos",
+								"2",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Borrar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDUzMzMsImV4cCI6MTU0MzI0ODkzMywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.YNKUjgdqdwIp9jPLex9Mf_BZ93Lu4uM0NwIYslZGLWs",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/alimentos/6/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"alimentos",
+								"6",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Comanda",
+			"item": [
+				{
+					"name": "Tomar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNzIzMTYsImV4cCI6MTU0MzI3NTkxNiwiYXVkIjoiZWU3MjIzMjg0MWZiYmU0ODc5MzA1ODhlYTQ4MzdhMDY0MTU0NWY5MSIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoibW96bzFAdGVzdGVyLmNvbS5hciIsImNsYXZlIjoiZDExMTAzODdhMDIwOWE5YTI2NDgwYjZiNTc1YTU0NmYiLCJub21icmUiOiJtb3pvMSIsImVtcGxlZG9faWQiOjEsImlzU29jaW8iOmZhbHNlLCJpc01vem8iOnRydWUsImlzUHJlcGFyYWRvciI6ZmFsc2V9LCJhcHAiOiJDb21hbmRhIHRwIn0.1L29IjRJXjsU0Bohuy_tbskuQjr4WAFtvcS1G0FJvxc",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "codigo_mesa",
+									"value": "12347",
+									"type": "text"
+								},
+								{
+									"key": "nombre_cliente",
+									"value": "tito",
+									"type": "text"
+								},
+								{
+									"key": "foto",
+									"type": "file",
+									"src": ""
+								},
+								{
+									"key": "pedidos[0][alimento_id]",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "pedidos[0][cantidad]",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "pedidos[1][alimento_id]",
+									"value": "4",
+									"type": "text"
+								},
+								{
+									"key": "pedidos[1][cantidad]",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "pedidos[2][alimento_id]",
+									"value": "5",
+									"type": "text"
+								},
+								{
+									"key": "pedidos[2][cantidad]",
+									"value": "9",
+									"type": "text"
+								},
+								{
+									"key": "pedidos[3][alimento_id]",
+									"value": "8",
+									"type": "text"
+								},
+								{
+									"key": "pedidos[3][cantidad]",
+									"value": "2",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/comandas/tomar/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"comandas",
+								"tomar",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Crear",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMxOTkyMjEsImV4cCI6MTU0MzIwMjgyMSwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoibW96bzFAdGVzdGVyLmNvbS5hciIsImVtcGxlZG9faWQiOjEsImNsYXZlIjoiZDExMTAzODdhMDIwOWE5YTI2NDgwYjZiNTc1YTU0NmYiLCJub21icmUiOiJtb3pvMSIsImlzU29jaW8iOmZhbHNlLCJpc01vem8iOnRydWUsImlzUHJlcGFyYWRvciI6ZmFsc2V9LCJhcHAiOiJDb21hbmRhIHRwIn0.wjKYvhFMCZTQNCOUbTt_CtOuzMnYSY1e83sT3BdlGt4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "codigo_mesa",
+									"value": "12345",
+									"type": "text"
+								},
+								{
+									"key": "nombre_cliente",
+									"value": "tito",
+									"type": "text"
+								},
+								{
+									"key": "mozo_id",
+									"value": "5",
+									"type": "text"
+								},
+								{
+									"key": "pedidos[0][alimento_id]",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "pedidos[0][cantidad]",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "pedidos[1][alimento_id]",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "pedidos[1][cantidad]",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "pedidos[2][alimento_id]",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "pedidos[2][cantidad]",
+									"value": "9",
+									"type": "text"
+								},
+								{
+									"key": "pedidos[3][alimento_id]",
+									"value": "5",
+									"type": "text"
+								},
+								{
+									"key": "pedidos[3][cantidad]",
+									"value": "2",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/comandas/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"comandas",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Modificar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDc3ODYsImV4cCI6MTU0MzI1MTM4NiwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.JaJpv9YVlmZ54CJLTBPFhk6zhbh27MolNAaTHr57c20",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "codigo_mesa",
+									"value": "12345",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "nombre_cliente",
+									"value": "titos2",
+									"type": "text"
+								},
+								{
+									"key": "foto",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "mozo_id",
+									"value": "4",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/comandas/1/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"comandas",
+								"1",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TraerUno",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDc3ODYsImV4cCI6MTU0MzI1MTM4NiwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.JaJpv9YVlmZ54CJLTBPFhk6zhbh27MolNAaTHr57c20",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/comandas/1/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"comandas",
+								"1",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TraerTodos",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNzIzMTYsImV4cCI6MTU0MzI3NTkxNiwiYXVkIjoiZWU3MjIzMjg0MWZiYmU0ODc5MzA1ODhlYTQ4MzdhMDY0MTU0NWY5MSIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoibW96bzFAdGVzdGVyLmNvbS5hciIsImNsYXZlIjoiZDExMTAzODdhMDIwOWE5YTI2NDgwYjZiNTc1YTU0NmYiLCJub21icmUiOiJtb3pvMSIsImVtcGxlZG9faWQiOjEsImlzU29jaW8iOmZhbHNlLCJpc01vem8iOnRydWUsImlzUHJlcGFyYWRvciI6ZmFsc2V9LCJhcHAiOiJDb21hbmRhIHRwIn0.1L29IjRJXjsU0Bohuy_tbskuQjr4WAFtvcS1G0FJvxc",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/comandas/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"comandas",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Pedido",
+			"item": [
+				{
+					"name": "TraerUno",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDgwNzEsImV4cCI6MTU0MzI1MTY3MSwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.KzKqTh8wR01MUQYiEfOoXRPNOeccgWnqvpC0V-4KBlk",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/pedidos/7/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"pedidos",
+								"7",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TraerTodos",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNzIyMDYsImV4cCI6MTU0MzI3NTgwNiwiYXVkIjoiZWU3MjIzMjg0MWZiYmU0ODc5MzA1ODhlYTQ4MzdhMDY0MTU0NWY5MSIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.EUVPCRMOT6NQ38jR-8ozvmjwhc4J8uyg5PXGJFwGc2c",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/pedidos/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"pedidos",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TraerPendientes",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNzIzMTYsImV4cCI6MTU0MzI3NTkxNiwiYXVkIjoiZWU3MjIzMjg0MWZiYmU0ODc5MzA1ODhlYTQ4MzdhMDY0MTU0NWY5MSIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoibW96bzFAdGVzdGVyLmNvbS5hciIsImNsYXZlIjoiZDExMTAzODdhMDIwOWE5YTI2NDgwYjZiNTc1YTU0NmYiLCJub21icmUiOiJtb3pvMSIsImVtcGxlZG9faWQiOjEsImlzU29jaW8iOmZhbHNlLCJpc01vem8iOnRydWUsImlzUHJlcGFyYWRvciI6ZmFsc2V9LCJhcHAiOiJDb21hbmRhIHRwIn0.1L29IjRJXjsU0Bohuy_tbskuQjr4WAFtvcS1G0FJvxc",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/pedidos/pendientes/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"pedidos",
+								"pendientes",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TraerAlaorden",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNzIzMTYsImV4cCI6MTU0MzI3NTkxNiwiYXVkIjoiZWU3MjIzMjg0MWZiYmU0ODc5MzA1ODhlYTQ4MzdhMDY0MTU0NWY5MSIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoibW96bzFAdGVzdGVyLmNvbS5hciIsImNsYXZlIjoiZDExMTAzODdhMDIwOWE5YTI2NDgwYjZiNTc1YTU0NmYiLCJub21icmUiOiJtb3pvMSIsImVtcGxlZG9faWQiOjEsImlzU29jaW8iOmZhbHNlLCJpc01vem8iOnRydWUsImlzUHJlcGFyYWRvciI6ZmFsc2V9LCJhcHAiOiJDb21hbmRhIHRwIn0.1L29IjRJXjsU0Bohuy_tbskuQjr4WAFtvcS1G0FJvxc",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/pedidos/paraservir/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"pedidos",
+								"paraservir",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Crear",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDgwNzEsImV4cCI6MTU0MzI1MTY3MSwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.KzKqTh8wR01MUQYiEfOoXRPNOeccgWnqvpC0V-4KBlk",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "comanda_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "alimento_id",
+									"value": "5",
+									"type": "text"
+								},
+								{
+									"key": "cantidad",
+									"value": "3",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/pedidos/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"pedidos",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Modificar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDgwNzEsImV4cCI6MTU0MzI1MTY3MSwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.KzKqTh8wR01MUQYiEfOoXRPNOeccgWnqvpC0V-4KBlk",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "comanda_id",
+									"value": "1",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "alimento_id",
+									"value": "2",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "cantidad",
+									"value": "5",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/pedidos/7/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"pedidos",
+								"7",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Preparar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNzI1MDEsImV4cCI6MTU0MzI3NjEwMSwiYXVkIjoiZWU3MjIzMjg0MWZiYmU0ODc5MzA1ODhlYTQ4MzdhMDY0MTU0NWY5MSIsImRhdGEiOnsiaWQiOjUsImVtYWlsIjoiY29jaW5lcm8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjExMDE2OTQ1NmNlNTAzMGJiYTczNTY5Mzg3MDQzNWZmIiwibm9tYnJlIjoiY29jaW5lcm8xIiwiZW1wbGVkb19pZCI6NCwiaXNTb2NpbyI6ZmFsc2UsImlzTW96byI6ZmFsc2UsImlzUHJlcGFyYWRvciI6dHJ1ZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.i1viSOvYjmrihLXgvNqLgrKdP7YKKA7hsAfqgZcRdlA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "tiempo_estimado",
+									"value": "30",
+									"type": "text"
+								},
+								{
+									"key": "pedido_id",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/pedidos/preparar/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"pedidos",
+								"preparar",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AlaOrden",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyMDEyMTMsImV4cCI6MTU0MzIwNDgxMywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjUsImVtYWlsIjoiY29jaW5lcm8xQHRlc3Rlci5jb20uYXIiLCJlbXBsZWRvX2lkIjo0LCJjbGF2ZSI6IjExMDE2OTQ1NmNlNTAzMGJiYTczNTY5Mzg3MDQzNWZmIiwibm9tYnJlIjoiY29jaW5lcm8xIiwiaXNTb2NpbyI6ZmFsc2UsImlzTW96byI6ZmFsc2UsImlzUHJlcGFyYWRvciI6dHJ1ZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.AH1OVH3EnGgKo_Nsy20AwKEd3R3P_yj1UIQwBVwgbLc",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "pedido_id",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/pedidos/alaorden/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"pedidos",
+								"alaorden",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Borrar",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/pedidos/7/",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"pedidos",
+								"7",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Reporte",
+			"item": [
+				{
+					"name": "Empleados Acceso",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://comanda.avillucas.com.ar/reportes/empleados/acceso/?desde=10-11-2018&hasta=26-11-2018",
+							"protocol": "http",
+							"host": [
+								"comanda",
+								"avillucas",
+								"com",
+								"ar"
+							],
+							"path": [
+								"reportes",
+								"empleados",
+								"acceso",
+								""
+							],
+							"query": [
+								{
+									"key": "desde",
+									"value": "10-11-2018"
+								},
+								{
+									"key": "hasta",
+									"value": "26-11-2018"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
 			"name": "Login",
-			"url": "http://comanda.avillucas.com.ar/ogin/",
-			"description": null,
-			"data": [
-				{
-					"key": "email",
-					"value": "mozo1@tester.com.ar",
-					"description": "MOZO",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "clave",
-					"value": "mozo1",
-					"description": "MOZO",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "email",
-					"value": "mozo2@tester.com.ar",
-					"description": "MOZO2",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "clave",
-					"value": "mozo2",
-					"description": "MOZO2",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "email",
-					"value": "cocinero1@tester.com.ar",
-					"description": "COCINERO",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "clave",
-					"value": "cocinero1",
-					"description": "COCINERO",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "email",
-					"value": "barman1@tester.com.ar",
-					"description": "BARMAN",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "clave",
-					"value": "barman1",
-					"description": "BARMAN",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "email",
-					"value": "cervecero1@tester.com.ar",
-					"description": "CERVECERO",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "clave",
-					"value": "cervecero1",
-					"description": "CERVECERO",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "email",
-					"value": "repostero1@tester.com.ar",
-					"description": "REPOSTERO",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "clave",
-					"value": "repostero1",
-					"description": "REPOSTERO",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "email",
-					"value": "socio1@tester.com.ar",
-					"description": "SOCIO1",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "clave",
-					"value": "socio1",
-					"description": "SOCIO1",
-					"type": "text",
-					"enabled": true
-				}
-			],
-			"dataMode": "params",
-			"headerData": [
-				{
-					"key": "Content-Type",
-					"name": "Content-Type",
-					"value": "application/x-www-form-urlencoded",
-					"description": "",
-					"type": "text"
-				}
-			],
-			"method": "POST",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": null,
-			"events": null,
-			"folder": null,
-			"headers": "Content-Type: application/x-www-form-urlencoded\n",
-			"pathVariables": {}
-		},
-		{
-			"id": "2684ef0f-2c13-4e98-8e5a-63793e6ec48d",
-			"name": "Crear",
-			"url": "http://comanda.avillucas.com.ar/usuarios/",
-			"description": "",
-			"data": [
-				{
-					"key": "email",
-					"value": "empleado7@tester.com.ar",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "clave",
-					"value": "empleado7",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "nombre",
-					"value": "empleado7",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "empleado_id",
-					"value": "5",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				}
-			],
-			"dataMode": "params",
-			"headerData": [
-				{
-					"description": "",
-					"key": "Content-Type",
-					"name": "Content-Type",
-					"type": "text",
-					"value": "application/x-www-form-urlencoded"
-				}
-			],
-			"method": "POST",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": {
-				"bearer": [
+			"request": {
+				"method": "POST",
+				"header": [
 					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDI4NDcsImV4cCI6MTU0MzI0NjQ0NywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.LcQ4zlepWf9K1u8G2p3M5kwhUjP4Pqr7paQsT6sCi_g"
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNzIyMDYsImV4cCI6MTU0MzI3NTgwNiwiYXVkIjoiZWU3MjIzMjg0MWZiYmU0ODc5MzA1ODhlYTQ4MzdhMDY0MTU0NWY5MSIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.EUVPCRMOT6NQ38jR-8ozvmjwhc4J8uyg5PXGJFwGc2c",
+						"description": "SOCIO",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNzIzMTYsImV4cCI6MTU0MzI3NTkxNiwiYXVkIjoiZWU3MjIzMjg0MWZiYmU0ODc5MzA1ODhlYTQ4MzdhMDY0MTU0NWY5MSIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoibW96bzFAdGVzdGVyLmNvbS5hciIsImNsYXZlIjoiZDExMTAzODdhMDIwOWE5YTI2NDgwYjZiNTc1YTU0NmYiLCJub21icmUiOiJtb3pvMSIsImVtcGxlZG9faWQiOjEsImlzU29jaW8iOmZhbHNlLCJpc01vem8iOnRydWUsImlzUHJlcGFyYWRvciI6ZmFsc2V9LCJhcHAiOiJDb21hbmRhIHRwIn0.1L29IjRJXjsU0Bohuy_tbskuQjr4WAFtvcS1G0FJvxc",
+						"description": "MOZO",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNzI1MDEsImV4cCI6MTU0MzI3NjEwMSwiYXVkIjoiZWU3MjIzMjg0MWZiYmU0ODc5MzA1ODhlYTQ4MzdhMDY0MTU0NWY5MSIsImRhdGEiOnsiaWQiOjUsImVtYWlsIjoiY29jaW5lcm8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjExMDE2OTQ1NmNlNTAzMGJiYTczNTY5Mzg3MDQzNWZmIiwibm9tYnJlIjoiY29jaW5lcm8xIiwiZW1wbGVkb19pZCI6NCwiaXNTb2NpbyI6ZmFsc2UsImlzTW96byI6ZmFsc2UsImlzUHJlcGFyYWRvciI6dHJ1ZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.i1viSOvYjmrihLXgvNqLgrKdP7YKKA7hsAfqgZcRdlA",
+						"description": "COCINERO",
+						"type": "text",
+						"disabled": true
 					}
 				],
-				"type": "bearer"
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "mozo1@tester.com.ar",
+							"description": "MOZO",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "clave",
+							"value": "mozo1",
+							"description": "MOZO",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "mozo2@tester.com.ar",
+							"description": "MOZO2",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "clave",
+							"value": "mozo2",
+							"description": "MOZO2",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "cocinero1@tester.com.ar",
+							"description": "COCINERO",
+							"type": "text"
+						},
+						{
+							"key": "clave",
+							"value": "cocinero1",
+							"description": "COCINERO",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "barman1@tester.com.ar",
+							"description": "BARMAN",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "clave",
+							"value": "barman1",
+							"description": "BARMAN",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "cervecero1@tester.com.ar",
+							"description": "CERVECERO",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "clave",
+							"value": "cervecero1",
+							"description": "CERVECERO",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "repostero1@tester.com.ar",
+							"description": "REPOSTERO",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "clave",
+							"value": "repostero1",
+							"description": "REPOSTERO",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "socio1@tester.com.ar",
+							"description": "SOCIO1",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "clave",
+							"value": "socio1",
+							"description": "SOCIO1",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://comanda.avillucas.com.ar/login/",
+					"protocol": "http",
+					"host": [
+						"comanda",
+						"avillucas",
+						"com",
+						"ar"
+					],
+					"path": [
+						"login",
+						""
+					]
+				}
 			},
-			"events": [],
-			"folder": "b9ff6002-bc1b-408c-ad6d-d95dfca32888",
-			"headers": "Content-Type: application/x-www-form-urlencoded\n",
-			"pathVariables": {}
-		},
-		{
-			"id": "31179e3e-710f-4504-9283-86ff49b77f66",
-			"name": "AlaOrden",
-			"url": "http://comanda.avillucas.com.ar/pedidos/alaorden/",
-			"description": "",
-			"data": [
-				{
-					"key": "pedido_id",
-					"value": "1",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				}
-			],
-			"dataMode": "params",
-			"headerData": [
-				{
-					"description": "",
-					"key": "Content-Type",
-					"name": "Content-Type",
-					"type": "text",
-					"value": "application/x-www-form-urlencoded"
-				}
-			],
-			"method": "POST",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": {
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyMDEyMTMsImV4cCI6MTU0MzIwNDgxMywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjUsImVtYWlsIjoiY29jaW5lcm8xQHRlc3Rlci5jb20uYXIiLCJlbXBsZWRvX2lkIjo0LCJjbGF2ZSI6IjExMDE2OTQ1NmNlNTAzMGJiYTczNTY5Mzg3MDQzNWZmIiwibm9tYnJlIjoiY29jaW5lcm8xIiwiaXNTb2NpbyI6ZmFsc2UsImlzTW96byI6ZmFsc2UsImlzUHJlcGFyYWRvciI6dHJ1ZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.AH1OVH3EnGgKo_Nsy20AwKEd3R3P_yj1UIQwBVwgbLc"
-					}
-				],
-				"type": "bearer"
-			},
-			"events": [],
-			"folder": "5f9b4635-4c78-4ff7-b682-3eff94cdafdc",
-			"headers": "Content-Type: application/x-www-form-urlencoded\n",
-			"pathVariables": {}
-		},
-		{
-			"id": "32074646-1523-4116-9910-18be3dd31d12",
-			"name": "Marcar Pagando",
-			"url": "http://comanda.avillucas.com.ar/mesas/pagando/",
-			"description": "",
-			"data": [
-				{
-					"key": "mesa_codigo",
-					"value": "12345",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				}
-			],
-			"dataMode": "urlencoded",
-			"headerData": [
-				{
-					"description": "",
-					"key": "Content-Type",
-					"name": "Content-Type",
-					"type": "text",
-					"value": "application/x-www-form-urlencoded"
-				}
-			],
-			"method": "POST",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": {
-				"type": "bearer",
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyMDY5OTksImV4cCI6MTU0MzIxMDU5OSwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoibW96bzFAdGVzdGVyLmNvbS5hciIsImNsYXZlIjoiZDExMTAzODdhMDIwOWE5YTI2NDgwYjZiNTc1YTU0NmYiLCJub21icmUiOiJtb3pvMSIsImVtcGxlZG9faWQiOjEsImlzU29jaW8iOmZhbHNlLCJpc01vem8iOnRydWUsImlzUHJlcGFyYWRvciI6ZmFsc2V9LCJhcHAiOiJDb21hbmRhIHRwIn0.9_LyLZZUwXH9645o_DAtmPzxirdPeU5vzVtpBA6Oy1E"
-					}
-				]
-			},
-			"events": [],
-			"folder": "3749340f-8ce6-4389-9aba-da26a3568527",
-			"headers": "Content-Type: application/x-www-form-urlencoded\n",
-			"pathVariables": {}
-		},
-		{
-			"id": "38197806-b706-48e7-ae80-863f5ad01b19",
-			"name": "TraerTodos",
-			"url": "http://comanda.avillucas.com.ar/comandas/",
-			"description": "",
-			"data": null,
-			"dataMode": null,
-			"headerData": [],
-			"method": "GET",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": {
-				"type": "bearer",
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNjM3NjMsImV4cCI6MTU0MzI2NzM2MywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoibW96bzFAdGVzdGVyLmNvbS5hciIsImNsYXZlIjoiZDExMTAzODdhMDIwOWE5YTI2NDgwYjZiNTc1YTU0NmYiLCJub21icmUiOiJtb3pvMSIsImVtcGxlZG9faWQiOjEsImlzU29jaW8iOmZhbHNlLCJpc01vem8iOnRydWUsImlzUHJlcGFyYWRvciI6ZmFsc2V9LCJhcHAiOiJDb21hbmRhIHRwIn0.Ty2906L30C2U2e9tqYT184sp-r9k_5lz-2TJFmioUX0"
-					}
-				]
-			},
-			"events": [],
-			"folder": "8827d012-f3d7-4c53-98db-c5bdeed3b95c",
-			"headers": "",
-			"pathVariables": {}
-		},
-		{
-			"id": "38feb055-21c3-417d-b773-f5aa0016862f",
-			"name": "Crear",
-			"url": "http://comanda.avillucas.com.ar/mesas/",
-			"description": "",
-			"data": [
-				{
-					"key": "codigo",
-					"value": "12348",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				}
-			],
-			"dataMode": "urlencoded",
-			"headerData": [
-				{
-					"key": "Content-Type",
-					"name": "Content-Type",
-					"value": "application/x-www-form-urlencoded",
-					"description": "",
-					"type": "text"
-				}
-			],
-			"method": "POST",
-			"pathVariableData": [],
-			"queryParams": [
-				{
-					"key": "codgio",
-					"value": "",
-					"description": "",
-					"enabled": false
-				}
-			],
-			"auth": {
-				"type": "bearer",
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDUzMzMsImV4cCI6MTU0MzI0ODkzMywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.YNKUjgdqdwIp9jPLex9Mf_BZ93Lu4uM0NwIYslZGLWs"
-					}
-				]
-			},
-			"events": [],
-			"folder": "3749340f-8ce6-4389-9aba-da26a3568527",
-			"headers": "Content-Type: application/x-www-form-urlencoded\n",
-			"pathVariables": {}
-		},
-		{
-			"id": "392f2ac2-2100-44a3-bd30-c05515269e47",
-			"name": "Cerrar",
-			"url": "http://comanda.avillucas.com.ar/mesas/cerrar/",
-			"description": "",
-			"data": [
-				{
-					"key": "mesa_codigo",
-					"value": "12345",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				}
-			],
-			"dataMode": "urlencoded",
-			"headerData": [
-				{
-					"description": "",
-					"key": "Content-Type",
-					"name": "Content-Type",
-					"type": "text",
-					"value": "application/x-www-form-urlencoded"
-				}
-			],
-			"method": "POST",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": {
-				"type": "bearer",
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyMDc0OTYsImV4cCI6MTU0MzIxMTA5NiwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.dimVJDcPmi8phjFq4MIdO-SuORBGGgktVgie2fRGVW4"
-					}
-				]
-			},
-			"events": [],
-			"folder": "3749340f-8ce6-4389-9aba-da26a3568527",
-			"headers": "Content-Type: application/x-www-form-urlencoded\n",
-			"pathVariables": {}
-		},
-		{
-			"id": "3ea4f182-d36d-4f4c-8541-b2431d6e1f2e",
-			"name": "TraerTodos",
-			"url": "http://comanda.avillucas.com.ar/usuarios/",
-			"description": null,
-			"data": null,
-			"dataMode": null,
-			"headerData": [
-				{
-					"description": "ADMIN TOKEN",
-					"enabled": false,
-					"key": "Autorization",
-					"type": "text",
-					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDE0NjU0NTcsImV4cCI6MTU0MTQ2OTA1NywiYXVkIjoiYmIxYzE5ZjNkMzJlYjMxMDIwNmNiZDk3NTYyNmY0MGViNDZlZGIyZCIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoiYXZpbGx1Y2FzQGRpdi1pdC5jb20uYXIiLCJwYXNzd29yZCI6IjJkYjMxM2ZhYmNhNTc1MDRkOWRjNzc2ZTQ2YjMwNGY2IiwicGVyZmlsIjoic29jaW8iLCJpc0FkbWluIjp0cnVlfSwiYXBwIjoiQ29tYW5kYSB0cCJ9.l3nRvy9GESOCDyUS4_NOMhHILbaFGR6eANPaquZsQK4"
-				},
-				{
-					"key": "Autorization",
-					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDE0NjYxODAsImV4cCI6MTU0MTQ2OTc4MCwiYXVkIjoiYmIxYzE5ZjNkMzJlYjMxMDIwNmNiZDk3NTYyNmY0MGViNDZlZGIyZCIsImRhdGEiOnsiaWQiOjIsImVtYWlsIjoiYXZpbGx1Y2FzKzJAZGl2LWl0LmNvbS5hciIsInBhc3N3b3JkIjoiMmRiMzEzZmFiY2E1NzUwNGQ5ZGM3NzZlNDZiMzA0ZjYiLCJwZXJmaWwiOiJlbXBsZWFkbyIsImlzQWRtaW4iOmZhbHNlfSwiYXBwIjoiQ29tYW5kYSB0cCJ9.wnd9STf0WwH-tSBBBaGOeWrzeLz2gJmH_NlKV4HtWWk",
-					"description": "EMPLEADO TOKEN",
-					"type": "text",
-					"enabled": true
-				}
-			],
-			"method": "GET",
-			"pathVariableData": [],
-			"queryParams": [
-				{
-					"key": "",
-					"value": "",
-					"description": "ADMIN TOKEN",
-					"enabled": false
-				}
-			],
-			"auth": {
-				"type": "bearer",
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDUzMzMsImV4cCI6MTU0MzI0ODkzMywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.YNKUjgdqdwIp9jPLex9Mf_BZ93Lu4uM0NwIYslZGLWs"
-					}
-				]
-			},
-			"events": null,
-			"folder": "b9ff6002-bc1b-408c-ad6d-d95dfca32888",
-			"headers": "//Autorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDE0NjU0NTcsImV4cCI6MTU0MTQ2OTA1NywiYXVkIjoiYmIxYzE5ZjNkMzJlYjMxMDIwNmNiZDk3NTYyNmY0MGViNDZlZGIyZCIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoiYXZpbGx1Y2FzQGRpdi1pdC5jb20uYXIiLCJwYXNzd29yZCI6IjJkYjMxM2ZhYmNhNTc1MDRkOWRjNzc2ZTQ2YjMwNGY2IiwicGVyZmlsIjoic29jaW8iLCJpc0FkbWluIjp0cnVlfSwiYXBwIjoiQ29tYW5kYSB0cCJ9.l3nRvy9GESOCDyUS4_NOMhHILbaFGR6eANPaquZsQK4\nAutorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDE0NjYxODAsImV4cCI6MTU0MTQ2OTc4MCwiYXVkIjoiYmIxYzE5ZjNkMzJlYjMxMDIwNmNiZDk3NTYyNmY0MGViNDZlZGIyZCIsImRhdGEiOnsiaWQiOjIsImVtYWlsIjoiYXZpbGx1Y2FzKzJAZGl2LWl0LmNvbS5hciIsInBhc3N3b3JkIjoiMmRiMzEzZmFiY2E1NzUwNGQ5ZGM3NzZlNDZiMzA0ZjYiLCJwZXJmaWwiOiJlbXBsZWFkbyIsImlzQWRtaW4iOmZhbHNlfSwiYXBwIjoiQ29tYW5kYSB0cCJ9.wnd9STf0WwH-tSBBBaGOeWrzeLz2gJmH_NlKV4HtWWk\n",
-			"pathVariables": {}
-		},
-		{
-			"id": "51fd83b8-3ff5-4f5f-8fcc-529d6a5416fa",
-			"name": "Empleados Acceso",
-			"url": "http://comanda.avillucas.com.ar/reportes/empleados/acceso/?desde=10-11-2018&hasta=26-11-2018",
-			"description": "",
-			"data": null,
-			"dataMode": null,
-			"headerData": [],
-			"method": "GET",
-			"pathVariableData": [],
-			"queryParams": [
-				{
-					"key": "desde",
-					"value": "10-11-2018",
-					"description": "",
-					"enabled": true
-				},
-				{
-					"key": "hasta",
-					"value": "26-11-2018",
-					"description": "",
-					"enabled": true
-				}
-			],
-			"auth": null,
-			"events": [],
-			"folder": "c4e5e024-e211-4891-8f6f-b6ae9787258e",
-			"headers": "",
-			"pathVariables": {}
-		},
-		{
-			"id": "5557b6a1-4248-4003-8bce-6288154dbad3",
-			"name": "Borrar",
-			"url": "http://comanda.avillucas.com.ar/preparador/6/",
-			"description": "",
-			"data": [
-				{
-					"key": "email",
-					"value": "mozo3@tester.com.ar",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "clave",
-					"value": "mozo3",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "nombre",
-					"value": "mozo3",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "email",
-					"value": "mozo2@tester.com.ar",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "password",
-					"value": "mozo2",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "nombre",
-					"value": "mozo2",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				}
-			],
-			"dataMode": "params",
-			"headerData": [
-				{
-					"description": "",
-					"key": "Content-Type",
-					"name": "Content-Type",
-					"type": "text",
-					"value": "application/x-www-form-urlencoded"
-				}
-			],
-			"method": "DELETE",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": {
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDI4NDcsImV4cCI6MTU0MzI0NjQ0NywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.LcQ4zlepWf9K1u8G2p3M5kwhUjP4Pqr7paQsT6sCi_g"
-					}
-				],
-				"type": "bearer"
-			},
-			"events": [],
-			"folder": "61c7fd3a-f227-401e-9cee-ee7eb6a00ee7",
-			"headers": "Content-Type: application/x-www-form-urlencoded\n",
-			"pathVariables": {}
-		},
-		{
-			"id": "5752e9d7-d74b-446b-a79f-7fd47f4055d8",
-			"name": "Borrar",
-			"url": "http://comanda.avillucas.com.ar/encuestas/2/",
-			"description": "",
-			"data": [
-				{
-					"key": "email",
-					"value": "mozo3@tester.com.ar",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "clave",
-					"value": "mozo3",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "nombre",
-					"value": "mozo3",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "email",
-					"value": "mozo2@tester.com.ar",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "password",
-					"value": "mozo2",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "nombre",
-					"value": "mozo2",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				}
-			],
-			"dataMode": "params",
-			"headerData": [
-				{
-					"description": "",
-					"key": "Content-Type",
-					"name": "Content-Type",
-					"type": "text",
-					"value": "application/x-www-form-urlencoded"
-				}
-			],
-			"method": "DELETE",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": {
-				"type": "bearer",
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNTE0OTgsImV4cCI6MTU0MzI1NTA5OCwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.TzQTzYhpDbonf2K7b_CQTvETA5ENOnB9SnsNf9DQzoA"
-					}
-				]
-			},
-			"events": [],
-			"folder": "5616a3f0-6c4a-4c2a-b75c-0a96b42a524a",
-			"headers": "Content-Type: application/x-www-form-urlencoded\n",
-			"pathVariables": {}
-		},
-		{
-			"id": "5e520e0a-09fe-45aa-8ea9-0fbb2e553ad9",
-			"name": "TraerAlaorden",
-			"url": "http://comanda.avillucas.com.ar/paraservir/",
-			"description": "",
-			"data": null,
-			"dataMode": null,
-			"headerData": [],
-			"method": "GET",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": {
-				"type": "bearer",
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyMDQ5MTEsImV4cCI6MTU0MzIwODUxMSwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoibW96bzFAdGVzdGVyLmNvbS5hciIsImVtcGxlZG9faWQiOjEsImNsYXZlIjoiZDExMTAzODdhMDIwOWE5YTI2NDgwYjZiNTc1YTU0NmYiLCJub21icmUiOiJtb3pvMSIsImlzU29jaW8iOmZhbHNlLCJpc01vem8iOnRydWUsImlzUHJlcGFyYWRvciI6ZmFsc2V9LCJhcHAiOiJDb21hbmRhIHRwIn0.IoLYQjYcmy0mFjDMP2aaiCRuU7SSIixrh4nvKlbq4B0"
-					}
-				]
-			},
-			"events": [],
-			"folder": "5f9b4635-4c78-4ff7-b682-3eff94cdafdc",
-			"headers": "",
-			"pathVariables": {}
-		},
-		{
-			"id": "5f44a981-f9e5-4257-8d9d-27ac3df2b9c9",
-			"name": "Borrar",
-			"url": "http://comanda.avillucas.com.ar/mesas/5/",
-			"description": "",
-			"data": null,
-			"dataMode": null,
-			"headerData": [],
-			"method": "DELETE",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": null,
-			"events": [],
-			"folder": "3749340f-8ce6-4389-9aba-da26a3568527",
-			"headers": "",
-			"pathVariables": {}
-		},
-		{
-			"id": "60e2e493-ab8a-4a78-a9b6-e1c4add800fe",
-			"name": "Crear",
-			"url": "http://comanda.avillucas.com.ar/socio/",
-			"description": "",
-			"data": [
-				{
-					"key": "email",
-					"value": "socio3@tester.com.ar",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "clave",
-					"value": "socio3",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "nombre",
-					"value": "socio3",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "email",
-					"value": "socio2@tester.com.ar",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "password",
-					"value": "socio2",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "nombre",
-					"value": "socio2",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				}
-			],
-			"dataMode": "params",
-			"headerData": [
-				{
-					"key": "Content-Type",
-					"name": "Content-Type",
-					"value": "application/x-www-form-urlencoded",
-					"description": "",
-					"type": "text"
-				}
-			],
-			"method": "POST",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": {
-				"type": "bearer",
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDI4NDcsImV4cCI6MTU0MzI0NjQ0NywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.LcQ4zlepWf9K1u8G2p3M5kwhUjP4Pqr7paQsT6sCi_g"
-					}
-				]
-			},
-			"events": [],
-			"folder": "fe8d5b3e-57db-4c74-bd22-e940ccfa1ece",
-			"headers": "Content-Type: application/x-www-form-urlencoded\n",
-			"pathVariables": {}
-		},
-		{
-			"id": "75a8e359-eee5-47f5-b535-945b3d136116",
-			"name": "TraerTodos",
-			"url": "http://comanda.avillucas.com.ar/preparador/",
-			"description": "",
-			"data": null,
-			"dataMode": null,
-			"headerData": [],
-			"method": "GET",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": {
-				"type": "bearer",
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDI4NDcsImV4cCI6MTU0MzI0NjQ0NywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.LcQ4zlepWf9K1u8G2p3M5kwhUjP4Pqr7paQsT6sCi_g"
-					}
-				]
-			},
-			"events": [],
-			"folder": "61c7fd3a-f227-401e-9cee-ee7eb6a00ee7",
-			"headers": "",
-			"pathVariables": {}
-		},
-		{
-			"id": "7cde4002-b24b-46a5-980d-d5d05a2b42d1",
-			"name": "TraerUno",
-			"url": "http://comanda.avillucas.com.ar/mozo/5/",
-			"description": "",
-			"data": null,
-			"dataMode": null,
-			"headerData": [],
-			"method": "GET",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": {
-				"type": "bearer",
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDI4NDcsImV4cCI6MTU0MzI0NjQ0NywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.LcQ4zlepWf9K1u8G2p3M5kwhUjP4Pqr7paQsT6sCi_g"
-					}
-				]
-			},
-			"events": [],
-			"folder": "0c88d602-69cb-4f86-b509-3f28f1010d72",
-			"headers": "",
-			"pathVariables": {}
-		},
-		{
-			"id": "7d2e0c86-7dac-4253-b593-1fcdbfbe66e0",
-			"name": "Borrar",
-			"url": "http://comanda.avillucas.com.ar/usuarios/18/",
-			"description": "",
-			"data": null,
-			"dataMode": null,
-			"headerData": [],
-			"method": "DELETE",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": {
-				"type": "bearer",
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDI4NDcsImV4cCI6MTU0MzI0NjQ0NywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.LcQ4zlepWf9K1u8G2p3M5kwhUjP4Pqr7paQsT6sCi_g"
-					}
-				]
-			},
-			"events": [],
-			"folder": "b9ff6002-bc1b-408c-ad6d-d95dfca32888",
-			"headers": "",
-			"pathVariables": {}
-		},
-		{
-			"id": "7eaa303c-b567-4d92-9da8-a459ed0d3943",
-			"name": "TraerTodos",
-			"url": "http://comanda.avillucas.com.ar/mesas/",
-			"description": "",
-			"data": null,
-			"dataMode": null,
-			"headerData": [],
-			"method": "GET",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": {
-				"type": "bearer",
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNjkxODUsImV4cCI6MTU0MzI3Mjc4NSwiYXVkIjoiZjBiZGEzOTY5NmM4NmNiYWE3YWFhNzUyNTkyYzI3NDYxYzc0ZDA0NiIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoibW96bzFAdGVzdGVyLmNvbS5hciIsImNsYXZlIjoiZDExMTAzODdhMDIwOWE5YTI2NDgwYjZiNTc1YTU0NmYiLCJub21icmUiOiJtb3pvMSIsImVtcGxlZG9faWQiOjEsImlzU29jaW8iOmZhbHNlLCJpc01vem8iOnRydWUsImlzUHJlcGFyYWRvciI6ZmFsc2V9LCJhcHAiOiJDb21hbmRhIHRwIn0.m1WtJoqBKxXO6uklukBxyyfUiyElulB0fnAY6DRoKro"
-					}
-				]
-			},
-			"events": [],
-			"folder": "3749340f-8ce6-4389-9aba-da26a3568527",
-			"headers": "",
-			"pathVariables": {}
-		},
-		{
-			"id": "82dfe388-6485-45c2-93d3-346575ba4975",
-			"name": "Crear",
-			"url": "http://comanda.avillucas.com.ar/pedidos/",
-			"description": "",
-			"data": [
-				{
-					"key": "comanda_id",
-					"value": "1",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "alimento_id",
-					"value": "5",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "cantidad",
-					"value": "3",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				}
-			],
-			"dataMode": "params",
-			"headerData": [
-				{
-					"key": "Content-Type",
-					"name": "Content-Type",
-					"value": "application/x-www-form-urlencoded",
-					"description": "",
-					"type": "text"
-				}
-			],
-			"method": "POST",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": {
-				"type": "bearer",
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDgwNzEsImV4cCI6MTU0MzI1MTY3MSwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.KzKqTh8wR01MUQYiEfOoXRPNOeccgWnqvpC0V-4KBlk"
-					}
-				]
-			},
-			"events": [],
-			"folder": "5f9b4635-4c78-4ff7-b682-3eff94cdafdc",
-			"headers": "Content-Type: application/x-www-form-urlencoded\n",
-			"pathVariables": {}
-		},
-		{
-			"id": "8fbef927-433b-4ac3-a0cc-e5ed7d322097",
-			"name": "TraerUno",
-			"url": "http://comanda.avillucas.com.ar/pedidos/7/",
-			"description": "",
-			"data": null,
-			"dataMode": null,
-			"headerData": [],
-			"method": "GET",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": {
-				"type": "bearer",
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDgwNzEsImV4cCI6MTU0MzI1MTY3MSwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.KzKqTh8wR01MUQYiEfOoXRPNOeccgWnqvpC0V-4KBlk"
-					}
-				]
-			},
-			"events": [],
-			"folder": "5f9b4635-4c78-4ff7-b682-3eff94cdafdc",
-			"headers": "",
-			"pathVariables": {}
-		},
-		{
-			"id": "92747f01-4ab9-4b0d-89ef-5982e2275609",
-			"name": "Marcar Comiendo",
-			"url": "http://comanda.avillucas.com.ar/mesas/comiendo/",
-			"description": "",
-			"data": [
-				{
-					"key": "mesa_codigo",
-					"value": "12345",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "",
-					"value": "",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				}
-			],
-			"dataMode": "urlencoded",
-			"headerData": [
-				{
-					"description": "",
-					"key": "Content-Type",
-					"name": "Content-Type",
-					"type": "text",
-					"value": "application/x-www-form-urlencoded"
-				}
-			],
-			"method": "POST",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": {
-				"type": "bearer",
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyMDY5OTksImV4cCI6MTU0MzIxMDU5OSwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoibW96bzFAdGVzdGVyLmNvbS5hciIsImNsYXZlIjoiZDExMTAzODdhMDIwOWE5YTI2NDgwYjZiNTc1YTU0NmYiLCJub21icmUiOiJtb3pvMSIsImVtcGxlZG9faWQiOjEsImlzU29jaW8iOmZhbHNlLCJpc01vem8iOnRydWUsImlzUHJlcGFyYWRvciI6ZmFsc2V9LCJhcHAiOiJDb21hbmRhIHRwIn0.9_LyLZZUwXH9645o_DAtmPzxirdPeU5vzVtpBA6Oy1E"
-					}
-				]
-			},
-			"events": [],
-			"folder": "3749340f-8ce6-4389-9aba-da26a3568527",
-			"headers": "Content-Type: application/x-www-form-urlencoded\n",
-			"pathVariables": {}
-		},
-		{
-			"id": "9ba43cd5-d480-409c-a403-c988d966ce45",
-			"name": "TraerTodos",
-			"url": "http://comanda.avillucas.com.ar/pedidos/",
-			"description": "",
-			"data": null,
-			"dataMode": null,
-			"headerData": [],
-			"method": "GET",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": {
-				"type": "bearer",
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDgwNzEsImV4cCI6MTU0MzI1MTY3MSwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.KzKqTh8wR01MUQYiEfOoXRPNOeccgWnqvpC0V-4KBlk"
-					}
-				]
-			},
-			"events": [],
-			"folder": "5f9b4635-4c78-4ff7-b682-3eff94cdafdc",
-			"headers": "",
-			"pathVariables": {}
-		},
-		{
-			"id": "9ff909a6-91f0-4011-bb11-0828e45cea74",
-			"name": "Borrar",
-			"url": "http://comanda.avillucas.com.ar/alimentos/6/",
-			"description": "",
-			"data": null,
-			"dataMode": null,
-			"headerData": [],
-			"method": "DELETE",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": {
-				"type": "bearer",
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDUzMzMsImV4cCI6MTU0MzI0ODkzMywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.YNKUjgdqdwIp9jPLex9Mf_BZ93Lu4uM0NwIYslZGLWs"
-					}
-				]
-			},
-			"events": [],
-			"folder": "9606b132-1a55-46e8-a5b7-4db8d6b4c452",
-			"headers": "",
-			"pathVariables": {}
-		},
-		{
-			"id": "a078a5d6-4b17-445d-8c0d-305b93d66bde",
-			"name": "Crear",
-			"url": "http://comanda.avillucas.com.ar/preparador/",
-			"description": "",
-			"data": [
-				{
-					"key": "email",
-					"value": "cocinero3@tester.com.ar",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "clave",
-					"value": "cocinero3",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "nombre",
-					"value": "cocinero3",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "sector_id",
-					"value": "4",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "email",
-					"value": "barman1@tester.com.ar",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "clave",
-					"value": "barman1",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "nombre",
-					"value": "barman1",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "sector_id",
-					"value": "2",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "email",
-					"value": "cervecero1@tester.com.ar",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "clave",
-					"value": "cervecero1",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "nombre",
-					"value": "cervecero1",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "sector_id",
-					"value": "3",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "email",
-					"value": "repostero1@tester.com.ar",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "clave",
-					"value": "repostero1",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "nombre",
-					"value": "repostero1",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "sector_id",
-					"value": "1",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				}
-			],
-			"dataMode": "params",
-			"headerData": [
-				{
-					"key": "Content-Type",
-					"name": "Content-Type",
-					"value": "application/x-www-form-urlencoded",
-					"description": "",
-					"type": "text"
-				}
-			],
-			"method": "POST",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": {
-				"type": "bearer",
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDI4NDcsImV4cCI6MTU0MzI0NjQ0NywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.LcQ4zlepWf9K1u8G2p3M5kwhUjP4Pqr7paQsT6sCi_g"
-					}
-				]
-			},
-			"events": [],
-			"folder": "61c7fd3a-f227-401e-9cee-ee7eb6a00ee7",
-			"headers": "Content-Type: application/x-www-form-urlencoded\n",
-			"pathVariables": {}
-		},
-		{
-			"id": "a439ec06-4da3-46a0-917a-fb436f5f8ae2",
-			"name": "Tomar",
-			"url": "http://comanda.avillucas.com.ar/comandas/tomar/",
-			"description": "",
-			"data": [
-				{
-					"key": "codigo_mesa",
-					"value": "12346",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "nombre_cliente",
-					"value": "tito",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "foto",
-					"description": "",
-					"type": "file",
-					"enabled": true,
-					"value": ""
-				},
-				{
-					"key": "pedidos[0][alimento_id]",
-					"value": "1",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "pedidos[0][cantidad]",
-					"value": "3",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "pedidos[1][alimento_id]",
-					"value": "2",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "pedidos[1][cantidad]",
-					"value": "2",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "pedidos[2][alimento_id]",
-					"value": "2",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "pedidos[2][cantidad]",
-					"value": "9",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "pedidos[3][alimento_id]",
-					"value": "5",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "pedidos[3][cantidad]",
-					"value": "2",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				}
-			],
-			"dataMode": "params",
-			"headerData": [
-				{
-					"key": "Content-Type",
-					"name": "Content-Type",
-					"value": "application/x-www-form-urlencoded",
-					"description": "",
-					"type": "text"
-				}
-			],
-			"method": "POST",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": {
-				"type": "bearer",
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNjM3NjMsImV4cCI6MTU0MzI2NzM2MywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoibW96bzFAdGVzdGVyLmNvbS5hciIsImNsYXZlIjoiZDExMTAzODdhMDIwOWE5YTI2NDgwYjZiNTc1YTU0NmYiLCJub21icmUiOiJtb3pvMSIsImVtcGxlZG9faWQiOjEsImlzU29jaW8iOmZhbHNlLCJpc01vem8iOnRydWUsImlzUHJlcGFyYWRvciI6ZmFsc2V9LCJhcHAiOiJDb21hbmRhIHRwIn0.Ty2906L30C2U2e9tqYT184sp-r9k_5lz-2TJFmioUX0"
-					}
-				]
-			},
-			"events": [],
-			"folder": "8827d012-f3d7-4c53-98db-c5bdeed3b95c",
-			"headers": "Content-Type: application/x-www-form-urlencoded\n",
-			"pathVariables": {}
-		},
-		{
-			"id": "abe35b37-a7eb-4e9c-aa77-be616f8b93c1",
-			"name": "TraerTodos",
-			"url": "http://comanda.avillucas.com.ar/encuestas/",
-			"description": "",
-			"data": null,
-			"dataMode": null,
-			"headerData": [],
-			"method": "GET",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": {
-				"type": "bearer",
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNTE0OTgsImV4cCI6MTU0MzI1NTA5OCwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.TzQTzYhpDbonf2K7b_CQTvETA5ENOnB9SnsNf9DQzoA"
-					}
-				]
-			},
-			"events": [],
-			"folder": "5616a3f0-6c4a-4c2a-b75c-0a96b42a524a",
-			"headers": "",
-			"pathVariables": {}
-		},
-		{
-			"id": "ad6afd08-322f-4605-b553-6cc217cf359e",
-			"name": "Modificar",
-			"url": "http://comanda.avillucas.com.ar/usuarios/2/",
-			"description": null,
-			"data": [
-				{
-					"key": "password",
-					"value": "tete",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "perfil",
-					"value": "E",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				}
-			],
-			"dataMode": "urlencoded",
-			"headerData": [
-				{
-					"key": "Content-Type",
-					"name": "Content-Type",
-					"value": "application/x-www-form-urlencoded",
-					"description": "",
-					"type": "text"
-				},
-				{
-					"key": "Autorization",
-					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDE0NjU0NTcsImV4cCI6MTU0MTQ2OTA1NywiYXVkIjoiYmIxYzE5ZjNkMzJlYjMxMDIwNmNiZDk3NTYyNmY0MGViNDZlZGIyZCIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoiYXZpbGx1Y2FzQGRpdi1pdC5jb20uYXIiLCJwYXNzd29yZCI6IjJkYjMxM2ZhYmNhNTc1MDRkOWRjNzc2ZTQ2YjMwNGY2IiwicGVyZmlsIjoic29jaW8iLCJpc0FkbWluIjp0cnVlfSwiYXBwIjoiQ29tYW5kYSB0cCJ9.l3nRvy9GESOCDyUS4_NOMhHILbaFGR6eANPaquZsQK4",
-					"description": "TOKEN ADMIN ",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "Autorization",
-					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDE0NjYxODAsImV4cCI6MTU0MTQ2OTc4MCwiYXVkIjoiYmIxYzE5ZjNkMzJlYjMxMDIwNmNiZDk3NTYyNmY0MGViNDZlZGIyZCIsImRhdGEiOnsiaWQiOjIsImVtYWlsIjoiYXZpbGx1Y2FzKzJAZGl2LWl0LmNvbS5hciIsInBhc3N3b3JkIjoiMmRiMzEzZmFiY2E1NzUwNGQ5ZGM3NzZlNDZiMzA0ZjYiLCJwZXJmaWwiOiJlbXBsZWFkbyIsImlzQWRtaW4iOmZhbHNlfSwiYXBwIjoiQ29tYW5kYSB0cCJ9.wnd9STf0WwH-tSBBBaGOeWrzeLz2gJmH_NlKV4HtWWk",
-					"description": "TOKEN EMPLEADO ",
-					"type": "text",
-					"enabled": false
-				}
-			],
-			"method": "PUT",
-			"pathVariableData": [],
-			"queryParams": [
-				{
-					"key": "",
-					"value": "",
-					"description": "",
-					"enabled": false
-				}
-			],
-			"auth": {
-				"type": "noauth"
-			},
-			"events": null,
-			"folder": "b9ff6002-bc1b-408c-ad6d-d95dfca32888",
-			"headers": "Content-Type: application/x-www-form-urlencoded\nAutorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDE0NjU0NTcsImV4cCI6MTU0MTQ2OTA1NywiYXVkIjoiYmIxYzE5ZjNkMzJlYjMxMDIwNmNiZDk3NTYyNmY0MGViNDZlZGIyZCIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoiYXZpbGx1Y2FzQGRpdi1pdC5jb20uYXIiLCJwYXNzd29yZCI6IjJkYjMxM2ZhYmNhNTc1MDRkOWRjNzc2ZTQ2YjMwNGY2IiwicGVyZmlsIjoic29jaW8iLCJpc0FkbWluIjp0cnVlfSwiYXBwIjoiQ29tYW5kYSB0cCJ9.l3nRvy9GESOCDyUS4_NOMhHILbaFGR6eANPaquZsQK4\n//Autorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDE0NjYxODAsImV4cCI6MTU0MTQ2OTc4MCwiYXVkIjoiYmIxYzE5ZjNkMzJlYjMxMDIwNmNiZDk3NTYyNmY0MGViNDZlZGIyZCIsImRhdGEiOnsiaWQiOjIsImVtYWlsIjoiYXZpbGx1Y2FzKzJAZGl2LWl0LmNvbS5hciIsInBhc3N3b3JkIjoiMmRiMzEzZmFiY2E1NzUwNGQ5ZGM3NzZlNDZiMzA0ZjYiLCJwZXJmaWwiOiJlbXBsZWFkbyIsImlzQWRtaW4iOmZhbHNlfSwiYXBwIjoiQ29tYW5kYSB0cCJ9.wnd9STf0WwH-tSBBBaGOeWrzeLz2gJmH_NlKV4HtWWk\n",
-			"pathVariables": {}
-		},
-		{
-			"id": "afb5b403-b434-4752-b6c6-68f151b81eba",
-			"name": "Modificar",
-			"url": "http://comanda.avillucas.com.ar/comandas/1/",
-			"description": "",
-			"data": [
-				{
-					"key": "codigo_mesa",
-					"value": "12345",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "nombre_cliente",
-					"value": "titos2",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "foto",
-					"value": "",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "mozo_id",
-					"value": "4",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				}
-			],
-			"dataMode": "params",
-			"headerData": [
-				{
-					"description": "",
-					"key": "Content-Type",
-					"name": "Content-Type",
-					"type": "text",
-					"value": "application/x-www-form-urlencoded"
-				}
-			],
-			"method": "POST",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": {
-				"type": "bearer",
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDc3ODYsImV4cCI6MTU0MzI1MTM4NiwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.JaJpv9YVlmZ54CJLTBPFhk6zhbh27MolNAaTHr57c20"
-					}
-				]
-			},
-			"events": [],
-			"folder": "8827d012-f3d7-4c53-98db-c5bdeed3b95c",
-			"headers": "Content-Type: application/x-www-form-urlencoded\n",
-			"pathVariables": {}
-		},
-		{
-			"id": "b087a2e9-9322-4de6-a403-0e734b2b0d51",
-			"name": "TraerTodos",
-			"url": "http://comanda.avillucas.com.ar/alimentos/",
-			"description": "",
-			"data": null,
-			"dataMode": null,
-			"headerData": [],
-			"method": "GET",
-			"pathVariableData": [],
-			"queryParams": [
-				{
-					"key": "",
-					"value": "",
-					"equals": false,
-					"description": "",
-					"enabled": false
-				}
-			],
-			"auth": {
-				"type": "bearer",
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDUzMzMsImV4cCI6MTU0MzI0ODkzMywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.YNKUjgdqdwIp9jPLex9Mf_BZ93Lu4uM0NwIYslZGLWs"
-					}
-				]
-			},
-			"events": [],
-			"folder": "9606b132-1a55-46e8-a5b7-4db8d6b4c452",
-			"headers": "",
-			"pathVariables": {}
-		},
-		{
-			"id": "b765b0cf-e4dd-44d3-9fa9-a05632d630bd",
-			"name": "Crear",
-			"url": "http://comanda.avillucas.com.ar/mozo/",
-			"description": "",
-			"data": [
-				{
-					"key": "email",
-					"value": "mozo3@tester.com.ar",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "clave",
-					"value": "mozo3",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "nombre",
-					"value": "mozo3",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "email",
-					"value": "mozo2@tester.com.ar",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "password",
-					"value": "mozo2",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "nombre",
-					"value": "mozo2",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				}
-			],
-			"dataMode": "params",
-			"headerData": [
-				{
-					"key": "Content-Type",
-					"name": "Content-Type",
-					"value": "application/x-www-form-urlencoded",
-					"description": "",
-					"type": "text"
-				}
-			],
-			"method": "POST",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": {
-				"type": "bearer",
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDI4NDcsImV4cCI6MTU0MzI0NjQ0NywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.LcQ4zlepWf9K1u8G2p3M5kwhUjP4Pqr7paQsT6sCi_g"
-					}
-				]
-			},
-			"events": [],
-			"folder": "0c88d602-69cb-4f86-b509-3f28f1010d72",
-			"headers": "Content-Type: application/x-www-form-urlencoded\n",
-			"pathVariables": {}
-		},
-		{
-			"id": "c628c942-e0f9-4544-9e38-2972011cbc10",
-			"name": "Preparar",
-			"url": "http://comanda.avillucas.com.ar/pedidos/preparar/",
-			"description": "",
-			"data": [
-				{
-					"key": "tiempo_estimado",
-					"value": "30",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "pedido_id",
-					"value": "1",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				}
-			],
-			"dataMode": "params",
-			"headerData": [
-				{
-					"key": "Content-Type",
-					"name": "Content-Type",
-					"value": "application/x-www-form-urlencoded",
-					"description": "",
-					"type": "text"
-				}
-			],
-			"method": "POST",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": {
-				"type": "bearer",
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyMDEyMTMsImV4cCI6MTU0MzIwNDgxMywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjUsImVtYWlsIjoiY29jaW5lcm8xQHRlc3Rlci5jb20uYXIiLCJlbXBsZWRvX2lkIjo0LCJjbGF2ZSI6IjExMDE2OTQ1NmNlNTAzMGJiYTczNTY5Mzg3MDQzNWZmIiwibm9tYnJlIjoiY29jaW5lcm8xIiwiaXNTb2NpbyI6ZmFsc2UsImlzTW96byI6ZmFsc2UsImlzUHJlcGFyYWRvciI6dHJ1ZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.AH1OVH3EnGgKo_Nsy20AwKEd3R3P_yj1UIQwBVwgbLc"
-					}
-				]
-			},
-			"events": [],
-			"folder": "5f9b4635-4c78-4ff7-b682-3eff94cdafdc",
-			"headers": "Content-Type: application/x-www-form-urlencoded\n",
-			"pathVariables": {}
-		},
-		{
-			"id": "c77d0781-c667-462c-b91c-f83820f71223",
-			"name": "TraerUno",
-			"url": "http://comanda.avillucas.com.ar/mesas/1/",
-			"description": "",
-			"data": null,
-			"dataMode": null,
-			"headerData": [],
-			"method": "GET",
-			"pathVariableData": [],
-			"queryParams": [
-				{
-					"key": "",
-					"value": "",
-					"equals": false,
-					"description": "",
-					"enabled": false
-				}
-			],
-			"auth": {
-				"type": "bearer",
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDUzMzMsImV4cCI6MTU0MzI0ODkzMywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.YNKUjgdqdwIp9jPLex9Mf_BZ93Lu4uM0NwIYslZGLWs"
-					}
-				]
-			},
-			"events": [],
-			"folder": "3749340f-8ce6-4389-9aba-da26a3568527",
-			"headers": "",
-			"pathVariables": {}
-		},
-		{
-			"id": "c8fbda2c-6b3d-46ab-ac0b-3828ce64f3cf",
-			"name": "TraerUno",
-			"url": "http://comanda.avillucas.com.ar/usuarios/4/",
-			"description": null,
-			"data": null,
-			"dataMode": null,
-			"headerData": [
-				{
-					"key": "Autorization",
-					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDE0NjU0NTcsImV4cCI6MTU0MTQ2OTA1NywiYXVkIjoiYmIxYzE5ZjNkMzJlYjMxMDIwNmNiZDk3NTYyNmY0MGViNDZlZGIyZCIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoiYXZpbGx1Y2FzQGRpdi1pdC5jb20uYXIiLCJwYXNzd29yZCI6IjJkYjMxM2ZhYmNhNTc1MDRkOWRjNzc2ZTQ2YjMwNGY2IiwicGVyZmlsIjoic29jaW8iLCJpc0FkbWluIjp0cnVlfSwiYXBwIjoiQ29tYW5kYSB0cCJ9.l3nRvy9GESOCDyUS4_NOMhHILbaFGR6eANPaquZsQK4",
-					"description": "TOKEN ADMIN ",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "Autorization",
-					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDE0NjYxODAsImV4cCI6MTU0MTQ2OTc4MCwiYXVkIjoiYmIxYzE5ZjNkMzJlYjMxMDIwNmNiZDk3NTYyNmY0MGViNDZlZGIyZCIsImRhdGEiOnsiaWQiOjIsImVtYWlsIjoiYXZpbGx1Y2FzKzJAZGl2LWl0LmNvbS5hciIsInBhc3N3b3JkIjoiMmRiMzEzZmFiY2E1NzUwNGQ5ZGM3NzZlNDZiMzA0ZjYiLCJwZXJmaWwiOiJlbXBsZWFkbyIsImlzQWRtaW4iOmZhbHNlfSwiYXBwIjoiQ29tYW5kYSB0cCJ9.wnd9STf0WwH-tSBBBaGOeWrzeLz2gJmH_NlKV4HtWWk",
-					"description": "TOKEN EMPLEADO",
-					"type": "text",
-					"enabled": true
-				}
-			],
-			"method": "GET",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": {
-				"type": "bearer",
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDUzMzMsImV4cCI6MTU0MzI0ODkzMywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.YNKUjgdqdwIp9jPLex9Mf_BZ93Lu4uM0NwIYslZGLWs"
-					}
-				]
-			},
-			"events": [],
-			"folder": "b9ff6002-bc1b-408c-ad6d-d95dfca32888",
-			"headers": "//Autorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDE0NjU0NTcsImV4cCI6MTU0MTQ2OTA1NywiYXVkIjoiYmIxYzE5ZjNkMzJlYjMxMDIwNmNiZDk3NTYyNmY0MGViNDZlZGIyZCIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoiYXZpbGx1Y2FzQGRpdi1pdC5jb20uYXIiLCJwYXNzd29yZCI6IjJkYjMxM2ZhYmNhNTc1MDRkOWRjNzc2ZTQ2YjMwNGY2IiwicGVyZmlsIjoic29jaW8iLCJpc0FkbWluIjp0cnVlfSwiYXBwIjoiQ29tYW5kYSB0cCJ9.l3nRvy9GESOCDyUS4_NOMhHILbaFGR6eANPaquZsQK4\nAutorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDE0NjYxODAsImV4cCI6MTU0MTQ2OTc4MCwiYXVkIjoiYmIxYzE5ZjNkMzJlYjMxMDIwNmNiZDk3NTYyNmY0MGViNDZlZGIyZCIsImRhdGEiOnsiaWQiOjIsImVtYWlsIjoiYXZpbGx1Y2FzKzJAZGl2LWl0LmNvbS5hciIsInBhc3N3b3JkIjoiMmRiMzEzZmFiY2E1NzUwNGQ5ZGM3NzZlNDZiMzA0ZjYiLCJwZXJmaWwiOiJlbXBsZWFkbyIsImlzQWRtaW4iOmZhbHNlfSwiYXBwIjoiQ29tYW5kYSB0cCJ9.wnd9STf0WwH-tSBBBaGOeWrzeLz2gJmH_NlKV4HtWWk\n",
-			"pathVariables": {}
-		},
-		{
-			"id": "cb3fb3ef-229b-4e72-87b0-fb3e0be84598",
-			"name": "TraerPendientes",
-			"url": "http://comanda.avillucas.com.ar/pendientes/",
-			"description": "",
-			"data": null,
-			"dataMode": null,
-			"headerData": [],
-			"method": "GET",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": {
-				"type": "bearer",
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyMDQ5MTEsImV4cCI6MTU0MzIwODUxMSwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoibW96bzFAdGVzdGVyLmNvbS5hciIsImVtcGxlZG9faWQiOjEsImNsYXZlIjoiZDExMTAzODdhMDIwOWE5YTI2NDgwYjZiNTc1YTU0NmYiLCJub21icmUiOiJtb3pvMSIsImlzU29jaW8iOmZhbHNlLCJpc01vem8iOnRydWUsImlzUHJlcGFyYWRvciI6ZmFsc2V9LCJhcHAiOiJDb21hbmRhIHRwIn0.IoLYQjYcmy0mFjDMP2aaiCRuU7SSIixrh4nvKlbq4B0"
-					}
-				]
-			},
-			"events": [],
-			"folder": "5f9b4635-4c78-4ff7-b682-3eff94cdafdc",
-			"headers": "",
-			"pathVariables": {}
-		},
-		{
-			"id": "cf1c4859-2565-40de-aefe-abef46f77535",
-			"name": "Modificar",
-			"url": "http://comanda.avillucas.com.ar/mesas/1/",
-			"description": "",
-			"data": [
-				{
-					"key": "codigo",
-					"value": "12347",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "estado_id",
-					"value": "2",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				}
-			],
-			"dataMode": "urlencoded",
-			"headerData": [
-				{
-					"description": "",
-					"key": "Content-Type",
-					"name": "Content-Type",
-					"type": "text",
-					"value": "application/x-www-form-urlencoded"
-				}
-			],
-			"method": "POST",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": null,
-			"events": [],
-			"folder": "3749340f-8ce6-4389-9aba-da26a3568527",
-			"headers": "Content-Type: application/x-www-form-urlencoded\n",
-			"pathVariables": {}
-		},
-		{
-			"id": "d55cc620-b547-4304-b0ec-9be51144387a",
-			"name": "TraerUno",
-			"url": "http://comanda.avillucas.com.ar/encuestas/2/",
-			"description": "",
-			"data": null,
-			"dataMode": null,
-			"headerData": [],
-			"method": "GET",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": {
-				"type": "bearer",
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNTE0OTgsImV4cCI6MTU0MzI1NTA5OCwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.TzQTzYhpDbonf2K7b_CQTvETA5ENOnB9SnsNf9DQzoA"
-					}
-				]
-			},
-			"events": [],
-			"folder": "5616a3f0-6c4a-4c2a-b75c-0a96b42a524a",
-			"headers": "",
-			"pathVariables": {}
-		},
-		{
-			"id": "e7d443ea-c5f3-4f9f-acd7-786347b9b73c",
-			"name": "Modificar",
-			"url": "http://comanda.avillucas.com.ar/pedidos/7/",
-			"description": "",
-			"data": [
-				{
-					"key": "comanda_id",
-					"value": "1",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "alimento_id",
-					"value": "2",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "cantidad",
-					"value": "5",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				}
-			],
-			"dataMode": "params",
-			"headerData": [
-				{
-					"description": "",
-					"key": "Content-Type",
-					"name": "Content-Type",
-					"type": "text",
-					"value": "application/x-www-form-urlencoded"
-				}
-			],
-			"method": "POST",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": {
-				"type": "bearer",
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDgwNzEsImV4cCI6MTU0MzI1MTY3MSwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.KzKqTh8wR01MUQYiEfOoXRPNOeccgWnqvpC0V-4KBlk"
-					}
-				]
-			},
-			"events": [],
-			"folder": "5f9b4635-4c78-4ff7-b682-3eff94cdafdc",
-			"headers": "Content-Type: application/x-www-form-urlencoded\n",
-			"pathVariables": {}
-		},
-		{
-			"id": "ee6857b6-ba1a-4c92-b46c-446e049e7eb1",
-			"name": "Crear",
-			"url": "http://comanda.avillucas.com.ar/comandas/",
-			"description": "",
-			"data": [
-				{
-					"key": "codigo_mesa",
-					"value": "12345",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "nombre_cliente",
-					"value": "tito",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "mozo_id",
-					"value": "5",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "pedidos[0][alimento_id]",
-					"value": "1",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "pedidos[0][cantidad]",
-					"value": "3",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "pedidos[1][alimento_id]",
-					"value": "2",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "pedidos[1][cantidad]",
-					"value": "2",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "pedidos[2][alimento_id]",
-					"value": "2",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "pedidos[2][cantidad]",
-					"value": "9",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "pedidos[3][alimento_id]",
-					"value": "5",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "pedidos[3][cantidad]",
-					"value": "2",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				}
-			],
-			"dataMode": "params",
-			"headerData": [
-				{
-					"description": "",
-					"key": "Content-Type",
-					"name": "Content-Type",
-					"type": "text",
-					"value": "application/x-www-form-urlencoded"
-				}
-			],
-			"method": "POST",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": {
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMxOTkyMjEsImV4cCI6MTU0MzIwMjgyMSwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoibW96bzFAdGVzdGVyLmNvbS5hciIsImVtcGxlZG9faWQiOjEsImNsYXZlIjoiZDExMTAzODdhMDIwOWE5YTI2NDgwYjZiNTc1YTU0NmYiLCJub21icmUiOiJtb3pvMSIsImlzU29jaW8iOmZhbHNlLCJpc01vem8iOnRydWUsImlzUHJlcGFyYWRvciI6ZmFsc2V9LCJhcHAiOiJDb21hbmRhIHRwIn0.wjKYvhFMCZTQNCOUbTt_CtOuzMnYSY1e83sT3BdlGt4"
-					}
-				],
-				"type": "bearer"
-			},
-			"events": [],
-			"folder": "8827d012-f3d7-4c53-98db-c5bdeed3b95c",
-			"headers": "Content-Type: application/x-www-form-urlencoded\n",
-			"pathVariables": {}
-		},
-		{
-			"id": "f390a5ef-df93-4bcd-9ba6-979419558414",
-			"name": "Borrar",
-			"url": "http://comanda.avillucas.com.ar/pedidos/7/",
-			"description": "",
-			"data": null,
-			"dataMode": null,
-			"headerData": [],
-			"method": "DELETE",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": null,
-			"events": [],
-			"folder": "5f9b4635-4c78-4ff7-b682-3eff94cdafdc",
-			"headers": "",
-			"pathVariables": {}
-		},
-		{
-			"id": "f69c976f-3cba-41df-8054-f94af2bfcc8d",
-			"name": "Borrar",
-			"url": "http://comanda.avillucas.com.ar/mozo/5/",
-			"description": "",
-			"data": [
-				{
-					"key": "email",
-					"value": "mozo3@tester.com.ar",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "clave",
-					"value": "mozo3",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "nombre",
-					"value": "mozo3",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "email",
-					"value": "mozo2@tester.com.ar",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "password",
-					"value": "mozo2",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "nombre",
-					"value": "mozo2",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				}
-			],
-			"dataMode": "params",
-			"headerData": [
-				{
-					"description": "",
-					"key": "Content-Type",
-					"name": "Content-Type",
-					"type": "text",
-					"value": "application/x-www-form-urlencoded"
-				}
-			],
-			"method": "DELETE",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": {
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDI4NDcsImV4cCI6MTU0MzI0NjQ0NywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.LcQ4zlepWf9K1u8G2p3M5kwhUjP4Pqr7paQsT6sCi_g"
-					}
-				],
-				"type": "bearer"
-			},
-			"events": [],
-			"folder": "0c88d602-69cb-4f86-b509-3f28f1010d72",
-			"headers": "Content-Type: application/x-www-form-urlencoded\n",
-			"pathVariables": {}
-		},
-		{
-			"id": "f99dab07-fce6-4bc3-928b-918076538d9e",
-			"name": "Modificar",
-			"url": "http://comanda.avillucas.com.ar/alimentos/2/",
-			"description": "",
-			"data": [
-				{
-					"key": "nombre",
-					"value": "Pochocolo salado 200 grms",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "precio",
-					"value": "4.90",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "sector_id",
-					"value": "4",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				}
-			],
-			"dataMode": "urlencoded",
-			"headerData": [
-				{
-					"description": "",
-					"key": "Content-Type",
-					"name": "Content-Type",
-					"type": "text",
-					"value": "application/x-www-form-urlencoded"
-				}
-			],
-			"method": "POST",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": {
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDUzMzMsImV4cCI6MTU0MzI0ODkzMywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.YNKUjgdqdwIp9jPLex9Mf_BZ93Lu4uM0NwIYslZGLWs"
-					}
-				],
-				"type": "bearer"
-			},
-			"events": [],
-			"folder": "9606b132-1a55-46e8-a5b7-4db8d6b4c452",
-			"headers": "Content-Type: application/x-www-form-urlencoded\n",
-			"pathVariables": {}
-		},
-		{
-			"id": "f9f52528-452b-4c9d-9916-ecebc691f8ed",
-			"name": "Crear",
-			"url": "http://comanda.avillucas.com.ar/alimentos/",
-			"description": "",
-			"data": [
-				{
-					"key": "nombre",
-					"value": "Pochocolo salado 200 grms",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "precio",
-					"value": "5,50",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "sector_id",
-					"value": "4",
-					"description": "",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "nombre",
-					"value": "Cabernet Sauvignon",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "precio",
-					"value": "20.00",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "sector_id",
-					"value": "2",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "nombre",
-					"value": "Pinta Cerveza Negra ",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "precio",
-					"value": "20,00",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "sector_id",
-					"value": "3",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "nombre",
-					"value": "Capcake zanahoria",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "precio",
-					"value": "10,00",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				},
-				{
-					"key": "sector_id",
-					"value": "1",
-					"description": "",
-					"type": "text",
-					"enabled": false
-				}
-			],
-			"dataMode": "urlencoded",
-			"headerData": [
-				{
-					"key": "Content-Type",
-					"name": "Content-Type",
-					"value": "application/x-www-form-urlencoded",
-					"description": "",
-					"type": "text"
-				}
-			],
-			"method": "POST",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": {
-				"type": "bearer",
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDUzMzMsImV4cCI6MTU0MzI0ODkzMywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.YNKUjgdqdwIp9jPLex9Mf_BZ93Lu4uM0NwIYslZGLWs"
-					}
-				]
-			},
-			"events": [],
-			"folder": "9606b132-1a55-46e8-a5b7-4db8d6b4c452",
-			"headers": "Content-Type: application/x-www-form-urlencoded\n",
-			"pathVariables": {}
-		},
-		{
-			"id": "fc9e3204-a0da-4720-a42b-70a3d6be3201",
-			"name": "TraerUno",
-			"url": "http://comanda.avillucas.com.ar/alimentos/2/",
-			"description": "",
-			"data": null,
-			"dataMode": null,
-			"headerData": [],
-			"method": "GET",
-			"pathVariableData": [],
-			"queryParams": [],
-			"auth": {
-				"type": "bearer",
-				"bearer": [
-					{
-						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDUzMzMsImV4cCI6MTU0MzI0ODkzMywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.YNKUjgdqdwIp9jPLex9Mf_BZ93Lu4uM0NwIYslZGLWs"
-					}
-				]
-			},
-			"events": [],
-			"folder": "9606b132-1a55-46e8-a5b7-4db8d6b4c452",
-			"headers": "",
-			"pathVariables": {}
+			"response": []
 		}
 	]
 }

@@ -335,7 +335,7 @@
 		{
 			"id": "23216c2a-beb6-41be-98b3-f8954b61ef9c",
 			"name": "Login",
-			"url": "http://comanda.avillucas.com.ar/ogin/",
+			"url": "http://comanda.avillucas.com.ar/login/",
 			"description": null,
 			"data": [
 				{
@@ -371,14 +371,14 @@
 					"value": "cocinero1@tester.com.ar",
 					"description": "COCINERO",
 					"type": "text",
-					"enabled": false
+					"enabled": true
 				},
 				{
 					"key": "clave",
 					"value": "cocinero1",
 					"description": "COCINERO",
 					"type": "text",
-					"enabled": false
+					"enabled": true
 				},
 				{
 					"key": "email",
@@ -427,14 +427,14 @@
 					"value": "socio1@tester.com.ar",
 					"description": "SOCIO1",
 					"type": "text",
-					"enabled": true
+					"enabled": false
 				},
 				{
 					"key": "clave",
 					"value": "socio1",
 					"description": "SOCIO1",
 					"type": "text",
-					"enabled": true
+					"enabled": false
 				}
 			],
 			"dataMode": "params",
@@ -445,6 +445,27 @@
 					"value": "application/x-www-form-urlencoded",
 					"description": "",
 					"type": "text"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNzIyMDYsImV4cCI6MTU0MzI3NTgwNiwiYXVkIjoiZWU3MjIzMjg0MWZiYmU0ODc5MzA1ODhlYTQ4MzdhMDY0MTU0NWY5MSIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.EUVPCRMOT6NQ38jR-8ozvmjwhc4J8uyg5PXGJFwGc2c",
+					"description": "SOCIO",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNzIzMTYsImV4cCI6MTU0MzI3NTkxNiwiYXVkIjoiZWU3MjIzMjg0MWZiYmU0ODc5MzA1ODhlYTQ4MzdhMDY0MTU0NWY5MSIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoibW96bzFAdGVzdGVyLmNvbS5hciIsImNsYXZlIjoiZDExMTAzODdhMDIwOWE5YTI2NDgwYjZiNTc1YTU0NmYiLCJub21icmUiOiJtb3pvMSIsImVtcGxlZG9faWQiOjEsImlzU29jaW8iOmZhbHNlLCJpc01vem8iOnRydWUsImlzUHJlcGFyYWRvciI6ZmFsc2V9LCJhcHAiOiJDb21hbmRhIHRwIn0.1L29IjRJXjsU0Bohuy_tbskuQjr4WAFtvcS1G0FJvxc",
+					"description": "MOZO",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNzI1MDEsImV4cCI6MTU0MzI3NjEwMSwiYXVkIjoiZWU3MjIzMjg0MWZiYmU0ODc5MzA1ODhlYTQ4MzdhMDY0MTU0NWY5MSIsImRhdGEiOnsiaWQiOjUsImVtYWlsIjoiY29jaW5lcm8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjExMDE2OTQ1NmNlNTAzMGJiYTczNTY5Mzg3MDQzNWZmIiwibm9tYnJlIjoiY29jaW5lcm8xIiwiZW1wbGVkb19pZCI6NCwiaXNTb2NpbyI6ZmFsc2UsImlzTW96byI6ZmFsc2UsImlzUHJlcGFyYWRvciI6dHJ1ZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.i1viSOvYjmrihLXgvNqLgrKdP7YKKA7hsAfqgZcRdlA",
+					"description": "COCINERO",
+					"type": "text",
+					"enabled": false
 				}
 			],
 			"method": "POST",
@@ -453,7 +474,7 @@
 			"auth": null,
 			"events": null,
 			"folder": null,
-			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n//Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNzIyMDYsImV4cCI6MTU0MzI3NTgwNiwiYXVkIjoiZWU3MjIzMjg0MWZiYmU0ODc5MzA1ODhlYTQ4MzdhMDY0MTU0NWY5MSIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.EUVPCRMOT6NQ38jR-8ozvmjwhc4J8uyg5PXGJFwGc2c\n//Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNzIzMTYsImV4cCI6MTU0MzI3NTkxNiwiYXVkIjoiZWU3MjIzMjg0MWZiYmU0ODc5MzA1ODhlYTQ4MzdhMDY0MTU0NWY5MSIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoibW96bzFAdGVzdGVyLmNvbS5hciIsImNsYXZlIjoiZDExMTAzODdhMDIwOWE5YTI2NDgwYjZiNTc1YTU0NmYiLCJub21icmUiOiJtb3pvMSIsImVtcGxlZG9faWQiOjEsImlzU29jaW8iOmZhbHNlLCJpc01vem8iOnRydWUsImlzUHJlcGFyYWRvciI6ZmFsc2V9LCJhcHAiOiJDb21hbmRhIHRwIn0.1L29IjRJXjsU0Bohuy_tbskuQjr4WAFtvcS1G0FJvxc\n//Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNzI1MDEsImV4cCI6MTU0MzI3NjEwMSwiYXVkIjoiZWU3MjIzMjg0MWZiYmU0ODc5MzA1ODhlYTQ4MzdhMDY0MTU0NWY5MSIsImRhdGEiOnsiaWQiOjUsImVtYWlsIjoiY29jaW5lcm8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjExMDE2OTQ1NmNlNTAzMGJiYTczNTY5Mzg3MDQzNWZmIiwibm9tYnJlIjoiY29jaW5lcm8xIiwiZW1wbGVkb19pZCI6NCwiaXNTb2NpbyI6ZmFsc2UsImlzTW96byI6ZmFsc2UsImlzUHJlcGFyYWRvciI6dHJ1ZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.i1viSOvYjmrihLXgvNqLgrKdP7YKKA7hsAfqgZcRdlA\n",
 			"pathVariables": {}
 		},
 		{
@@ -616,7 +637,7 @@
 				"bearer": [
 					{
 						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNjM3NjMsImV4cCI6MTU0MzI2NzM2MywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoibW96bzFAdGVzdGVyLmNvbS5hciIsImNsYXZlIjoiZDExMTAzODdhMDIwOWE5YTI2NDgwYjZiNTc1YTU0NmYiLCJub21icmUiOiJtb3pvMSIsImVtcGxlZG9faWQiOjEsImlzU29jaW8iOmZhbHNlLCJpc01vem8iOnRydWUsImlzUHJlcGFyYWRvciI6ZmFsc2V9LCJhcHAiOiJDb21hbmRhIHRwIn0.Ty2906L30C2U2e9tqYT184sp-r9k_5lz-2TJFmioUX0"
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNzIzMTYsImV4cCI6MTU0MzI3NTkxNiwiYXVkIjoiZWU3MjIzMjg0MWZiYmU0ODc5MzA1ODhlYTQ4MzdhMDY0MTU0NWY5MSIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoibW96bzFAdGVzdGVyLmNvbS5hciIsImNsYXZlIjoiZDExMTAzODdhMDIwOWE5YTI2NDgwYjZiNTc1YTU0NmYiLCJub21icmUiOiJtb3pvMSIsImVtcGxlZG9faWQiOjEsImlzU29jaW8iOmZhbHNlLCJpc01vem8iOnRydWUsImlzUHJlcGFyYWRvciI6ZmFsc2V9LCJhcHAiOiJDb21hbmRhIHRwIn0.1L29IjRJXjsU0Bohuy_tbskuQjr4WAFtvcS1G0FJvxc"
 					}
 				]
 			},
@@ -946,7 +967,7 @@
 		{
 			"id": "5e520e0a-09fe-45aa-8ea9-0fbb2e553ad9",
 			"name": "TraerAlaorden",
-			"url": "http://comanda.avillucas.com.ar/paraservir/",
+			"url": "http://comanda.avillucas.com.ar/pedidos/paraservir/",
 			"description": "",
 			"data": null,
 			"dataMode": null,
@@ -959,7 +980,7 @@
 				"bearer": [
 					{
 						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyMDQ5MTEsImV4cCI6MTU0MzIwODUxMSwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoibW96bzFAdGVzdGVyLmNvbS5hciIsImVtcGxlZG9faWQiOjEsImNsYXZlIjoiZDExMTAzODdhMDIwOWE5YTI2NDgwYjZiNTc1YTU0NmYiLCJub21icmUiOiJtb3pvMSIsImlzU29jaW8iOmZhbHNlLCJpc01vem8iOnRydWUsImlzUHJlcGFyYWRvciI6ZmFsc2V9LCJhcHAiOiJDb21hbmRhIHRwIn0.IoLYQjYcmy0mFjDMP2aaiCRuU7SSIixrh4nvKlbq4B0"
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNzIzMTYsImV4cCI6MTU0MzI3NTkxNiwiYXVkIjoiZWU3MjIzMjg0MWZiYmU0ODc5MzA1ODhlYTQ4MzdhMDY0MTU0NWY5MSIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoibW96bzFAdGVzdGVyLmNvbS5hciIsImNsYXZlIjoiZDExMTAzODdhMDIwOWE5YTI2NDgwYjZiNTc1YTU0NmYiLCJub21icmUiOiJtb3pvMSIsImVtcGxlZG9faWQiOjEsImlzU29jaW8iOmZhbHNlLCJpc01vem8iOnRydWUsImlzUHJlcGFyYWRvciI6ZmFsc2V9LCJhcHAiOiJDb21hbmRhIHRwIn0.1L29IjRJXjsU0Bohuy_tbskuQjr4WAFtvcS1G0FJvxc"
 					}
 				]
 			},
@@ -1143,7 +1164,16 @@
 			"description": "",
 			"data": null,
 			"dataMode": null,
-			"headerData": [],
+			"headerData": [
+				{
+					"warning": "This is a duplicate header and will be overridden by the Authorization header generated by Postman.",
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNzIyMDYsImV4cCI6MTU0MzI3NTgwNiwiYXVkIjoiZWU3MjIzMjg0MWZiYmU0ODc5MzA1ODhlYTQ4MzdhMDY0MTU0NWY5MSIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.EUVPCRMOT6NQ38jR-8ozvmjwhc4J8uyg5PXGJFwGc2c",
+					"description": "SOCIO",
+					"type": "text",
+					"enabled": false
+				}
+			],
 			"method": "GET",
 			"pathVariableData": [],
 			"queryParams": [],
@@ -1152,13 +1182,13 @@
 				"bearer": [
 					{
 						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNjkxODUsImV4cCI6MTU0MzI3Mjc4NSwiYXVkIjoiZjBiZGEzOTY5NmM4NmNiYWE3YWFhNzUyNTkyYzI3NDYxYzc0ZDA0NiIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoibW96bzFAdGVzdGVyLmNvbS5hciIsImNsYXZlIjoiZDExMTAzODdhMDIwOWE5YTI2NDgwYjZiNTc1YTU0NmYiLCJub21icmUiOiJtb3pvMSIsImVtcGxlZG9faWQiOjEsImlzU29jaW8iOmZhbHNlLCJpc01vem8iOnRydWUsImlzUHJlcGFyYWRvciI6ZmFsc2V9LCJhcHAiOiJDb21hbmRhIHRwIn0.m1WtJoqBKxXO6uklukBxyyfUiyElulB0fnAY6DRoKro"
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNzIyMDYsImV4cCI6MTU0MzI3NTgwNiwiYXVkIjoiZWU3MjIzMjg0MWZiYmU0ODc5MzA1ODhlYTQ4MzdhMDY0MTU0NWY5MSIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.EUVPCRMOT6NQ38jR-8ozvmjwhc4J8uyg5PXGJFwGc2c"
 					}
 				]
 			},
 			"events": [],
 			"folder": "3749340f-8ce6-4389-9aba-da26a3568527",
-			"headers": "",
+			"headers": "//Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNzIyMDYsImV4cCI6MTU0MzI3NTgwNiwiYXVkIjoiZWU3MjIzMjg0MWZiYmU0ODc5MzA1ODhlYTQ4MzdhMDY0MTU0NWY5MSIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.EUVPCRMOT6NQ38jR-8ozvmjwhc4J8uyg5PXGJFwGc2c\n",
 			"pathVariables": {}
 		},
 		{
@@ -1305,7 +1335,7 @@
 				"bearer": [
 					{
 						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDgwNzEsImV4cCI6MTU0MzI1MTY3MSwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.KzKqTh8wR01MUQYiEfOoXRPNOeccgWnqvpC0V-4KBlk"
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNzIyMDYsImV4cCI6MTU0MzI3NTgwNiwiYXVkIjoiZWU3MjIzMjg0MWZiYmU0ODc5MzA1ODhlYTQ4MzdhMDY0MTU0NWY5MSIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.EUVPCRMOT6NQ38jR-8ozvmjwhc4J8uyg5PXGJFwGc2c"
 					}
 				]
 			},
@@ -1493,7 +1523,7 @@
 			"data": [
 				{
 					"key": "codigo_mesa",
-					"value": "12346",
+					"value": "12347",
 					"description": "",
 					"type": "text",
 					"enabled": true
@@ -1514,59 +1544,59 @@
 				},
 				{
 					"key": "pedidos[0][alimento_id]",
-					"value": "1",
+					"value": "3",
 					"description": "",
 					"type": "text",
-					"enabled": false
+					"enabled": true
 				},
 				{
 					"key": "pedidos[0][cantidad]",
 					"value": "3",
 					"description": "",
 					"type": "text",
-					"enabled": false
+					"enabled": true
 				},
 				{
 					"key": "pedidos[1][alimento_id]",
-					"value": "2",
+					"value": "4",
 					"description": "",
 					"type": "text",
-					"enabled": false
+					"enabled": true
 				},
 				{
 					"key": "pedidos[1][cantidad]",
 					"value": "2",
 					"description": "",
 					"type": "text",
-					"enabled": false
+					"enabled": true
 				},
 				{
 					"key": "pedidos[2][alimento_id]",
-					"value": "2",
+					"value": "5",
 					"description": "",
 					"type": "text",
-					"enabled": false
+					"enabled": true
 				},
 				{
 					"key": "pedidos[2][cantidad]",
 					"value": "9",
 					"description": "",
 					"type": "text",
-					"enabled": false
+					"enabled": true
 				},
 				{
 					"key": "pedidos[3][alimento_id]",
-					"value": "5",
+					"value": "8",
 					"description": "",
 					"type": "text",
-					"enabled": false
+					"enabled": true
 				},
 				{
 					"key": "pedidos[3][cantidad]",
 					"value": "2",
 					"description": "",
 					"type": "text",
-					"enabled": false
+					"enabled": true
 				}
 			],
 			"dataMode": "params",
@@ -1587,7 +1617,7 @@
 				"bearer": [
 					{
 						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNjM3NjMsImV4cCI6MTU0MzI2NzM2MywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoibW96bzFAdGVzdGVyLmNvbS5hciIsImNsYXZlIjoiZDExMTAzODdhMDIwOWE5YTI2NDgwYjZiNTc1YTU0NmYiLCJub21icmUiOiJtb3pvMSIsImVtcGxlZG9faWQiOjEsImlzU29jaW8iOmZhbHNlLCJpc01vem8iOnRydWUsImlzUHJlcGFyYWRvciI6ZmFsc2V9LCJhcHAiOiJDb21hbmRhIHRwIn0.Ty2906L30C2U2e9tqYT184sp-r9k_5lz-2TJFmioUX0"
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNzIzMTYsImV4cCI6MTU0MzI3NTkxNiwiYXVkIjoiZWU3MjIzMjg0MWZiYmU0ODc5MzA1ODhlYTQ4MzdhMDY0MTU0NWY5MSIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoibW96bzFAdGVzdGVyLmNvbS5hciIsImNsYXZlIjoiZDExMTAzODdhMDIwOWE5YTI2NDgwYjZiNTc1YTU0NmYiLCJub21icmUiOiJtb3pvMSIsImVtcGxlZG9faWQiOjEsImlzU29jaW8iOmZhbHNlLCJpc01vem8iOnRydWUsImlzUHJlcGFyYWRvciI6ZmFsc2V9LCJhcHAiOiJDb21hbmRhIHRwIn0.1L29IjRJXjsU0Bohuy_tbskuQjr4WAFtvcS1G0FJvxc"
 					}
 				]
 			},
@@ -1770,7 +1800,7 @@
 				"bearer": [
 					{
 						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDUzMzMsImV4cCI6MTU0MzI0ODkzMywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.YNKUjgdqdwIp9jPLex9Mf_BZ93Lu4uM0NwIYslZGLWs"
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNzIyMDYsImV4cCI6MTU0MzI3NTgwNiwiYXVkIjoiZWU3MjIzMjg0MWZiYmU0ODc5MzA1ODhlYTQ4MzdhMDY0MTU0NWY5MSIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.EUVPCRMOT6NQ38jR-8ozvmjwhc4J8uyg5PXGJFwGc2c"
 					}
 				]
 			},
@@ -1894,7 +1924,7 @@
 				"bearer": [
 					{
 						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyMDEyMTMsImV4cCI6MTU0MzIwNDgxMywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjUsImVtYWlsIjoiY29jaW5lcm8xQHRlc3Rlci5jb20uYXIiLCJlbXBsZWRvX2lkIjo0LCJjbGF2ZSI6IjExMDE2OTQ1NmNlNTAzMGJiYTczNTY5Mzg3MDQzNWZmIiwibm9tYnJlIjoiY29jaW5lcm8xIiwiaXNTb2NpbyI6ZmFsc2UsImlzTW96byI6ZmFsc2UsImlzUHJlcGFyYWRvciI6dHJ1ZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.AH1OVH3EnGgKo_Nsy20AwKEd3R3P_yj1UIQwBVwgbLc"
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNzI1MDEsImV4cCI6MTU0MzI3NjEwMSwiYXVkIjoiZWU3MjIzMjg0MWZiYmU0ODc5MzA1ODhlYTQ4MzdhMDY0MTU0NWY5MSIsImRhdGEiOnsiaWQiOjUsImVtYWlsIjoiY29jaW5lcm8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjExMDE2OTQ1NmNlNTAzMGJiYTczNTY5Mzg3MDQzNWZmIiwibm9tYnJlIjoiY29jaW5lcm8xIiwiZW1wbGVkb19pZCI6NCwiaXNTb2NpbyI6ZmFsc2UsImlzTW96byI6ZmFsc2UsImlzUHJlcGFyYWRvciI6dHJ1ZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.i1viSOvYjmrihLXgvNqLgrKdP7YKKA7hsAfqgZcRdlA"
 					}
 				]
 			},
@@ -1979,7 +2009,7 @@
 		{
 			"id": "cb3fb3ef-229b-4e72-87b0-fb3e0be84598",
 			"name": "TraerPendientes",
-			"url": "http://comanda.avillucas.com.ar/pendientes/",
+			"url": "http://comanda.avillucas.com.ar/pedidos/pendientes/",
 			"description": "",
 			"data": null,
 			"dataMode": null,
@@ -1992,7 +2022,7 @@
 				"bearer": [
 					{
 						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyMDQ5MTEsImV4cCI6MTU0MzIwODUxMSwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoibW96bzFAdGVzdGVyLmNvbS5hciIsImVtcGxlZG9faWQiOjEsImNsYXZlIjoiZDExMTAzODdhMDIwOWE5YTI2NDgwYjZiNTc1YTU0NmYiLCJub21icmUiOiJtb3pvMSIsImlzU29jaW8iOmZhbHNlLCJpc01vem8iOnRydWUsImlzUHJlcGFyYWRvciI6ZmFsc2V9LCJhcHAiOiJDb21hbmRhIHRwIn0.IoLYQjYcmy0mFjDMP2aaiCRuU7SSIixrh4nvKlbq4B0"
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNzIzMTYsImV4cCI6MTU0MzI3NTkxNiwiYXVkIjoiZWU3MjIzMjg0MWZiYmU0ODc5MzA1ODhlYTQ4MzdhMDY0MTU0NWY5MSIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoibW96bzFAdGVzdGVyLmNvbS5hciIsImNsYXZlIjoiZDExMTAzODdhMDIwOWE5YTI2NDgwYjZiNTc1YTU0NmYiLCJub21icmUiOiJtb3pvMSIsImVtcGxlZG9faWQiOjEsImlzU29jaW8iOmZhbHNlLCJpc01vem8iOnRydWUsImlzUHJlcGFyYWRvciI6ZmFsc2V9LCJhcHAiOiJDb21hbmRhIHRwIn0.1L29IjRJXjsU0Bohuy_tbskuQjr4WAFtvcS1G0FJvxc"
 					}
 				]
 			},
@@ -2004,7 +2034,7 @@
 		{
 			"id": "cf1c4859-2565-40de-aefe-abef46f77535",
 			"name": "Modificar",
-			"url": "http://comanda.avillucas.com.ar/mesas/1/",
+			"url": "http://comanda.avillucas.com.ar/mesas/3/",
 			"description": "",
 			"data": [
 				{
@@ -2016,7 +2046,7 @@
 				},
 				{
 					"key": "estado_id",
-					"value": "2",
+					"value": "1",
 					"description": "",
 					"type": "text",
 					"enabled": true
@@ -2035,7 +2065,15 @@
 			"method": "POST",
 			"pathVariableData": [],
 			"queryParams": [],
-			"auth": null,
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNzIyMDYsImV4cCI6MTU0MzI3NTgwNiwiYXVkIjoiZWU3MjIzMjg0MWZiYmU0ODc5MzA1ODhlYTQ4MzdhMDY0MTU0NWY5MSIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.EUVPCRMOT6NQ38jR-8ozvmjwhc4J8uyg5PXGJFwGc2c"
+					}
+				]
+			},
 			"events": [],
 			"folder": "3749340f-8ce6-4389-9aba-da26a3568527",
 			"headers": "Content-Type: application/x-www-form-urlencoded\n",
