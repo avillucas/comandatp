@@ -7,6 +7,7 @@ use Core\Exceptions\SysValidationException;
 
 class Comanda extends Entidad
 {
+    const IMAGEN_DIRECTORIO = 'comensales';
 
     /** @var Mozo $mozo */
     private $mozo;
@@ -20,6 +21,9 @@ class Comanda extends Entidad
     /** @var string $codigo */
     private $codigo;
 
+    /** @var string $codigo */
+    private $foto;
+
     /**
      * Comanda constructor.
      * @param $id
@@ -29,7 +33,7 @@ class Comanda extends Entidad
      * @param null $codigo
      * @throws SysValidationException
      */
-    public function __construct($id, Mozo $mozo, Mesa $mesa, $nombre_cliente, $codigo = null)
+    public function __construct($id, Mozo $mozo, Mesa $mesa, $nombre_cliente, $codigo = null,$foto=null)
     {
         $this->setId($id);
         $this->setMozo($mozo);
@@ -41,8 +45,25 @@ class Comanda extends Entidad
             $codigo = $this->generarCodigo();
         }
         $this->setCodigo($codigo);
-
+        $this->setFoto($foto);
     }
+
+    /**
+     * @return string
+     */
+    public function getFoto()
+    {
+        return $this->foto;
+    }
+
+    /**
+     * @param string $foto
+     */
+    public function setFoto($foto)
+    {
+        $this->foto = $foto;
+    }
+
 
     //TODO mejorar
     function generarCodigo()
@@ -130,9 +151,9 @@ class Comanda extends Entidad
         throw  new SysNotImplementedException();
     }
 
-    public function getFoto()
+    public function getFotoNombre()
     {
-        throw  new SysNotImplementedException();
+        return $this->getId().'-'.$this->getCodigo();
     }
 
     public function getEstado()
@@ -146,14 +167,10 @@ class Comanda extends Entidad
       $json =  [
         'id'=>$this->getId(),
         'nombreCliente' => $this->getNombreCliente(),
-        //'estado' => $this->getEstado(),
-        //'foto' => $this->getFoto(),
-        //'pedidos' => $this->getPedidos(),
+        'foto' => $this->getFoto(),
         'codigo' => $this->getCodigo(),
         'mesa' => $this->getMesa()->getCodigo()
       ];
       return $json;
     }
-
-
 }

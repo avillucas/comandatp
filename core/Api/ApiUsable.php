@@ -45,6 +45,13 @@ abstract class ApiUsable
      * @throws \Exception
      */
     abstract public function CargarUno($request, $response, $args);
+
+    protected function existeArchivo(Request $request, $variable)
+    {
+        $files = $request->getUploadedFiles();
+        return isset($files[$variable]);
+    }
+
     protected function traerUnArchivo(Request $request, $variable,$requerido= false)
     {
         $files = $request->getUploadedFiles();

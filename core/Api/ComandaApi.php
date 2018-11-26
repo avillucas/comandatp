@@ -10,6 +10,7 @@ use Core\Dao\MozoEntidadDao;
 use Core\Dao\PedidoEntidadDao;
 use Core\Exceptions\SysNotImplementedException;
 use Core\Exceptions\SysValidationException;
+use Core\IO\IO;
 use Core\Mesa;
 use Core\Mozo;
 use Core\Pedido;
@@ -24,6 +25,15 @@ class ComandaApi extends  ApiUsable
         $payload = $this->getPayloadActual($request);
         $mozo = MozoEntidadDao::traerUnoPorEmpleadoId($payload->empledo_id);
         $comanda =  $this->crearComanda($data,$mozo);
+        //agregar imagen si existe
+        if($this->existeArchivo($request,'foto')) {
+            //IMAGEN
+            $fileData  = $this->traerUnArchivo($request, 'foto');
+            $nombreImagen = IO::subirArchivo($fileData,Comanda::IMAGEN_DIRECTORIO,$comanda->getFotoNombre());
+            $comanda->setFoto($nombreImagen);
+            ComandaEntidadDao::save($comanda);
+            //
+        }
         return $response->withJson([
             'response' => 'Comanda creada , codigo : '.$comanda->getCodigo(),
             'data' => ['comandaCodigo'=>  $comanda->getCodigo()],

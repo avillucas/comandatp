@@ -27,13 +27,14 @@ class ComandaEntidadDao extends EntidadDao
         $objetoAccesoDato = AccesoDatos::dameUnObjetoAcceso();
         /** @var \PDOStatement $consulta */
         $consulta = $objetoAccesoDato->RetornarConsulta("
-            INSERT INTO comandas (mozo_id,mesa_id, nombre_cliente, codigo)
-            VALUES (:mozoId,:mesaId,:nombreCliente,:codigo)
+            INSERT INTO comandas (mozo_id,mesa_id, nombre_cliente, codigo,foto)
+            VALUES (:mozoId,:mesaId,:nombreCliente,:codigo,:foto)
         ");
         $consulta->bindValue(':mozoId', $comanda->getMozo()->getId(), \PDO::PARAM_INT);
         $consulta->bindValue(':mesaId', $comanda->getMesa()->getId(), \PDO::PARAM_INT);
         $consulta->bindValue(':nombreCliente', $comanda->getNombreCliente(), \PDO::PARAM_STR);
         $consulta->bindValue(':codigo', $comanda->getCodigo(), \PDO::PARAM_STR);
+        $consulta->bindValue(':foto', $comanda->getFoto(), \PDO::PARAM_STR);
         $consulta->execute();
         return $objetoAccesoDato->RetornarUltimoIdInsertado();
     }
@@ -50,13 +51,15 @@ class ComandaEntidadDao extends EntidadDao
                 mozo_id = :mozoId,
                 mesa_id = :mesaId, 
                 nombre_cliente = :nombreCliente, 
-                codigo = :codigo            
+                codigo = :codigo,           
+                foto = :foto
             WHERE id = :id
         ");
         $consulta->bindValue(':mozoId', $comanda->getMozo()->getId(), \PDO::PARAM_INT);
         $consulta->bindValue(':mesaId', $comanda->getMesa()->getId(), \PDO::PARAM_INT);
         $consulta->bindValue(':nombreCliente', $comanda->getNombreCliente(), \PDO::PARAM_STR);
         $consulta->bindValue(':codigo', $comanda->getCodigo(), \PDO::PARAM_STR);
+        $consulta->bindValue(':foto', $comanda->getFoto(), \PDO::PARAM_STR);
         $consulta->bindValue(':id', $comanda->getId(), \PDO::PARAM_INT);
         $consulta->execute();
     }
@@ -74,20 +77,20 @@ class ComandaEntidadDao extends EntidadDao
 
     static function traerTodos()
     {
-        $query  = 'SELECT id, codigo ,nombre_cliente, mozo_id,mesa_id FROM  comandas ';
+        $query  = 'SELECT id, codigo ,nombre_cliente, mozo_id,mesa_id, foto FROM  comandas ';
         return parent::baseTraerTodos(ComandaEntidadDao::class,$query);
     }
 
     static function traerUno($id)
     {
-        $query  = 'SELECT id, codigo,nombre_cliente, mozo_id,mesa_id FROM  comandas ';
+        $query  = 'SELECT id, codigo,nombre_cliente, mozo_id,mesa_id, foto FROM  comandas ';
         return parent::baseTraerUno(ComandaEntidadDao::class,$id,$query);
     }
 
     static function traerUnoPorCodigo($codigo)
     {
         $objetoAccesoDato = AccesoDatos::dameUnObjetoAcceso();
-        $consulta = $objetoAccesoDato->RetornarConsulta('SELECT id, codigo,nombre_cliente, mozo_id,mesa_id FROM  comandas WHERE codigo = :codigo ');
+        $consulta = $objetoAccesoDato->RetornarConsulta('SELECT id, codigo,nombre_cliente, mozo_id,mesa_id, foto FROM  comandas WHERE codigo = :codigo ');
         $consulta->bindValue(':codigo', $codigo, \PDO::PARAM_INT);
         $consulta->execute();
         /** @var EntidadDao $dao */
@@ -110,7 +113,7 @@ class ComandaEntidadDao extends EntidadDao
     static function traerTodosConRelaciones()
     {
         $query = '
-          SELECT c.id, c.codigo , c.nombre_cliente ,u.nombre as mozo ,me.codigo as mesa 
+          SELECT c.id, c.codigo , c.foto, c.nombre_cliente ,u.nombre as mozo ,me.codigo as mesa 
           FROM  comandas AS c 
           JOIN mozos AS mo  ON mo.id = c.mozo_id            
           JOIN usuarios AS u  ON u.empleado_id = mo.empleado_id
