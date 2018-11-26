@@ -1,0 +1,2272 @@
+{
+	"id": "9c9e9852-6bf3-4542-9e8c-2d430dc6c968",
+	"name": "COMANDA TP ",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"40dc37bc-e694-4e8b-a74c-772224c68357"
+	],
+	"folders_order": [
+		"f462ef0c-2a3d-4306-9cb6-d61a7b4346ba",
+		"ca925572-7f17-40fe-9d18-15bbefbbf31a",
+		"26f500af-b387-4e79-8f47-4548579ca693",
+		"bd2c803e-de8c-4b98-9471-83ccc1b7bd0d",
+		"0985aa86-aa84-42e9-9f9e-3beae2b3b50d",
+		"eaf866fc-902f-4d26-8c1d-a9d5dba3f847",
+		"7924d520-c1ee-4123-adaf-57d55a7ac1e3",
+		"37ba7f69-266d-41c2-be39-3c8403ab6b42"
+	],
+	"folders": [
+		{
+			"id": "eaf866fc-902f-4d26-8c1d-a9d5dba3f847",
+			"name": "Alimento",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "9c9e9852-6bf3-4542-9e8c-2d430dc6c968",
+			"folder": null,
+			"order": [
+				"d892f667-d149-490b-9900-1f14d6420812",
+				"3707b38d-0255-4ab4-bbfe-bab3f92caea5",
+				"9b5c1917-9c6d-41f2-b076-efe3fbe6b7c2",
+				"a00ccc4d-4eeb-4aba-8bd0-dd0fed85bee5",
+				"817d7084-1ba9-4564-b3aa-78b25f59c5d8"
+			],
+			"folders_order": []
+		},
+		{
+			"id": "7924d520-c1ee-4123-adaf-57d55a7ac1e3",
+			"name": "Comanda",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "9c9e9852-6bf3-4542-9e8c-2d430dc6c968",
+			"folder": null,
+			"order": [
+				"e1ab8444-5ded-4b05-a64f-6549b0b75944",
+				"25412c53-71da-42cf-ad52-bad60dc1a822",
+				"6992b39a-3bce-4161-8323-bf616b998743",
+				"7e2962ec-10c0-4fb2-a7f2-b93a5579c9a3",
+				"458982ff-0b71-42eb-b592-9e972fb247ae"
+			],
+			"folders_order": []
+		},
+		{
+			"id": "0985aa86-aa84-42e9-9f9e-3beae2b3b50d",
+			"name": "Mesa",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "9c9e9852-6bf3-4542-9e8c-2d430dc6c968",
+			"folder": null,
+			"order": [
+				"60cdb0e7-cea1-40a6-84e1-972eb093f26a",
+				"1768898e-f13c-44a5-aad9-6eeb8fb8e70e",
+				"244d1a5e-dcec-4a0b-86c9-f3692d7ce636",
+				"2b01bb2c-9a19-4a93-8913-4d63b3cc34cd",
+				"c0626691-a561-435d-8ae3-48619b364137",
+				"e1d8c562-ff34-44b4-9e3e-3fbd4aca840d",
+				"3f1a0ed4-35d5-4b2f-8881-30d30b711ea9",
+				"893643ec-7651-4744-b287-ebfa2618d553"
+			],
+			"folders_order": []
+		},
+		{
+			"id": "26f500af-b387-4e79-8f47-4548579ca693",
+			"name": "Mozo",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "9c9e9852-6bf3-4542-9e8c-2d430dc6c968",
+			"folder": null,
+			"order": [
+				"f1ce6109-c02f-421e-ae19-c90117e152c5",
+				"01b7beeb-8371-4ce7-9e5e-657acc02ab16",
+				"89079f1b-444b-41bf-aef5-96ef82d8703c",
+				"24a4540f-80db-4a80-ab5d-5ba8545fd8a6"
+			],
+			"folders_order": []
+		},
+		{
+			"id": "37ba7f69-266d-41c2-be39-3c8403ab6b42",
+			"name": "Pedido",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "9c9e9852-6bf3-4542-9e8c-2d430dc6c968",
+			"folder": null,
+			"order": [
+				"ba666ce7-6e5e-4306-bc95-a74e6e10c6c8",
+				"b003741c-feda-4f32-841d-f3a1e3c204e2",
+				"8815bbec-fb20-45e3-ab17-c166f2ae4a7f",
+				"e67ddd1a-6f3c-4d44-b438-6ff1009f69df",
+				"4653062a-8cd4-44ac-88ca-9a6fd0d95e6d",
+				"51bef667-1a7e-4d9e-9cdc-af63cc6e7e8e",
+				"1ded473d-f8df-487b-809d-fe2453d274ff",
+				"6d54b6df-9c70-4020-8cf1-9c7f85f8ee19",
+				"6c1049a8-8a35-4a09-ac1c-04c9e9332f47"
+			],
+			"folders_order": []
+		},
+		{
+			"id": "bd2c803e-de8c-4b98-9471-83ccc1b7bd0d",
+			"name": "Preparador",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "9c9e9852-6bf3-4542-9e8c-2d430dc6c968",
+			"folder": null,
+			"order": [
+				"0ba9cc4d-7e4c-43e0-aecf-60d8a7203c39",
+				"8d10155e-dd21-4ca1-9058-42719dbbf174",
+				"405e4659-f87b-4bf1-b682-cda4759aad16",
+				"691ed447-9e56-46c1-ad4d-3738ebb4108a"
+			],
+			"folders_order": []
+		},
+		{
+			"id": "f462ef0c-2a3d-4306-9cb6-d61a7b4346ba",
+			"name": "Socio",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "9c9e9852-6bf3-4542-9e8c-2d430dc6c968",
+			"folder": null,
+			"order": [
+				"4ccc2fcc-e331-4fa4-98c9-ba197ae64603"
+			],
+			"folders_order": []
+		},
+		{
+			"id": "ca925572-7f17-40fe-9d18-15bbefbbf31a",
+			"name": "Usuario",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "9c9e9852-6bf3-4542-9e8c-2d430dc6c968",
+			"folder": null,
+			"order": [
+				"57c4b61f-b068-47da-8ee0-f3632c5fc1fb",
+				"03bf2aac-bcd4-4a00-8590-fbae551eda8c",
+				"383bc48d-ed0d-493f-84ae-c69c252c43ba",
+				"3aa0c8bb-b0c5-47f2-b859-ba94950eb6f5",
+				"459ed539-f0f0-47e3-ab42-ec76216e7870"
+			],
+			"folders_order": []
+		}
+	],
+	"requests": [
+		{
+			"id": "01b7beeb-8371-4ce7-9e5e-657acc02ab16",
+			"name": "Crear",
+			"url": "http://localhost:8080/mozo/3/",
+			"description": "",
+			"data": [
+				{
+					"key": "email",
+					"value": "mozo3@tester.com.ar",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "clave",
+					"value": "mozo3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "nombre",
+					"value": "mozo3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "mozo2@tester.com.ar",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "password",
+					"value": "mozo2",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "nombre",
+					"value": "mozo2",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "params",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDI4NDcsImV4cCI6MTU0MzI0NjQ0NywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.LcQ4zlepWf9K1u8G2p3M5kwhUjP4Pqr7paQsT6sCi_g"
+					}
+				]
+			},
+			"events": [],
+			"folder": "26f500af-b387-4e79-8f47-4548579ca693",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "03bf2aac-bcd4-4a00-8590-fbae551eda8c",
+			"name": "Modificar",
+			"url": "http://localhost:8080/usuarios/2/",
+			"description": null,
+			"data": [
+				{
+					"key": "password",
+					"value": "tete",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "perfil",
+					"value": "E",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"type": "text"
+				},
+				{
+					"key": "Autorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDE0NjU0NTcsImV4cCI6MTU0MTQ2OTA1NywiYXVkIjoiYmIxYzE5ZjNkMzJlYjMxMDIwNmNiZDk3NTYyNmY0MGViNDZlZGIyZCIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoiYXZpbGx1Y2FzQGRpdi1pdC5jb20uYXIiLCJwYXNzd29yZCI6IjJkYjMxM2ZhYmNhNTc1MDRkOWRjNzc2ZTQ2YjMwNGY2IiwicGVyZmlsIjoic29jaW8iLCJpc0FkbWluIjp0cnVlfSwiYXBwIjoiQ29tYW5kYSB0cCJ9.l3nRvy9GESOCDyUS4_NOMhHILbaFGR6eANPaquZsQK4",
+					"description": "TOKEN ADMIN ",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Autorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDE0NjYxODAsImV4cCI6MTU0MTQ2OTc4MCwiYXVkIjoiYmIxYzE5ZjNkMzJlYjMxMDIwNmNiZDk3NTYyNmY0MGViNDZlZGIyZCIsImRhdGEiOnsiaWQiOjIsImVtYWlsIjoiYXZpbGx1Y2FzKzJAZGl2LWl0LmNvbS5hciIsInBhc3N3b3JkIjoiMmRiMzEzZmFiY2E1NzUwNGQ5ZGM3NzZlNDZiMzA0ZjYiLCJwZXJmaWwiOiJlbXBsZWFkbyIsImlzQWRtaW4iOmZhbHNlfSwiYXBwIjoiQ29tYW5kYSB0cCJ9.wnd9STf0WwH-tSBBBaGOeWrzeLz2gJmH_NlKV4HtWWk",
+					"description": "TOKEN EMPLEADO ",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"auth": {
+				"type": "noauth"
+			},
+			"events": null,
+			"folder": "ca925572-7f17-40fe-9d18-15bbefbbf31a",
+			"headers": "Content-Type: application/x-www-form-urlencoded\nAutorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDE0NjU0NTcsImV4cCI6MTU0MTQ2OTA1NywiYXVkIjoiYmIxYzE5ZjNkMzJlYjMxMDIwNmNiZDk3NTYyNmY0MGViNDZlZGIyZCIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoiYXZpbGx1Y2FzQGRpdi1pdC5jb20uYXIiLCJwYXNzd29yZCI6IjJkYjMxM2ZhYmNhNTc1MDRkOWRjNzc2ZTQ2YjMwNGY2IiwicGVyZmlsIjoic29jaW8iLCJpc0FkbWluIjp0cnVlfSwiYXBwIjoiQ29tYW5kYSB0cCJ9.l3nRvy9GESOCDyUS4_NOMhHILbaFGR6eANPaquZsQK4\n//Autorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDE0NjYxODAsImV4cCI6MTU0MTQ2OTc4MCwiYXVkIjoiYmIxYzE5ZjNkMzJlYjMxMDIwNmNiZDk3NTYyNmY0MGViNDZlZGIyZCIsImRhdGEiOnsiaWQiOjIsImVtYWlsIjoiYXZpbGx1Y2FzKzJAZGl2LWl0LmNvbS5hciIsInBhc3N3b3JkIjoiMmRiMzEzZmFiY2E1NzUwNGQ5ZGM3NzZlNDZiMzA0ZjYiLCJwZXJmaWwiOiJlbXBsZWFkbyIsImlzQWRtaW4iOmZhbHNlfSwiYXBwIjoiQ29tYW5kYSB0cCJ9.wnd9STf0WwH-tSBBBaGOeWrzeLz2gJmH_NlKV4HtWWk\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "0ba9cc4d-7e4c-43e0-aecf-60d8a7203c39",
+			"name": "Borrar",
+			"url": "http://localhost:8080/preparador/6/",
+			"description": "",
+			"data": [
+				{
+					"key": "email",
+					"value": "mozo3@tester.com.ar",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "clave",
+					"value": "mozo3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "nombre",
+					"value": "mozo3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "mozo2@tester.com.ar",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "password",
+					"value": "mozo2",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "nombre",
+					"value": "mozo2",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "params",
+			"headerData": [
+				{
+					"description": "",
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"type": "text",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDI4NDcsImV4cCI6MTU0MzI0NjQ0NywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.LcQ4zlepWf9K1u8G2p3M5kwhUjP4Pqr7paQsT6sCi_g"
+					}
+				],
+				"type": "bearer"
+			},
+			"events": [],
+			"folder": "bd2c803e-de8c-4b98-9471-83ccc1b7bd0d",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "1768898e-f13c-44a5-aad9-6eeb8fb8e70e",
+			"name": "Modificar",
+			"url": "http://localhost:8080/mesas/1/",
+			"description": "",
+			"data": [
+				{
+					"key": "codigo",
+					"value": "12347",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "estado_id",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"headerData": [
+				{
+					"description": "",
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"type": "text",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "0985aa86-aa84-42e9-9f9e-3beae2b3b50d",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "1ded473d-f8df-487b-809d-fe2453d274ff",
+			"name": "Preparar",
+			"url": "http://localhost:8080/pedidos/preparar/",
+			"description": "",
+			"data": [
+				{
+					"key": "tiempo_estimado",
+					"value": "30",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "pedido_id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyMDEyMTMsImV4cCI6MTU0MzIwNDgxMywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjUsImVtYWlsIjoiY29jaW5lcm8xQHRlc3Rlci5jb20uYXIiLCJlbXBsZWRvX2lkIjo0LCJjbGF2ZSI6IjExMDE2OTQ1NmNlNTAzMGJiYTczNTY5Mzg3MDQzNWZmIiwibm9tYnJlIjoiY29jaW5lcm8xIiwiaXNTb2NpbyI6ZmFsc2UsImlzTW96byI6ZmFsc2UsImlzUHJlcGFyYWRvciI6dHJ1ZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.AH1OVH3EnGgKo_Nsy20AwKEd3R3P_yj1UIQwBVwgbLc"
+					}
+				]
+			},
+			"events": [],
+			"folder": "37ba7f69-266d-41c2-be39-3c8403ab6b42",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "244d1a5e-dcec-4a0b-86c9-f3692d7ce636",
+			"name": "Marcar Comiendo",
+			"url": "http://localhost:8080/mesas/comiendo/",
+			"description": "",
+			"data": [
+				{
+					"key": "mesa_codigo",
+					"value": "12345",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"headerData": [
+				{
+					"description": "",
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"type": "text",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyMDY5OTksImV4cCI6MTU0MzIxMDU5OSwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoibW96bzFAdGVzdGVyLmNvbS5hciIsImNsYXZlIjoiZDExMTAzODdhMDIwOWE5YTI2NDgwYjZiNTc1YTU0NmYiLCJub21icmUiOiJtb3pvMSIsImVtcGxlZG9faWQiOjEsImlzU29jaW8iOmZhbHNlLCJpc01vem8iOnRydWUsImlzUHJlcGFyYWRvciI6ZmFsc2V9LCJhcHAiOiJDb21hbmRhIHRwIn0.9_LyLZZUwXH9645o_DAtmPzxirdPeU5vzVtpBA6Oy1E"
+					}
+				]
+			},
+			"events": [],
+			"folder": "0985aa86-aa84-42e9-9f9e-3beae2b3b50d",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "24a4540f-80db-4a80-ab5d-5ba8545fd8a6",
+			"name": "TraerUno",
+			"url": "http://localhost:8080/mozo/5/",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDI4NDcsImV4cCI6MTU0MzI0NjQ0NywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.LcQ4zlepWf9K1u8G2p3M5kwhUjP4Pqr7paQsT6sCi_g"
+					}
+				]
+			},
+			"events": [],
+			"folder": "26f500af-b387-4e79-8f47-4548579ca693",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "25412c53-71da-42cf-ad52-bad60dc1a822",
+			"name": "Crear",
+			"url": "http://localhost:8080/comandas/",
+			"description": "",
+			"data": [
+				{
+					"key": "codigo_mesa",
+					"value": "12345",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "nombre_cliente",
+					"value": "tito",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "mozo_id",
+					"value": "5",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "pedidos[0][alimento_id]",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "pedidos[0][cantidad]",
+					"value": "3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "pedidos[1][alimento_id]",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "pedidos[1][cantidad]",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "pedidos[2][alimento_id]",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "pedidos[2][cantidad]",
+					"value": "9",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "pedidos[3][alimento_id]",
+					"value": "5",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "pedidos[3][cantidad]",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"headerData": [
+				{
+					"description": "",
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"type": "text",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMxOTkyMjEsImV4cCI6MTU0MzIwMjgyMSwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoibW96bzFAdGVzdGVyLmNvbS5hciIsImVtcGxlZG9faWQiOjEsImNsYXZlIjoiZDExMTAzODdhMDIwOWE5YTI2NDgwYjZiNTc1YTU0NmYiLCJub21icmUiOiJtb3pvMSIsImlzU29jaW8iOmZhbHNlLCJpc01vem8iOnRydWUsImlzUHJlcGFyYWRvciI6ZmFsc2V9LCJhcHAiOiJDb21hbmRhIHRwIn0.wjKYvhFMCZTQNCOUbTt_CtOuzMnYSY1e83sT3BdlGt4"
+					}
+				],
+				"type": "bearer"
+			},
+			"events": [],
+			"folder": "7924d520-c1ee-4123-adaf-57d55a7ac1e3",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "2b01bb2c-9a19-4a93-8913-4d63b3cc34cd",
+			"name": "Marcar Pagando",
+			"url": "http://localhost:8080/mesas/pagando/",
+			"description": "",
+			"data": [
+				{
+					"key": "mesa_codigo",
+					"value": "12345",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"headerData": [
+				{
+					"description": "",
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"type": "text",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyMDY5OTksImV4cCI6MTU0MzIxMDU5OSwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoibW96bzFAdGVzdGVyLmNvbS5hciIsImNsYXZlIjoiZDExMTAzODdhMDIwOWE5YTI2NDgwYjZiNTc1YTU0NmYiLCJub21icmUiOiJtb3pvMSIsImVtcGxlZG9faWQiOjEsImlzU29jaW8iOmZhbHNlLCJpc01vem8iOnRydWUsImlzUHJlcGFyYWRvciI6ZmFsc2V9LCJhcHAiOiJDb21hbmRhIHRwIn0.9_LyLZZUwXH9645o_DAtmPzxirdPeU5vzVtpBA6Oy1E"
+					}
+				]
+			},
+			"events": [],
+			"folder": "0985aa86-aa84-42e9-9f9e-3beae2b3b50d",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "3707b38d-0255-4ab4-bbfe-bab3f92caea5",
+			"name": "Modificar",
+			"url": "http://localhost:8080/alimentos/2/",
+			"description": "",
+			"data": [
+				{
+					"key": "nombre",
+					"value": "Pochocolo salado 200 grms",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "precio",
+					"value": "4.90",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "sector_id",
+					"value": "4",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"headerData": [
+				{
+					"description": "",
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"type": "text",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDUzMzMsImV4cCI6MTU0MzI0ODkzMywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.YNKUjgdqdwIp9jPLex9Mf_BZ93Lu4uM0NwIYslZGLWs"
+					}
+				],
+				"type": "bearer"
+			},
+			"events": [],
+			"folder": "eaf866fc-902f-4d26-8c1d-a9d5dba3f847",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "383bc48d-ed0d-493f-84ae-c69c252c43ba",
+			"name": "TraerUno",
+			"url": "http://localhost:8080/usuarios/4/",
+			"description": null,
+			"data": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Autorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDE0NjU0NTcsImV4cCI6MTU0MTQ2OTA1NywiYXVkIjoiYmIxYzE5ZjNkMzJlYjMxMDIwNmNiZDk3NTYyNmY0MGViNDZlZGIyZCIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoiYXZpbGx1Y2FzQGRpdi1pdC5jb20uYXIiLCJwYXNzd29yZCI6IjJkYjMxM2ZhYmNhNTc1MDRkOWRjNzc2ZTQ2YjMwNGY2IiwicGVyZmlsIjoic29jaW8iLCJpc0FkbWluIjp0cnVlfSwiYXBwIjoiQ29tYW5kYSB0cCJ9.l3nRvy9GESOCDyUS4_NOMhHILbaFGR6eANPaquZsQK4",
+					"description": "TOKEN ADMIN ",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "Autorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDE0NjYxODAsImV4cCI6MTU0MTQ2OTc4MCwiYXVkIjoiYmIxYzE5ZjNkMzJlYjMxMDIwNmNiZDk3NTYyNmY0MGViNDZlZGIyZCIsImRhdGEiOnsiaWQiOjIsImVtYWlsIjoiYXZpbGx1Y2FzKzJAZGl2LWl0LmNvbS5hciIsInBhc3N3b3JkIjoiMmRiMzEzZmFiY2E1NzUwNGQ5ZGM3NzZlNDZiMzA0ZjYiLCJwZXJmaWwiOiJlbXBsZWFkbyIsImlzQWRtaW4iOmZhbHNlfSwiYXBwIjoiQ29tYW5kYSB0cCJ9.wnd9STf0WwH-tSBBBaGOeWrzeLz2gJmH_NlKV4HtWWk",
+					"description": "TOKEN EMPLEADO",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDUzMzMsImV4cCI6MTU0MzI0ODkzMywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.YNKUjgdqdwIp9jPLex9Mf_BZ93Lu4uM0NwIYslZGLWs"
+					}
+				]
+			},
+			"events": [],
+			"folder": "ca925572-7f17-40fe-9d18-15bbefbbf31a",
+			"headers": "//Autorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDE0NjU0NTcsImV4cCI6MTU0MTQ2OTA1NywiYXVkIjoiYmIxYzE5ZjNkMzJlYjMxMDIwNmNiZDk3NTYyNmY0MGViNDZlZGIyZCIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoiYXZpbGx1Y2FzQGRpdi1pdC5jb20uYXIiLCJwYXNzd29yZCI6IjJkYjMxM2ZhYmNhNTc1MDRkOWRjNzc2ZTQ2YjMwNGY2IiwicGVyZmlsIjoic29jaW8iLCJpc0FkbWluIjp0cnVlfSwiYXBwIjoiQ29tYW5kYSB0cCJ9.l3nRvy9GESOCDyUS4_NOMhHILbaFGR6eANPaquZsQK4\nAutorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDE0NjYxODAsImV4cCI6MTU0MTQ2OTc4MCwiYXVkIjoiYmIxYzE5ZjNkMzJlYjMxMDIwNmNiZDk3NTYyNmY0MGViNDZlZGIyZCIsImRhdGEiOnsiaWQiOjIsImVtYWlsIjoiYXZpbGx1Y2FzKzJAZGl2LWl0LmNvbS5hciIsInBhc3N3b3JkIjoiMmRiMzEzZmFiY2E1NzUwNGQ5ZGM3NzZlNDZiMzA0ZjYiLCJwZXJmaWwiOiJlbXBsZWFkbyIsImlzQWRtaW4iOmZhbHNlfSwiYXBwIjoiQ29tYW5kYSB0cCJ9.wnd9STf0WwH-tSBBBaGOeWrzeLz2gJmH_NlKV4HtWWk\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "3aa0c8bb-b0c5-47f2-b859-ba94950eb6f5",
+			"name": "TraerTodos",
+			"url": "http://localhost:8080/usuarios/",
+			"description": null,
+			"data": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"description": "ADMIN TOKEN",
+					"enabled": false,
+					"key": "Autorization",
+					"type": "text",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDE0NjU0NTcsImV4cCI6MTU0MTQ2OTA1NywiYXVkIjoiYmIxYzE5ZjNkMzJlYjMxMDIwNmNiZDk3NTYyNmY0MGViNDZlZGIyZCIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoiYXZpbGx1Y2FzQGRpdi1pdC5jb20uYXIiLCJwYXNzd29yZCI6IjJkYjMxM2ZhYmNhNTc1MDRkOWRjNzc2ZTQ2YjMwNGY2IiwicGVyZmlsIjoic29jaW8iLCJpc0FkbWluIjp0cnVlfSwiYXBwIjoiQ29tYW5kYSB0cCJ9.l3nRvy9GESOCDyUS4_NOMhHILbaFGR6eANPaquZsQK4"
+				},
+				{
+					"key": "Autorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDE0NjYxODAsImV4cCI6MTU0MTQ2OTc4MCwiYXVkIjoiYmIxYzE5ZjNkMzJlYjMxMDIwNmNiZDk3NTYyNmY0MGViNDZlZGIyZCIsImRhdGEiOnsiaWQiOjIsImVtYWlsIjoiYXZpbGx1Y2FzKzJAZGl2LWl0LmNvbS5hciIsInBhc3N3b3JkIjoiMmRiMzEzZmFiY2E1NzUwNGQ5ZGM3NzZlNDZiMzA0ZjYiLCJwZXJmaWwiOiJlbXBsZWFkbyIsImlzQWRtaW4iOmZhbHNlfSwiYXBwIjoiQ29tYW5kYSB0cCJ9.wnd9STf0WwH-tSBBBaGOeWrzeLz2gJmH_NlKV4HtWWk",
+					"description": "EMPLEADO TOKEN",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "",
+					"value": "",
+					"description": "ADMIN TOKEN",
+					"enabled": false
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDUzMzMsImV4cCI6MTU0MzI0ODkzMywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.YNKUjgdqdwIp9jPLex9Mf_BZ93Lu4uM0NwIYslZGLWs"
+					}
+				]
+			},
+			"events": null,
+			"folder": "ca925572-7f17-40fe-9d18-15bbefbbf31a",
+			"headers": "//Autorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDE0NjU0NTcsImV4cCI6MTU0MTQ2OTA1NywiYXVkIjoiYmIxYzE5ZjNkMzJlYjMxMDIwNmNiZDk3NTYyNmY0MGViNDZlZGIyZCIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoiYXZpbGx1Y2FzQGRpdi1pdC5jb20uYXIiLCJwYXNzd29yZCI6IjJkYjMxM2ZhYmNhNTc1MDRkOWRjNzc2ZTQ2YjMwNGY2IiwicGVyZmlsIjoic29jaW8iLCJpc0FkbWluIjp0cnVlfSwiYXBwIjoiQ29tYW5kYSB0cCJ9.l3nRvy9GESOCDyUS4_NOMhHILbaFGR6eANPaquZsQK4\nAutorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDE0NjYxODAsImV4cCI6MTU0MTQ2OTc4MCwiYXVkIjoiYmIxYzE5ZjNkMzJlYjMxMDIwNmNiZDk3NTYyNmY0MGViNDZlZGIyZCIsImRhdGEiOnsiaWQiOjIsImVtYWlsIjoiYXZpbGx1Y2FzKzJAZGl2LWl0LmNvbS5hciIsInBhc3N3b3JkIjoiMmRiMzEzZmFiY2E1NzUwNGQ5ZGM3NzZlNDZiMzA0ZjYiLCJwZXJmaWwiOiJlbXBsZWFkbyIsImlzQWRtaW4iOmZhbHNlfSwiYXBwIjoiQ29tYW5kYSB0cCJ9.wnd9STf0WwH-tSBBBaGOeWrzeLz2gJmH_NlKV4HtWWk\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "3f1a0ed4-35d5-4b2f-8881-30d30b711ea9",
+			"name": "TraerUno",
+			"url": "http://localhost:8080/mesas/1/",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "",
+					"value": "",
+					"equals": false,
+					"description": "",
+					"enabled": false
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDUzMzMsImV4cCI6MTU0MzI0ODkzMywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.YNKUjgdqdwIp9jPLex9Mf_BZ93Lu4uM0NwIYslZGLWs"
+					}
+				]
+			},
+			"events": [],
+			"folder": "0985aa86-aa84-42e9-9f9e-3beae2b3b50d",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "405e4659-f87b-4bf1-b682-cda4759aad16",
+			"name": "TraerUno",
+			"url": "http://localhost:8080/preparador/{id}",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "bd2c803e-de8c-4b98-9471-83ccc1b7bd0d",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "40dc37bc-e694-4e8b-a74c-772224c68357",
+			"name": "Login",
+			"url": "http://localhost:8080/login/",
+			"description": null,
+			"data": [
+				{
+					"key": "email",
+					"value": "mozo1@tester.com.ar",
+					"description": "MOZO",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "clave",
+					"value": "mozo1",
+					"description": "MOZO",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "email",
+					"value": "mozo2@tester.com.ar",
+					"description": "MOZO2",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "clave",
+					"value": "mozo2",
+					"description": "MOZO2",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "email",
+					"value": "cocinero1@tester.com.ar",
+					"description": "COCINERO",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "clave",
+					"value": "cocinero1",
+					"description": "COCINERO",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "email",
+					"value": "barman1@tester.com.ar",
+					"description": "BARMAN",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "clave",
+					"value": "barman1",
+					"description": "BARMAN",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "email",
+					"value": "cervecero1@tester.com.ar",
+					"description": "CERVECERO",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "clave",
+					"value": "cervecero1",
+					"description": "CERVECERO",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "email",
+					"value": "repostero1@tester.com.ar",
+					"description": "REPOSTERO",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "clave",
+					"value": "repostero1",
+					"description": "REPOSTERO",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "email",
+					"value": "socio1@tester.com.ar",
+					"description": "SOCIO1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "clave",
+					"value": "socio1",
+					"description": "SOCIO1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "458982ff-0b71-42eb-b592-9e972fb247ae",
+			"name": "TraerTodos",
+			"url": "http://localhost:8080/comandas/",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDc3ODYsImV4cCI6MTU0MzI1MTM4NiwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.JaJpv9YVlmZ54CJLTBPFhk6zhbh27MolNAaTHr57c20"
+					}
+				]
+			},
+			"events": [],
+			"folder": "7924d520-c1ee-4123-adaf-57d55a7ac1e3",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "459ed539-f0f0-47e3-ab42-ec76216e7870",
+			"name": "Borrar",
+			"url": "http://localhost:8080/usuarios/18/",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDI4NDcsImV4cCI6MTU0MzI0NjQ0NywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.LcQ4zlepWf9K1u8G2p3M5kwhUjP4Pqr7paQsT6sCi_g"
+					}
+				]
+			},
+			"events": [],
+			"folder": "ca925572-7f17-40fe-9d18-15bbefbbf31a",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "4653062a-8cd4-44ac-88ca-9a6fd0d95e6d",
+			"name": "Crear",
+			"url": "http://localhost:8080/pedidos/",
+			"description": "",
+			"data": [
+				{
+					"key": "comanda_id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "alimento_id",
+					"value": "5",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cantidad",
+					"value": "3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDgwNzEsImV4cCI6MTU0MzI1MTY3MSwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.KzKqTh8wR01MUQYiEfOoXRPNOeccgWnqvpC0V-4KBlk"
+					}
+				]
+			},
+			"events": [],
+			"folder": "37ba7f69-266d-41c2-be39-3c8403ab6b42",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "4ccc2fcc-e331-4fa4-98c9-ba197ae64603",
+			"name": "Crear",
+			"url": "http://localhost:8080/socio/",
+			"description": "",
+			"data": [
+				{
+					"key": "email",
+					"value": "socio3@tester.com.ar",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "clave",
+					"value": "socio3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "nombre",
+					"value": "socio3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "socio2@tester.com.ar",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "password",
+					"value": "socio2",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "nombre",
+					"value": "socio2",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "params",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDI4NDcsImV4cCI6MTU0MzI0NjQ0NywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.LcQ4zlepWf9K1u8G2p3M5kwhUjP4Pqr7paQsT6sCi_g"
+					}
+				]
+			},
+			"events": [],
+			"folder": "f462ef0c-2a3d-4306-9cb6-d61a7b4346ba",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "51bef667-1a7e-4d9e-9cdc-af63cc6e7e8e",
+			"name": "Modificar",
+			"url": "http://localhost:8080/pedidos/7/",
+			"description": "",
+			"data": [
+				{
+					"key": "comanda_id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "alimento_id",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "cantidad",
+					"value": "5",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"headerData": [
+				{
+					"description": "",
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"type": "text",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDgwNzEsImV4cCI6MTU0MzI1MTY3MSwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.KzKqTh8wR01MUQYiEfOoXRPNOeccgWnqvpC0V-4KBlk"
+					}
+				]
+			},
+			"events": [],
+			"folder": "37ba7f69-266d-41c2-be39-3c8403ab6b42",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "57c4b61f-b068-47da-8ee0-f3632c5fc1fb",
+			"name": "Crear",
+			"url": "http://localhost:8080/usuarios/",
+			"description": "",
+			"data": [
+				{
+					"key": "email",
+					"value": "empleado7@tester.com.ar",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "clave",
+					"value": "empleado7",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "nombre",
+					"value": "empleado7",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "empleado_id",
+					"value": "5",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"headerData": [
+				{
+					"description": "",
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"type": "text",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDI4NDcsImV4cCI6MTU0MzI0NjQ0NywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.LcQ4zlepWf9K1u8G2p3M5kwhUjP4Pqr7paQsT6sCi_g"
+					}
+				],
+				"type": "bearer"
+			},
+			"events": [],
+			"folder": "ca925572-7f17-40fe-9d18-15bbefbbf31a",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "60cdb0e7-cea1-40a6-84e1-972eb093f26a",
+			"name": "Crear",
+			"url": "http://localhost:8080/mesas/",
+			"description": "",
+			"data": [
+				{
+					"key": "codigo",
+					"value": "12348",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "codgio",
+					"value": "",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDUzMzMsImV4cCI6MTU0MzI0ODkzMywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.YNKUjgdqdwIp9jPLex9Mf_BZ93Lu4uM0NwIYslZGLWs"
+					}
+				]
+			},
+			"events": [],
+			"folder": "0985aa86-aa84-42e9-9f9e-3beae2b3b50d",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "691ed447-9e56-46c1-ad4d-3738ebb4108a",
+			"name": "TraerTodos",
+			"url": "http://localhost:8080/preparador/",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDI4NDcsImV4cCI6MTU0MzI0NjQ0NywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.LcQ4zlepWf9K1u8G2p3M5kwhUjP4Pqr7paQsT6sCi_g"
+					}
+				]
+			},
+			"events": [],
+			"folder": "bd2c803e-de8c-4b98-9471-83ccc1b7bd0d",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "6992b39a-3bce-4161-8323-bf616b998743",
+			"name": "Modificar",
+			"url": "http://localhost:8080/comandas/1/",
+			"description": "",
+			"data": [
+				{
+					"key": "codigo_mesa",
+					"value": "12345",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "nombre_cliente",
+					"value": "titos2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "foto",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "mozo_id",
+					"value": "4",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "params",
+			"headerData": [
+				{
+					"description": "",
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"type": "text",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDc3ODYsImV4cCI6MTU0MzI1MTM4NiwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.JaJpv9YVlmZ54CJLTBPFhk6zhbh27MolNAaTHr57c20"
+					}
+				]
+			},
+			"events": [],
+			"folder": "7924d520-c1ee-4123-adaf-57d55a7ac1e3",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "6c1049a8-8a35-4a09-ac1c-04c9e9332f47",
+			"name": "Borrar",
+			"url": "http://localhost:8080/pedidos/7/",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "37ba7f69-266d-41c2-be39-3c8403ab6b42",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "6d54b6df-9c70-4020-8cf1-9c7f85f8ee19",
+			"name": "AlaOrden",
+			"url": "http://localhost:8080/pedidos/alaorden/",
+			"description": "",
+			"data": [
+				{
+					"key": "pedido_id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"headerData": [
+				{
+					"description": "",
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"type": "text",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyMDEyMTMsImV4cCI6MTU0MzIwNDgxMywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjUsImVtYWlsIjoiY29jaW5lcm8xQHRlc3Rlci5jb20uYXIiLCJlbXBsZWRvX2lkIjo0LCJjbGF2ZSI6IjExMDE2OTQ1NmNlNTAzMGJiYTczNTY5Mzg3MDQzNWZmIiwibm9tYnJlIjoiY29jaW5lcm8xIiwiaXNTb2NpbyI6ZmFsc2UsImlzTW96byI6ZmFsc2UsImlzUHJlcGFyYWRvciI6dHJ1ZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.AH1OVH3EnGgKo_Nsy20AwKEd3R3P_yj1UIQwBVwgbLc"
+					}
+				],
+				"type": "bearer"
+			},
+			"events": [],
+			"folder": "37ba7f69-266d-41c2-be39-3c8403ab6b42",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "7e2962ec-10c0-4fb2-a7f2-b93a5579c9a3",
+			"name": "TraerUno",
+			"url": "http://localhost:8080/comandas/1/",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDc3ODYsImV4cCI6MTU0MzI1MTM4NiwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.JaJpv9YVlmZ54CJLTBPFhk6zhbh27MolNAaTHr57c20"
+					}
+				]
+			},
+			"events": [],
+			"folder": "7924d520-c1ee-4123-adaf-57d55a7ac1e3",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "817d7084-1ba9-4564-b3aa-78b25f59c5d8",
+			"name": "Borrar",
+			"url": "http://localhost:8080/alimentos/6/",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDUzMzMsImV4cCI6MTU0MzI0ODkzMywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.YNKUjgdqdwIp9jPLex9Mf_BZ93Lu4uM0NwIYslZGLWs"
+					}
+				]
+			},
+			"events": [],
+			"folder": "eaf866fc-902f-4d26-8c1d-a9d5dba3f847",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "8815bbec-fb20-45e3-ab17-c166f2ae4a7f",
+			"name": "TraerPendientes",
+			"url": "http://localhost:8080/pedidos/pendientes/",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyMDQ5MTEsImV4cCI6MTU0MzIwODUxMSwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoibW96bzFAdGVzdGVyLmNvbS5hciIsImVtcGxlZG9faWQiOjEsImNsYXZlIjoiZDExMTAzODdhMDIwOWE5YTI2NDgwYjZiNTc1YTU0NmYiLCJub21icmUiOiJtb3pvMSIsImlzU29jaW8iOmZhbHNlLCJpc01vem8iOnRydWUsImlzUHJlcGFyYWRvciI6ZmFsc2V9LCJhcHAiOiJDb21hbmRhIHRwIn0.IoLYQjYcmy0mFjDMP2aaiCRuU7SSIixrh4nvKlbq4B0"
+					}
+				]
+			},
+			"events": [],
+			"folder": "37ba7f69-266d-41c2-be39-3c8403ab6b42",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "89079f1b-444b-41bf-aef5-96ef82d8703c",
+			"name": "TraerTodos",
+			"url": "http://localhost:8080/mozo/",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDI4NDcsImV4cCI6MTU0MzI0NjQ0NywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.LcQ4zlepWf9K1u8G2p3M5kwhUjP4Pqr7paQsT6sCi_g"
+					}
+				]
+			},
+			"events": [],
+			"folder": "26f500af-b387-4e79-8f47-4548579ca693",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "893643ec-7651-4744-b287-ebfa2618d553",
+			"name": "Borrar",
+			"url": "http://localhost:8080/mesas/5/",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "0985aa86-aa84-42e9-9f9e-3beae2b3b50d",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "8d10155e-dd21-4ca1-9058-42719dbbf174",
+			"name": "Crear",
+			"url": "http://localhost:8080/preparador/",
+			"description": "",
+			"data": [
+				{
+					"key": "email",
+					"value": "cocinero3@tester.com.ar",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "clave",
+					"value": "cocinero3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "nombre",
+					"value": "cocinero3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "sector_id",
+					"value": "4",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "barman1@tester.com.ar",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "clave",
+					"value": "barman1",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "nombre",
+					"value": "barman1",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "sector_id",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "email",
+					"value": "cervecero1@tester.com.ar",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "clave",
+					"value": "cervecero1",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "nombre",
+					"value": "cervecero1",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "sector_id",
+					"value": "3",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "email",
+					"value": "repostero1@tester.com.ar",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "clave",
+					"value": "repostero1",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "nombre",
+					"value": "repostero1",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "sector_id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "params",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDI4NDcsImV4cCI6MTU0MzI0NjQ0NywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.LcQ4zlepWf9K1u8G2p3M5kwhUjP4Pqr7paQsT6sCi_g"
+					}
+				]
+			},
+			"events": [],
+			"folder": "bd2c803e-de8c-4b98-9471-83ccc1b7bd0d",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "9b5c1917-9c6d-41f2-b076-efe3fbe6b7c2",
+			"name": "TraerTodos",
+			"url": "http://localhost:8080/alimentos/",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "",
+					"value": "",
+					"equals": false,
+					"description": "",
+					"enabled": false
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDUzMzMsImV4cCI6MTU0MzI0ODkzMywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.YNKUjgdqdwIp9jPLex9Mf_BZ93Lu4uM0NwIYslZGLWs"
+					}
+				]
+			},
+			"events": [],
+			"folder": "eaf866fc-902f-4d26-8c1d-a9d5dba3f847",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "a00ccc4d-4eeb-4aba-8bd0-dd0fed85bee5",
+			"name": "TraerUno",
+			"url": "http://localhost:8080/alimentos/2/",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDUzMzMsImV4cCI6MTU0MzI0ODkzMywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.YNKUjgdqdwIp9jPLex9Mf_BZ93Lu4uM0NwIYslZGLWs"
+					}
+				]
+			},
+			"events": [],
+			"folder": "eaf866fc-902f-4d26-8c1d-a9d5dba3f847",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "b003741c-feda-4f32-841d-f3a1e3c204e2",
+			"name": "TraerTodos",
+			"url": "http://localhost:8080/pedidos/",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDgwNzEsImV4cCI6MTU0MzI1MTY3MSwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.KzKqTh8wR01MUQYiEfOoXRPNOeccgWnqvpC0V-4KBlk"
+					}
+				]
+			},
+			"events": [],
+			"folder": "37ba7f69-266d-41c2-be39-3c8403ab6b42",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "ba666ce7-6e5e-4306-bc95-a74e6e10c6c8",
+			"name": "TraerUno",
+			"url": "http://localhost:8080/pedidos/7/",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDgwNzEsImV4cCI6MTU0MzI1MTY3MSwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.KzKqTh8wR01MUQYiEfOoXRPNOeccgWnqvpC0V-4KBlk"
+					}
+				]
+			},
+			"events": [],
+			"folder": "37ba7f69-266d-41c2-be39-3c8403ab6b42",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "c0626691-a561-435d-8ae3-48619b364137",
+			"name": "Cerrar",
+			"url": "http://localhost:8080/mesas/cerrar/",
+			"description": "",
+			"data": [
+				{
+					"key": "mesa_codigo",
+					"value": "12345",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"headerData": [
+				{
+					"description": "",
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"type": "text",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyMDc0OTYsImV4cCI6MTU0MzIxMTA5NiwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.dimVJDcPmi8phjFq4MIdO-SuORBGGgktVgie2fRGVW4"
+					}
+				]
+			},
+			"events": [],
+			"folder": "0985aa86-aa84-42e9-9f9e-3beae2b3b50d",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "d892f667-d149-490b-9900-1f14d6420812",
+			"name": "Crear",
+			"url": "http://localhost:8080/alimentos/",
+			"description": "",
+			"data": [
+				{
+					"key": "nombre",
+					"value": "Pochocolo salado 200 grms",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "precio",
+					"value": "5,50",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "sector_id",
+					"value": "4",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "nombre",
+					"value": "Cabernet Sauvignon",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "precio",
+					"value": "20.00",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "sector_id",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "nombre",
+					"value": "Pinta Cerveza Negra ",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "precio",
+					"value": "20,00",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "sector_id",
+					"value": "3",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "nombre",
+					"value": "Capcake zanahoria",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "precio",
+					"value": "10,00",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "sector_id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDUzMzMsImV4cCI6MTU0MzI0ODkzMywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.YNKUjgdqdwIp9jPLex9Mf_BZ93Lu4uM0NwIYslZGLWs"
+					}
+				]
+			},
+			"events": [],
+			"folder": "eaf866fc-902f-4d26-8c1d-a9d5dba3f847",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "e1ab8444-5ded-4b05-a64f-6549b0b75944",
+			"name": "Tomar",
+			"url": "http://localhost:8080/comandas/tomar/",
+			"description": "",
+			"data": [
+				{
+					"key": "codigo_mesa",
+					"value": "12345",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "nombre_cliente",
+					"value": "tito",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "foto",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "pedidos[0][alimento_id]",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "pedidos[0][cantidad]",
+					"value": "3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "pedidos[1][alimento_id]",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "pedidos[1][cantidad]",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "pedidos[2][alimento_id]",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "pedidos[2][cantidad]",
+					"value": "9",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "pedidos[3][alimento_id]",
+					"value": "5",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "pedidos[3][cantidad]",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMxOTkyMjEsImV4cCI6MTU0MzIwMjgyMSwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoibW96bzFAdGVzdGVyLmNvbS5hciIsImVtcGxlZG9faWQiOjEsImNsYXZlIjoiZDExMTAzODdhMDIwOWE5YTI2NDgwYjZiNTc1YTU0NmYiLCJub21icmUiOiJtb3pvMSIsImlzU29jaW8iOmZhbHNlLCJpc01vem8iOnRydWUsImlzUHJlcGFyYWRvciI6ZmFsc2V9LCJhcHAiOiJDb21hbmRhIHRwIn0.wjKYvhFMCZTQNCOUbTt_CtOuzMnYSY1e83sT3BdlGt4"
+					}
+				]
+			},
+			"events": [],
+			"folder": "7924d520-c1ee-4123-adaf-57d55a7ac1e3",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "e1d8c562-ff34-44b4-9e3e-3fbd4aca840d",
+			"name": "TraerTodos",
+			"url": "http://localhost:8080/mesas/",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "",
+					"value": "",
+					"equals": false,
+					"description": "",
+					"enabled": false
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDUzMzMsImV4cCI6MTU0MzI0ODkzMywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.YNKUjgdqdwIp9jPLex9Mf_BZ93Lu4uM0NwIYslZGLWs"
+					}
+				]
+			},
+			"events": [],
+			"folder": "0985aa86-aa84-42e9-9f9e-3beae2b3b50d",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "e67ddd1a-6f3c-4d44-b438-6ff1009f69df",
+			"name": "TraerAlaorden",
+			"url": "http://localhost:8080/pedidos/paraservir/",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyMDQ5MTEsImV4cCI6MTU0MzIwODUxMSwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoibW96bzFAdGVzdGVyLmNvbS5hciIsImVtcGxlZG9faWQiOjEsImNsYXZlIjoiZDExMTAzODdhMDIwOWE5YTI2NDgwYjZiNTc1YTU0NmYiLCJub21icmUiOiJtb3pvMSIsImlzU29jaW8iOmZhbHNlLCJpc01vem8iOnRydWUsImlzUHJlcGFyYWRvciI6ZmFsc2V9LCJhcHAiOiJDb21hbmRhIHRwIn0.IoLYQjYcmy0mFjDMP2aaiCRuU7SSIixrh4nvKlbq4B0"
+					}
+				]
+			},
+			"events": [],
+			"folder": "37ba7f69-266d-41c2-be39-3c8403ab6b42",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "f1ce6109-c02f-421e-ae19-c90117e152c5",
+			"name": "Borrar",
+			"url": "http://localhost:8080/mozo/5/",
+			"description": "",
+			"data": [
+				{
+					"key": "email",
+					"value": "mozo3@tester.com.ar",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "clave",
+					"value": "mozo3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "nombre",
+					"value": "mozo3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "mozo2@tester.com.ar",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "password",
+					"value": "mozo2",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "nombre",
+					"value": "mozo2",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "params",
+			"headerData": [
+				{
+					"description": "",
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"type": "text",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMyNDI4NDcsImV4cCI6MTU0MzI0NjQ0NywiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjQsImVtYWlsIjoic29jaW8xQHRlc3Rlci5jb20uYXIiLCJjbGF2ZSI6IjYzODExZDdkYzI5YjRjNjJkYzEyMmU2NTJlNTA5NmYyIiwibm9tYnJlIjoic29jaW8xIiwiaXNTb2NpbyI6dHJ1ZSwiaXNNb3pvIjpmYWxzZSwiaXNQcmVwYXJhZG9yIjpmYWxzZX0sImFwcCI6IkNvbWFuZGEgdHAifQ.LcQ4zlepWf9K1u8G2p3M5kwhUjP4Pqr7paQsT6sCi_g"
+					}
+				],
+				"type": "bearer"
+			},
+			"events": [],
+			"folder": "26f500af-b387-4e79-8f47-4548579ca693",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		}
+	]
+}

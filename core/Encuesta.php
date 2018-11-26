@@ -7,17 +7,17 @@ class Encuesta extends Entidad
 {
 
     /** @var Comanda $comanda */
-    public $comanda;
+    private $comanda;
     /** @var int $puntuacionRestaurante */
-    public $puntuacionRestaurante = 0 ;
+    private $puntuacionRestaurante = 0 ;
     /** @var int $puntuacionMozo */
-    public $puntuacionMozo = 0 ;
+    private $puntuacionMozo = 0 ;
     /** @var int $puntuacionPreparador */
-    public $puntuacionPreparador = 0 ;
+    private $puntuacionPreparador = 0 ;
     /** @var int $puntuacionMesa */
-    public $puntuacionMesa = 0 ;
+    private $puntuacionMesa = 0 ;
     /** @var string $comentario */
-    public $comentario = null;
+    private $comentario = null;
 
     /**
      * Encuesta constructor.
@@ -68,7 +68,7 @@ class Encuesta extends Entidad
      */
     public function setPuntuacionRestaurante($puntuacionRestaurante)
     {
-        $this->puntuacionRestaurante = $puntuacionRestaurante;
+        $this->puntuacionRestaurante = intval($puntuacionRestaurante);
     }
 
     /**
@@ -84,7 +84,7 @@ class Encuesta extends Entidad
      */
     public function setPuntuacionMozo($puntuacionMozo)
     {
-        $this->puntuacionMozo = $puntuacionMozo;
+        $this->puntuacionMozo = intval($puntuacionMozo);
     }
 
     /**
@@ -100,7 +100,7 @@ class Encuesta extends Entidad
      */
     public function setPuntuacionPreparador($puntuacionPreparador)
     {
-        $this->puntuacionPreparador = $puntuacionPreparador;
+        $this->puntuacionPreparador = intval($puntuacionPreparador);
     }
 
     /**
@@ -116,7 +116,7 @@ class Encuesta extends Entidad
      */
     public function setPuntuacionMesa($puntuacionMesa)
     {
-        $this->puntuacionMesa = $puntuacionMesa;
+        $this->puntuacionMesa = intval($puntuacionMesa);
     }
 
     /**

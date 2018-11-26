@@ -3,6 +3,7 @@ namespace Core\Dao;
 
 use Core\Alimento;
 use Core\Entidad;
+use Core\Exceptions\SysNotImplementedException;
 
 class AlimentoEntidadDao extends  EntidadDao
 {
@@ -36,12 +37,36 @@ class AlimentoEntidadDao extends  EntidadDao
 
     public static function actualizar(Entidad $entidad)
     {
-        throw new SysNotImplementedException();// actualizar() method.
+        /** @var Alimento $alimento */
+        $alimento = &$entidad;
+        $objetoAccesoDato = AccesoDatos::dameUnObjetoAcceso();
+        /** @var \PDOStatement $consulta */
+        $consulta = $objetoAccesoDato->RetornarConsulta("
+            UPDATE alimentos
+             SET 
+                 nombre = :nombre ,
+                 precio =  :precio,
+                 sector_id = :sector_id 
+            WHERE id = :id
+        ");
+        $consulta->bindValue(':nombre', $alimento->getNombre(), \PDO::PARAM_STR);
+        $consulta->bindValue(':precio', $alimento->getPrecio(), \PDO::PARAM_STR);
+        $consulta->bindValue(':sector_id', $alimento->getSector()->getId(), \PDO::PARAM_INT);
+        $consulta->bindValue(':id', $alimento->getId(), \PDO::PARAM_INT);
+        $consulta->execute();
     }
 
     public static function eliminar(Entidad $entidad)
     {
-        throw new SysNotImplementedException();// eliminar() method.
+        /** @var Alimento $alimento */
+        $alimento = &$entidad;
+        /** @var Usuario $entidad */
+        $objetoAccesoDato = AccesoDatos::dameUnObjetoAcceso();
+        /** @var \PDOStatement $consulta */
+        $consulta = $objetoAccesoDato->RetornarConsulta("DELETE FROM alimentos WHERE id = :id");
+        $consulta->bindValue(':id', $alimento->getId(), \PDO::PARAM_INT);
+        $consulta->execute();
+        return $objetoAccesoDato->RetornarUltimoIdInsertado();
     }
 
     static function traerTodos()

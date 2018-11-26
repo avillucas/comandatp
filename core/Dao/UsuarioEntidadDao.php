@@ -49,6 +49,15 @@ class UsuarioEntidadDao extends EntidadDao
         return $usuario;
     }
 
+    public static function crear($nombre, $email, $clave,$empleado)
+    {
+        //crea el usuario
+        $usuario = new Usuario(null,$nombre, $email, $clave,$empleado);
+        UsuarioEntidadDao::save($usuario);
+        //
+        return $usuario;
+    }
+
     /**
      * @param string $email
      * @param string $clave

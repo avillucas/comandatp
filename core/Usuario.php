@@ -143,7 +143,10 @@ class Usuario extends Entidad
     public static function login($email, $clave)
     {
         $usuario = UsuarioEntidadDao::traerUnoPorEmail($email);
-
+        if(!empty($usuario->getEmpleado()) && !$usuario->getEmpleado()->isActivo())
+        {
+            throw new SysValidationException('El usuario no esta activo');
+        }
         //
         if ($usuario->getClave() != Usuario::encriptar($clave)) {
             throw new SysValidationException('El password es incorrecto');

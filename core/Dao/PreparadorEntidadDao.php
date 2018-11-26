@@ -4,6 +4,7 @@ namespace Core\Dao;
 
 use Core\Entidad;
 use Core\Exceptions\SysNotFoundException;
+use Core\Exceptions\SysNotImplementedException;
 use Core\Preparador;
 use mysql_xdevapi\Exception;
 
@@ -32,12 +33,34 @@ class PreparadorEntidadDao extends  EntidadDao
 
     public static function actualizar(Entidad $entidad)
     {
-        throw new SysNotImplementedException();// actualizar() method.
+        /** @var Preparador $preparador */
+        $preparador = &$entidad;
+        $objetoAccesoDato = AccesoDatos::dameUnObjetoAcceso();
+        /** @var \PDOStatement $consulta */
+        $consulta = $objetoAccesoDato->RetornarConsulta("
+            UPDATE preparadores 
+            SET 
+                empleado_id = :empleado_id,
+                sector_id = :sector_id
+            WHERE id = :id
+        ");
+        $consulta->bindValue(':empleado_id', $preparador->getEmpleado()->getId(), \PDO::PARAM_INT);
+        $consulta->bindValue(':sector_id', $preparador->getSector()->getId(), \PDO::PARAM_INT);
+        $consulta->bindValue(':id', $preparador->getId(), \PDO::PARAM_INT);
+        $consulta->execute();
     }
 
     public static function eliminar(Entidad $entidad)
     {
-        throw new SysNotImplementedException();// eliminar() method.
+        /** @var Preparador $mozo */
+        $preparador = &$entidad;
+        /** @var Usuario $entidad */
+        $objetoAccesoDato = AccesoDatos::dameUnObjetoAcceso();
+        /** @var \PDOStatement $consulta */
+        $consulta = $objetoAccesoDato->RetornarConsulta("DELETE FROM preparadores WHERE id = :id");
+        $consulta->bindValue(':id', $preparador->getId(), \PDO::PARAM_INT);
+        $consulta->execute();
+        return $objetoAccesoDato->RetornarUltimoIdInsertado();
     }
 
     static function traerTodos()

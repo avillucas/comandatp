@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Lucas-notebook
- * Date: 25/11/2018
- * Time: 6:53 PM
- */
-
 namespace Core\Api;
 
 
@@ -40,12 +33,31 @@ class AlimentoApi extends ApiUsable
 
     public function BorrarUno($request, $response, $args)
     {
-        throw new SysNotImplementedException();// BorrarUno() method.
+        $alimento = AlimentoEntidadDao::traerOFallar($args['id']);
+        AlimentoEntidadDao::eliminar($alimento);
+        return $response->withJson(ApiUsable::RESPUESTA_ELIMINADO,200);
     }
 
     public function ModificarUno($request, $response, $args)
     {
-        throw new SysNotImplementedException();// ModificarUno() method.
+        /** @var Alimento $alimento */
+        $alimento = AlimentoEntidadDao::traerOFallar($args['id']);
+        $data = $this->getParams($request);
+        if(isset($data['sector_id']))
+        {
+            $sector = SectorEntidadDao::traerOFallar($data['sector_id']);
+            $alimento->setSector($sector);
+        }
+        if(isset($data['precio']))
+        {
+            $alimento->setPrecio($data['precio']);
+        }
+        if(isset($data['nombre']))
+        {
+            $alimento->setNombre($data['nombre']);
+        }
+        AlimentoEntidadDao::save($alimento);
+        return $response->withJson(ApiUsable::RESPUESTA_MODIFICADO,200);
     }
 
 

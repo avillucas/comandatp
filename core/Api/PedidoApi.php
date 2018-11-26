@@ -23,18 +23,18 @@ class PedidoApi extends ApiUsable
     {
         $data = $this->getParams($request);
         $payload = $this->getPayloadActual($request);
-        $preparador = PreparadorEntidadDao::traerUnoPorEmpleadoId($payload->empledo_id);
         //
         /** @var Pedido $pedido */
         $pedido = PedidoEntidadDao::traerUno($data['pedido_id']);
-        //
         if(!$pedido->isEnPreparacion())
         {
             throw new SysValidationException("El pedido no se encuentra en preparacion , por lo tanto no puede ser preparado");
         }
-        if(!$pedido->getEncargado()->getId())
+        //
+        $preparador = PreparadorEntidadDao::traerUnoPorEmpleadoId($payload->empledo_id);
+        if($preparador->getId() != $pedido->getEncargado()->getId())
         {
-            throw new SysValidationException("El pedido no esta siendo procesaro por este usuario");
+            throw new SysValidationException("El pedido no esta siendo procesaro por el usuario logueado");
         }
         $pedido->setMomentoDeEntrega(new \DateTime());
         $pedido->setEstado(EstadoPedidoEntidadDao::traerParaServir());
@@ -80,7 +80,7 @@ class PedidoApi extends ApiUsable
         $pedido = new Pedido(null,$comanda,$alimento,null,intval($data['cantidad']));
         PedidoEntidadDao::save($pedido);
         return $response->withJson([
-            'response' => 'Pedido cargado en la comnada , codigo : '.$comanda->getCodigo(),
+            'response' => 'Pedido cargado en la comanda , codigo : '.$comanda->getCodigo(),
             'data' => ['comandaCodigo'=>  $comanda->getCodigo()],
         ],200);
     }
@@ -134,12 +134,32 @@ class PedidoApi extends ApiUsable
 
     public function BorrarUno($request, $response, $args)
     {
-        throw  new SysNotImplementedException();
+        $pedido = PedidoEntidadDao::traerOFallar($args['id']);
+        PedidoEntidadDao::eliminar($pedido);
+        return $response->withJson(ApiUsable::RESPUESTA_ELIMINADO,200);
     }
 
     public function ModificarUno($request, $response, $args)
     {
-        // TODO: Implement ModificarUno() method.
+        /** @var Pedido $pedido */
+        $pedido = PedidoEntidadDao::traerOFallar($args['id']);
+        $data = $this->getParams($request);
+        if(isset($data['cantidad']))
+        {
+            $pedido->setCantidad($data['cantidad']);
+        }
+        if(isset($data['alimento_id']))
+        {
+            $alimento = AlimentoEntidadDao::traerOFallar($data['alimento_id']);
+            $pedido->setAlimento($alimento);
+        }
+        if(isset($data['comanda_id']))
+        {
+            $comanda = ComandaEntidadDao::traerOFallar($data['comanda_id']);
+            $pedido->setComanda($comanda);
+        }
+        PedidoEntidadDao::save($pedido);
+        return $response->withJson(ApiUsable::RESPUESTA_MODIFICADO,200);
     }
 
 }

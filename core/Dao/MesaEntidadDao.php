@@ -47,7 +47,8 @@ class MesaEntidadDao extends  EntidadDao
         /** @var \PDOStatement $consulta */
         $consulta = $objetoAccesoDato->RetornarConsulta("
             UPDATE mesas
-            SET codigo=:codigo,
+            SET 
+              codigo=:codigo,
               estado_id = :estadoId
             WHERE id = :id
         ");
@@ -60,7 +61,14 @@ class MesaEntidadDao extends  EntidadDao
 
     public static function eliminar(Entidad $entidad)
     {
-        throw new SysNotImplementedException();// eliminar() method.
+        /** @var Mesa $mesa */
+        $mesa = &$entidad;
+        $objetoAccesoDato = AccesoDatos::dameUnObjetoAcceso();
+        /** @var \PDOStatement $consulta */
+        $consulta = $objetoAccesoDato->RetornarConsulta("DELETE FROM mesas WHERE id = :id");
+        $consulta->bindValue(':id', $mesa->getId(), \PDO::PARAM_INT);
+        $consulta->execute();
+        return $objetoAccesoDato->RetornarUltimoIdInsertado();
     }
 
     static function traerTodos()
