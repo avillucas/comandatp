@@ -4,6 +4,7 @@ namespace Core\Dao;
 
 use Core\Comanda;
 use Core\Entidad;
+use Core\Exceptions\SysNotFoundException;
 
 class ComandaEntidadDao extends EntidadDao
 {
@@ -81,6 +82,21 @@ class ComandaEntidadDao extends EntidadDao
     {
         $query  = 'SELECT id, codigo,nombre_cliente, mozo_id,mesa_id FROM  comandas ';
         return parent::baseTraerUno(ComandaEntidadDao::class,$id,$query);
+    }
+
+    static function traerUnoPorCodigo($codigo)
+    {
+        $objetoAccesoDato = AccesoDatos::dameUnObjetoAcceso();
+        $consulta = $objetoAccesoDato->RetornarConsulta('SELECT id, codigo,nombre_cliente, mozo_id,mesa_id FROM  comandas WHERE codigo = :codigo ');
+        $consulta->bindValue(':codigo', $codigo, \PDO::PARAM_INT);
+        $consulta->execute();
+        /** @var EntidadDao $dao */
+        $dao = $consulta->fetchObject(ComandaEntidadDao::class);
+        if(!$dao)
+        {
+            throw new SysNotFoundException("La entidad (".$codigo.") buscada no existe");
+        }
+        return $dao->getEntidad();
     }
 
     public function getEntidad()

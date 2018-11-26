@@ -2,9 +2,11 @@
 namespace Core\Api;
 
 use Core\Dao\EmpleadoEntidadDao;
+use Core\Dao\RegistroAccesoDao;
 use Core\Dao\UsuarioEntidadDao;
 use Core\Exceptions\SysNotImplementedException;
 use Core\Middleware\AutentificadorJWT;
+use Core\Middleware\MWLog;
 use Core\Usuario;
 
 class UsuarioApi extends ApiUsable
@@ -30,6 +32,8 @@ class UsuarioApi extends ApiUsable
         //TOKEN
         $data = $usuario->traerTokenPayload();
         $token = AutentificadorJWT::crearToken($data);
+        //
+        RegistroAccesoDao::registrar($usuario->getId());
         return $response->withJson(['token'=>$token],200);
     }
 
@@ -54,8 +58,50 @@ class UsuarioApi extends ApiUsable
 
     public function ModificarUno($request, $response, $args)
     {
-        throw new SysNotImplementedException();
+        $data = $this->getParams($request);
+        /** @var Usuario $usuario */
+        $usuario = UsuarioEntidadDao::traerOFallar($args['id']);
+
+        if(isset($data['nombre']))
+        {
+            $usuario->setNombre($data['nombre']);
+        }
+        if(isset($data['email']))
+        {
+            $usuario->setEmail($data['email']);
+        }
+        if(isset($data['clave']))
+        {
+            $usuario->setClave($data['clave']);
+        }
+        if(isset($data['empleado_id']))
+        {
+            $empleado = EmpleadoEntidadDao::traerOFallar($data['empleado_id']);
+            $usuario->setEmpleado($empleado);
+        }
+        UsuarioEntidadDao::save($usuario);
+        return $response->withJson(ApiUsable::RESPUESTA_CREADO,200);
     }
 
+
+    public function activar($request, $response, $args)
+    {
+        $data = $this->getParams($request);
+        /** @var Usuario $usuario */
+        $usuario = UsuarioEntidadDao::traerOFallar($args['id']);
+        $usuario->getEmpleado()->setActivo(true);
+        UsuarioEntidadDao::save($usuario);
+        return $response->withJson(ApiUsable::RESPUESTA_ACTIVADO,200);
+    }
+
+    public function desactivar($request, $response, $args)
+    {
+        $data = $this->getParams($request);
+        /** @var Usuario $usuario */
+        $usuario = UsuarioEntidadDao::traerOFallar($args['id']);
+        $usuario->getEmpleado()->setActivo(false);
+        UsuarioEntidadDao::save($usuario);
+        return $response->withJson(ApiUsable::RESPUESTA_DESACTIVADO,200);
+    }
 
 }

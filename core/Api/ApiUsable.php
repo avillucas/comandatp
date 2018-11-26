@@ -14,6 +14,8 @@ abstract class ApiUsable
     const RESPUESTA_CREADO = 'creado correctamente';
     const RESPUESTA_ELIMINADO = 'eliminado correctamente';
     const RESPUESTA_MODIFICADO = 'modificado correctamente';
+    const RESPUESTA_ACTIVADO = 'activado correctamente';
+    const RESPUESTA_DESACTIVADO = 'desactivado correctamente';
 
     public function getParams(Request $request)
     {

@@ -9,7 +9,6 @@ use Core\Mozo;
 class MozoApi extends ApiUsable
 {
 
-
     public function CargarUno($request, $response, $args)
     {
         $data = $this->getParams($request);

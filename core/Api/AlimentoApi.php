@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Lucas-notebook
- * Date: 25/11/2018
- * Time: 6:53 PM
- */
-
 namespace Core\Api;
 
 

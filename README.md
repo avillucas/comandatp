@@ -1,9 +1,12 @@
 #Proyecto 
-URL : http://comanda.avillucas.com.ar/
+PROD URL : http://comanda.avillucas.com.ar/
+DEV URL : http://localhost:8080/
+
 Colecciones de postman 1
 URL : http://comanda.avillucas.com.ar/info/collection.v1.json
-Colecciones de postman 2
+Colecciones de postman 
 URL : http://comanda.avillucas.com.ar/info/collection.v2.json
+
 
 
 # Si al mozo le hacen un pedido (POST comandas/) de un vino , una cerveza y unas empanadas, deberían los

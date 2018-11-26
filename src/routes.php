@@ -7,7 +7,9 @@ use Core\Api\PreparadorApi;
 use Core\Api\MesaApi;
 use Core\Api\AlimentoApi;
 use Core\Api\PedidoApi;
+use Core\Api\EncuestaApi;
 use Core\Api\ComandaApi;
+use Core\Api\ReportesEmpleadosApi;
 use Core\Middleware\MWparaCORS;
 use Core\Middleware\MWparaAutentificar;
 // Routes
@@ -20,6 +22,8 @@ $app->group('/', function () {
         $this->get('/{id}/', UsuarioApi::class . ':TraerUno');
         $this->post('/', UsuarioApi::class . ':CargarUno');
         $this->post('/{id}/', UsuarioApi::class . ':ModificarUno');
+        $this->post('/{id}/activar/', UsuarioApi::class . ':activar');
+        $this->post('/{id}/desactivar/', UsuarioApi::class . ':desactivar');
         $this->delete('/{id}/',  UsuarioApi::class . ':BorrarUno');
     })
     ->add(MWparaAutentificar::class.':verificarSocio');
@@ -90,8 +94,21 @@ $app->group('/', function () {
         $this->get('/', ComandaApi::class . ':TraerTodos')->add(MWparaAutentificar::class.':verificarSocio');
         $this->get('/{id}/', ComandaApi::class . ':TraerUno')->add(MWparaAutentificar::class.':verificarSocio');
         $this->delete('/{id}/',  ComandaApi::class . ':BorrarUno')->add(MWparaAutentificar::class.':verificarSocio');
-
     });
+    $this->group('encuestas', function () {
+        $this->post('/', EncuestaApi::class . ':CargarUno');
+        $this->get('/', EncuestaApi::class . ':TraerTodos')->add(MWparaAutentificar::class.':verificarSocio');
+        $this->get('/{id}/', EncuestaApi::class . ':TraerUno')->add(MWparaAutentificar::class.':verificarSocio');
+        $this->post('/{id}/', EncuestaApi::class . ':ModificarUno')->add(MWparaAutentificar::class.':verificarSocio');
+        $this->delete('/{id}/',  EncuestaApi::class . ':BorrarUno')->add(MWparaAutentificar::class.':verificarSocio');
+    });
+    $this->group('reportes', function () {
+        $this->get('/empleados/acceso/', ReportesEmpleadosApi::class . ':accesos');
+
+    })
+    //    ->add(MWparaAutentificar::class.':verificarSocio')
+    ;
+
 })
 //->add(MWparaCORS::class .':HabilitarCORS8080')
 ;
