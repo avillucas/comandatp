@@ -1,0 +1,787 @@
+{
+	"info": {
+		"_postman_id": "9c9e9852-6bf3-4542-9e8c-2d430dc6c968",
+		"name": "COMANDA TP ",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Socio",
+			"item": [
+				{
+					"name": "Crear",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "socio1@tester.com.ar",
+									"type": "text"
+								},
+								{
+									"key": "clave",
+									"value": "socio1",
+									"type": "text"
+								},
+								{
+									"key": "nombre",
+									"value": "socio1",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "socio2@tester.com.ar",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "password",
+									"value": "socio2",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "nombre",
+									"value": "socio2",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/usuarios/socio/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"usuarios",
+								"socio",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Usuario",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "mozo1@tester.com.ar",
+									"description": "MOZO",
+									"type": "text"
+								},
+								{
+									"key": "clave",
+									"value": "mozo1",
+									"description": "MOZO",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "mozo2@tester.com.ar",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "clave",
+									"value": "mozo2",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/login/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"login",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Modificar",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							},
+							{
+								"key": "Autorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDE0NjU0NTcsImV4cCI6MTU0MTQ2OTA1NywiYXVkIjoiYmIxYzE5ZjNkMzJlYjMxMDIwNmNiZDk3NTYyNmY0MGViNDZlZGIyZCIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoiYXZpbGx1Y2FzQGRpdi1pdC5jb20uYXIiLCJwYXNzd29yZCI6IjJkYjMxM2ZhYmNhNTc1MDRkOWRjNzc2ZTQ2YjMwNGY2IiwicGVyZmlsIjoic29jaW8iLCJpc0FkbWluIjp0cnVlfSwiYXBwIjoiQ29tYW5kYSB0cCJ9.l3nRvy9GESOCDyUS4_NOMhHILbaFGR6eANPaquZsQK4",
+								"description": "TOKEN ADMIN ",
+								"type": "text"
+							},
+							{
+								"key": "Autorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDE0NjYxODAsImV4cCI6MTU0MTQ2OTc4MCwiYXVkIjoiYmIxYzE5ZjNkMzJlYjMxMDIwNmNiZDk3NTYyNmY0MGViNDZlZGIyZCIsImRhdGEiOnsiaWQiOjIsImVtYWlsIjoiYXZpbGx1Y2FzKzJAZGl2LWl0LmNvbS5hciIsInBhc3N3b3JkIjoiMmRiMzEzZmFiY2E1NzUwNGQ5ZGM3NzZlNDZiMzA0ZjYiLCJwZXJmaWwiOiJlbXBsZWFkbyIsImlzQWRtaW4iOmZhbHNlfSwiYXBwIjoiQ29tYW5kYSB0cCJ9.wnd9STf0WwH-tSBBBaGOeWrzeLz2gJmH_NlKV4HtWWk",
+								"description": "TOKEN EMPLEADO ",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "password",
+									"value": "tete",
+									"type": "text"
+								},
+								{
+									"key": "perfil",
+									"value": "E",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/usuarios/2/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"usuarios",
+								"2",
+								""
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Borrar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost/loginHost/?id=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"loginHost",
+								""
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TraerUno",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Autorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDE0NjU0NTcsImV4cCI6MTU0MTQ2OTA1NywiYXVkIjoiYmIxYzE5ZjNkMzJlYjMxMDIwNmNiZDk3NTYyNmY0MGViNDZlZGIyZCIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoiYXZpbGx1Y2FzQGRpdi1pdC5jb20uYXIiLCJwYXNzd29yZCI6IjJkYjMxM2ZhYmNhNTc1MDRkOWRjNzc2ZTQ2YjMwNGY2IiwicGVyZmlsIjoic29jaW8iLCJpc0FkbWluIjp0cnVlfSwiYXBwIjoiQ29tYW5kYSB0cCJ9.l3nRvy9GESOCDyUS4_NOMhHILbaFGR6eANPaquZsQK4",
+								"description": "TOKEN ADMIN ",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Autorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDE0NjYxODAsImV4cCI6MTU0MTQ2OTc4MCwiYXVkIjoiYmIxYzE5ZjNkMzJlYjMxMDIwNmNiZDk3NTYyNmY0MGViNDZlZGIyZCIsImRhdGEiOnsiaWQiOjIsImVtYWlsIjoiYXZpbGx1Y2FzKzJAZGl2LWl0LmNvbS5hciIsInBhc3N3b3JkIjoiMmRiMzEzZmFiY2E1NzUwNGQ5ZGM3NzZlNDZiMzA0ZjYiLCJwZXJmaWwiOiJlbXBsZWFkbyIsImlzQWRtaW4iOmZhbHNlfSwiYXBwIjoiQ29tYW5kYSB0cCJ9.wnd9STf0WwH-tSBBBaGOeWrzeLz2gJmH_NlKV4HtWWk",
+								"description": "TOKEN EMPLEADO",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8080/usuarios/2/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"usuarios",
+								"2",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TraerTodos",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"description": "ADMIN TOKEN",
+								"key": "Autorization",
+								"type": "text",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDE0NjU0NTcsImV4cCI6MTU0MTQ2OTA1NywiYXVkIjoiYmIxYzE5ZjNkMzJlYjMxMDIwNmNiZDk3NTYyNmY0MGViNDZlZGIyZCIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoiYXZpbGx1Y2FzQGRpdi1pdC5jb20uYXIiLCJwYXNzd29yZCI6IjJkYjMxM2ZhYmNhNTc1MDRkOWRjNzc2ZTQ2YjMwNGY2IiwicGVyZmlsIjoic29jaW8iLCJpc0FkbWluIjp0cnVlfSwiYXBwIjoiQ29tYW5kYSB0cCJ9.l3nRvy9GESOCDyUS4_NOMhHILbaFGR6eANPaquZsQK4",
+								"disabled": true
+							},
+							{
+								"key": "Autorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDE0NjYxODAsImV4cCI6MTU0MTQ2OTc4MCwiYXVkIjoiYmIxYzE5ZjNkMzJlYjMxMDIwNmNiZDk3NTYyNmY0MGViNDZlZGIyZCIsImRhdGEiOnsiaWQiOjIsImVtYWlsIjoiYXZpbGx1Y2FzKzJAZGl2LWl0LmNvbS5hciIsInBhc3N3b3JkIjoiMmRiMzEzZmFiY2E1NzUwNGQ5ZGM3NzZlNDZiMzA0ZjYiLCJwZXJmaWwiOiJlbXBsZWFkbyIsImlzQWRtaW4iOmZhbHNlfSwiYXBwIjoiQ29tYW5kYSB0cCJ9.wnd9STf0WwH-tSBBBaGOeWrzeLz2gJmH_NlKV4HtWWk",
+								"description": "EMPLEADO TOKEN",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8080/usuarios/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"usuarios",
+								""
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"description": "ADMIN TOKEN",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Mozo",
+			"item": [
+				{
+					"name": "Crear",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "mozo1@tester.com.ar",
+									"type": "text"
+								},
+								{
+									"key": "clave",
+									"value": "mozo1",
+									"type": "text"
+								},
+								{
+									"key": "nombre",
+									"value": "mozo1",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "mozo2@tester.com.ar",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "password",
+									"value": "mozo2",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "nombre",
+									"value": "mozo2",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/usuarios/mozo/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"usuarios",
+								"mozo",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Preparador",
+			"item": [
+				{
+					"name": "Crear",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "cocinero2@tester.com.ar",
+									"type": "text"
+								},
+								{
+									"key": "clave",
+									"value": "cocinero1",
+									"type": "text"
+								},
+								{
+									"key": "nombre",
+									"value": "cocinero1",
+									"type": "text"
+								},
+								{
+									"key": "sector_id",
+									"value": "4",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "barman1@tester.com.ar",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "clave",
+									"value": "barman1",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "nombre",
+									"value": "barman1",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "sector_id",
+									"value": "2",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "email",
+									"value": "cervecero1@tester.com.ar",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "clave",
+									"value": "cervecero1",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "nombre",
+									"value": "cervecero1",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "sector_id",
+									"value": "3",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "email",
+									"value": "repostero1@tester.com.ar",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "clave",
+									"value": "repostero1",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "nombre",
+									"value": "repostero1",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "sector_id",
+									"value": "1",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/usuarios/preparador/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"usuarios",
+								"preparador",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Mesa",
+			"item": [
+				{
+					"name": "Crear",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "codigo",
+									"value": "12346",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/mesas/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"mesas",
+								""
+							],
+							"query": [
+								{
+									"key": "codgio",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Alimento",
+			"item": [
+				{
+					"name": "Crear",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nombre",
+									"value": "empanada Calabreza ",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "precio",
+									"value": "1.50",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "sector_id",
+									"value": "4",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "nombre",
+									"value": "Cabernet Sauvignon",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "precio",
+									"value": "20.00",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "sector_id",
+									"value": "2",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "nombre",
+									"value": "Pinta Cerveza Negra ",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "precio",
+									"value": "20,00",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "sector_id",
+									"value": "3",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "nombre",
+									"value": "Capcake zanahoria",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "precio",
+									"value": "10,00",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "sector_id",
+									"value": "1",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/alimentos/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"alimentos",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Comanda",
+			"item": [
+				{
+					"name": "Crear",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDMxOTQxNzEsImV4cCI6MTU0MzE5Nzc3MSwiYXVkIjoiYjczZTUxMTQzZDg2Njk1YWIzMTI4ODE5YjE1ZWZiMzMyMmE1YTA5YiIsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoibW96bzFAdGVzdGVyLmNvbS5hciIsImVtcGxlZG9faWQiOjEsImNsYXZlIjoiZDExMTAzODdhMDIwOWE5YTI2NDgwYjZiNTc1YTU0NmYiLCJub21icmUiOiJtb3pvMSIsImlzU29jaW8iOmZhbHNlLCJpc01vem8iOnRydWUsImlzUHJlcGFyYWRvciI6ZmFsc2V9LCJhcHAiOiJDb21hbmRhIHRwIn0.0WEqLuNcrVzNsDN3aPceE_14mg6-2qQFiEyoQM_lU1A",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "codigo_mesa",
+									"value": "12345",
+									"type": "text"
+								},
+								{
+									"key": "nombre_cliente",
+									"value": "tito",
+									"type": "text"
+								},
+								{
+									"key": "foto",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "pedidos[0][alimento_id]",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "pedidos[0][cantidad]",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "pedidos[1][alimento_id]",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "pedidos[1][cantidad]",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "pedidos[2][alimento_id]",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "pedidos[2][cantidad]",
+									"value": "9",
+									"type": "text"
+								},
+								{
+									"key": "pedidos[3][alimento_id]",
+									"value": "5",
+									"type": "text"
+								},
+								{
+									"key": "pedidos[3][cantidad]",
+									"value": "2",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/comandas/tomar/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"comandas",
+								"tomar",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
