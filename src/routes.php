@@ -5,6 +5,7 @@ use Core\Api\MozoApi;
 use Core\Api\SocioApi;
 use Core\Api\PreparadorApi;
 use Core\Api\MesaApi;
+use Core\Api\HeladoApi;
 use Core\Api\AlimentoApi;
 use Core\Api\PedidoApi;
 use Core\Api\EncuestaApi;
@@ -12,9 +13,32 @@ use Core\Api\ComandaApi;
 use Core\Api\ReportesEmpleadosApi;
 use Core\Middleware\MWparaCORS;
 use Core\Middleware\MWparaAutentificar;
+use Core\Api\ProductoApi;
+use Core\Api\PeliculasApi;
+use Core\Api\ActorApi;
+
 // Routes
 
 $app->group('/', function () {
+    
+    $this->group('actores', function () {
+        $this->get('/', ActorApi::class . ':TraerTodos');        
+        $this->post('/alta', ActorApi::class . ':CargarUno');
+        //$this->get('/borrar/{id}/',  PeliculasApi::class . ':BorrarUno');
+    });
+    //
+    $this->group('peliculas', function () {
+        $this->get('/', PeliculasApi::class . ':TraerTodos');        
+        $this->post('/alta', PeliculasApi::class . ':CargarUno');
+        $this->get('/borrar/{id}/',  PeliculasApi::class . ':BorrarUno');
+    });
+    
+    //
+    $this->group('ventas', function () {
+        $this->get('/listado', VentasApi::class . ':TraerTodos');
+        $this->post('/nuevo', ProductoApi::class . ':CargarUno');        
+    });
+    //
     $this->post('login/', UsuarioApi::class . ':login');
     //usuarios
     $this->group('usuarios', function () {
