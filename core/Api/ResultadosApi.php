@@ -1,29 +1,23 @@
 <?php
 namespace Core\Api;
 
+use Core\Dao\ResultadoEntidadDao;
 use Core\Dao\UsuarioEntidadDao;
 use Core\Middleware\AutentificadorJWT;
 use Core\Usuario;
 
-class UsuarioApi extends ApiUsable
+class ResultadosApi extends ApiUsable
 {
     //cargar un socio
     public function cargarUno($request, $response, $args)
     {
         $data = $this->getParams($request);
-        $usuario = UsuarioEntidadDao::crear($data['nombre'],$data['email'],$data['clave']);
+        // TODO tomar despues los datos
+        // $usuarioId = AutentificadorJWT::obtenerPayLoadDelRequest($request)->id;
+        $usuarioId = 1;
+        $usuario = UsuarioEntidadDao::traerOFallar($usuarioId);
+        $resultado = ResultadoEntidadDao::crear($data['gano'],$data['juego'],$usuario);
         return $response->withJson(ApiUsable::RESPUESTA_CREADO,200);
-    }
-
-    public function login($request, $response, $args)
-    {
-        $email = $this->getParam($request,'email');
-        $clave = $this->getParam($request,'clave');
-        $usuario = Usuario::login($email, $clave);
-        //TOKEN
-        $data = $usuario->traerTokenPayload();
-        $token = AutentificadorJWT::crearToken($data);
-        return $response->withJson(['token'=>$token],200);
     }
 
     public function TraerUno($request, $response, $args)

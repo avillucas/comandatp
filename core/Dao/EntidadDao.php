@@ -64,10 +64,12 @@ abstract  class EntidadDao
      */
     public function save(Entidad &$entidad)
     {
+        /*
         if($entidad->hasId()){
             static::actualizar($entidad);
             return ;
         }
+        */
         $id = static::insertar($entidad);
         $entidad->setId($id) ;
         return ;
