@@ -16,6 +16,7 @@ $app->group('/', function () {
     });
     $this->group('resultados', function () {
         $this->post('/', ResultadosApi::class . ':CargarUno');
+        $this->get('/', ResultadosApi::class . ':TraerTodosPorUsuario');
     });//->add(MWparaAutentificar::class .':verificarUsuario');
 })
 ->add(MWparaCORS::class .':HabilitarCORSTodos')

@@ -12,12 +12,18 @@ class ResultadosApi extends ApiUsable
     public function cargarUno($request, $response, $args)
     {
         $data = $this->getParams($request);
-        // TODO tomar despues los datos
-        // $usuarioId = AutentificadorJWT::obtenerPayLoadDelRequest($request)->id;
-        $usuarioId = 1;
+        $usuarioId = AutentificadorJWT::obtenerPayLoadDelRequest($request)->id;
         $usuario = UsuarioEntidadDao::traerOFallar($usuarioId);
         $resultado = ResultadoEntidadDao::crear($data['gano'],$data['juego'],$usuario);
         return $response->withJson(ApiUsable::RESPUESTA_CREADO,200);
+    }
+
+    public function TraerTodosPorUsuario($request, $response, $args)
+    {
+        $usuarioId = AutentificadorJWT::obtenerPayLoadDelRequest($request)->id;
+        $usuario = UsuarioEntidadDao::traerOFallar($usuarioId);
+        $todos = ResultadoEntidadDao::TraerTodoPorUsuario($usuario);
+        return $response->withJson($todos, 200);
     }
 
     public function TraerUno($request, $response, $args)

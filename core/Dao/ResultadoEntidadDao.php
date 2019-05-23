@@ -35,11 +35,28 @@ class ResultadoEntidadDao extends EntidadDao
             INSERT INTO resultados (gano,usuario_id,juego)
             VALUES (:gano,:usuario,:juego)
         ");
-        $consulta->bindValue(':gano', $resultado->isGano(), \PDO::PARAM_BOOL);
+        $consulta->bindValue(':gano', $resultado->isGano(), \PDO::PARAM_INT);
         $consulta->bindValue(':usuario', $resultado->getUsuario()->getId(), \PDO::PARAM_INT);
         $consulta->bindValue(':juego', $resultado->getJuego(), \PDO::PARAM_STR);
         $consulta->execute();
         return $objetoAccesoDato->RetornarUltimoIdInsertado();
+    }
+
+    /**
+     * @return array|Usuario[]
+     */
+    public static function TraerTodoPorUsuario(Usuario $usuario)
+    {
+        $query = '
+          SELECT r.id, r.gano, r.juego, r.time 
+          FROM  resultados AS r
+          WHERE usuario_id =  :usuarioId
+        ';
+        $objetoAccesoDato = AccesoDatos::dameUnObjetoAcceso();
+        $consulta = $objetoAccesoDato->RetornarConsulta($query);
+        $consulta->bindValue(':usuarioId', $usuario->getId(), \PDO::PARAM_INT);
+        $consulta->execute();
+        return $consulta->fetchAll(\PDO::FETCH_CLASS, ResultadoEntidadDao::class);
     }
 
     public static function actualizar(Entidad $entidad)
@@ -85,6 +102,8 @@ class ResultadoEntidadDao extends EntidadDao
         ';
         return parent::baseTraerTodos(UsuarioEntidadDao::class, $query);
     }
+
+
 
     public static function traerUno($id)
     {
